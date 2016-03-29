@@ -1,0 +1,85 @@
+/ / / R4.2 "Humanitaire" \ \ \
+
+AJOUTÉ : Retexture du Ka-60 Vanilla en un Panther du CICR
+AJOUTÉ : Retexture du "Tout-Terrain" Vanilla civil dans le style des tout-terrains employés par les ONG (CICR, MSF, Croissant Rouge)
+AJOUTÉ : Retexture du "SUV" Vanilla civil dans le style des berlines employées par les ONG (CICR et MSF de représentées)
+AJOUTÉ : Retexture de la "Voiture à hayon" Vanilla civile dans le style des ONG (CICR, MSF, Croissant Rouge)
+AJOUTÉ : Retexture du "Zamak" civil Vanilla dans le style des camions employés par les ONG (CICR)
+AJOUTÉ : Retexture du "Zamak" civil Vanilla dans le style des camions médicalisés employés par les ONG (CICR, MSF - pas de fonctionnalités médicales)
+AJOUTÉ : Retexture du "Zamak" civil Vanilla dans le style des camions médicalisés Renault en Centre Europe 
+AJOUTÉ : 6 patches dont la plupart en Haute Visibilité pour les ONG
+AJOUTÉ : 3 morceaux tirés de la bande originale du film "The Final Countdown"
+AJOUTÉ : 3 morceaux tirés de la bande originale du jeu "XCOM Enemy Unknown"
+AJOUTÉ : 2 morceaux tirés de la bande originale de l'anime "GATE"
+
+RÉPARÉ : Les cassures sur la texture du Zamak Centre Europe dues au mirroring devraient être résolues
+
+/ / / R4.1 \ \ \
+
+AJOUTÉ : 1ère version de compatibilité Zeus pour tous les véhicules ajoutés par le TFP_CORE
+AJOUTÉ : Retexture du "Hunter" Vanilla en pseudo-PVP Centre Europe avec les variantes non-armée, 12.7mm et 40mm
+AJOUTÉ : Retexture du "Tout-Terrain" Vanilla de la FIA dans le style des VLRA et P4 utilisés par les commandos en Centre Europe
+AJOUTÉ : Retexture du "Fourgon Caisse" civil Vanilla dans le style des PSM du SSA détachés dans l'Armée de Terre
+AJOUTÉ : Retexture du CRV Bobcat Vanilla de l'OTAN dans le style des EBG Centre Europe
+AJOUTÉ : 3 appels au clairon du cérémonial militaire français
+AJOUTÉ : Hymne Européen
+AJOUTÉ : Marseillaise
+AJOUTÉ : Aux Morts
+AJOUTÉ : Thème Principal de Fallout 4
+
+RÉPARÉ : Les véhicules civils du mod occupés par des IA devraient désormais correctement apparaître dans l'éditeur
+RÉPARÉ : Le patch des Tireurs Hautes Précision affiche désormais le bon patch
+RÉPARÉ : Retrait des accents sur le nom du blason des forces armées Belges
+RÉPARÉ : Retrait des accents restants sur les titres des musiques 
+
+/ / / R4.0.1 \ \ \
+
+RÉPARÉ : Erreur du config.cpp du TFP_Music.pbo qui causait un crash au lancement d'ArmA III
+
+/ / / R4 \ \ \
+Les changelogs à partir de cette release seront plus explicites afin d'aider les GM, si c'est trop explicite/trop long ou pas assez prévenez-moi.
+
+AJOUTÉ : 2 musiques provenant de l'OST de Mad Max : Fury Road
+AJOUTÉ : 3 musiques provenant de l'OST de la saison 2 de Person of Interest
+AJOUTÉ : 3 chansons de Johnny Cash
+AJOUTÉ : Morceau "The Wasteland", morceau style post-apo
+AJOUTÉ : Cover de "The Sound of Silence" par Nouela
+AJOUTÉ : Cover de "Time to Say Goodbye" par Hope
+AJOUTÉ : 7 nouveaux patches ainsi chaque unité du COS devrait être couverte
+AJOUTÉ : 2 patches pour le 1er RCP (campagne en République du Koto)
+AJOUTÉ : 5 patches de divers Escadrons de Protection de l'Armée de l'Air
+AJOUTÉ : Patches pour l'ALAT, le stage Griffon et la DGSE
+AJOUTÉ : Retextures du Ka-60 Vanilla en Panther Marine (4 variantes)
+AJOUTÉ : Retextures du "Fourgon Caisse" civil Vanilla et de ces variantes en camionnettes militaires trouvables sur Base Aérienne
+AJOUTÉ : Retextures du "Fourgon Caisse" civil Vanilla en quelques équivalents civils français
+AJOUTÉ : Retextures du "Tout-terrain" civil Vanilla en quelques équivalents civils français
+AJOUTÉ : Retextures du "Tout-terrain" civil Vanilla dans le style des Kangoos Kakis employés par le Train en métropole
+AJOUTÉ : Retextures du Kamaz civil Vanilla dans le style des camion Renault en Centre Europe avec version SEA
+AJOUTÉ : Retextures de l'AMV Patria BLUFOR Vanilla en VBCI Centre Europe
+
+MODIFIÉ : TFP_Vehicles.pbo renommés en 24eBAC_Vehicles avec le début des travaux sur le VBCI pour ma propre campagne au 24e
+
+RÉPARÉ : Les quelques patches qui apparaissaient invisibles marchent de nouveau
+
+SUPPRIMÉ : Retextures Puma FR (le mod qui founissait les Puma n'est plus entretenu par son développeur)
+SUPPRIMÉ : fsf_patria.pbo, devenu redondant avec le 24eBAC_Vehicles, de plus une faction mal configurée gênait la navigation via VTS
+
+/ / / R3 \ \ \
+
+AJOUTÉ : 9 nouveaux patches pour le TFP_Patches dont 4 centrés sur la Belgique (ce n'est qu'un début :) )
+AJOUTÉ : Le fsf_patria.pbo du groupe FSF qui fournit une retexture de très grande qualité du Patria AMV en VBCI.
+AJOUTÉ : TFP_Vehicles.pbo, pack de retextures in house cette fois, contient actuellement des Lynx Marine et des Puma FR.
+AJOUTÉ : 9 nouveaux morceaux pour le TFP_Music dont la tant attendue "Chevauchée des Walkyries"
+
+/ / / R2 \ \ \
+
+AJOUTÉ : TFP_Patches.pbo, un pack de 42 patches sur divers univers mais en particulier Stargate et les grades français.
+AJOUTÉ : 16 nouveaux morceaux inclus dans le TFP_Music, dont 4 Russes et une BONUS.
+
+MODIFIÉ : Pour mieux refléter l'évolution de la Team le AEGISMusic a été renommé TFP_Music
+
+RÉPARÉ : Le système de nom pour les musiques du TFP_Music devrait désormais marcher et afficher les noms des musiques, pas des classnames.
+
+/ / / R1 \ \ \
+
+Release initiale du @TFP_Core
