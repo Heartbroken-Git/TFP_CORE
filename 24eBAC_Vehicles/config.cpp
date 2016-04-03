@@ -221,7 +221,7 @@ class cfgVehicles
         { 
             scope = 2; 
             side = 3; 
-            faction = "BLU_F";             
+            faction = "CIV_F";             
             displayName="Zamak EVASAN (MSF)";
 			author = "Heartbroken";
 			crew = "C_scientist_F";
@@ -234,7 +234,7 @@ class cfgVehicles
         { 
             scope = 2; 
             side = 3; 
-            faction = "BLU_F";             
+            faction = "CIV_F";             
             displayName="Zamak EVASAN (CICR)";
 			author = "Heartbroken";
 			crew = "C_scientist_F";
@@ -247,7 +247,7 @@ class cfgVehicles
         { 
             scope = 2; 
             side = 3; 
-            faction = "BLU_F";             
+            faction = "CIV_F";             
             displayName="Zamak (CICR)";
 			author = "Heartbroken";
 			crew = "C_scientist_F";
