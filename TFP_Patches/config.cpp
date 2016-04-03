@@ -174,7 +174,7 @@ class CfgUnitInsignia
 	};
 	class TFP_XCOM_mech
 	{
-		displayName = "[XCOM] MECH Soldier";
+		displayName = "[XCOM] MEC Trooper";
 		author = "Heartbroken";
 		texture = "TFP_Patches\data\XCOM_Mech.paa";
 		textureVehicle = "";
