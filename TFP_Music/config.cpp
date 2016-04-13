@@ -4,7 +4,7 @@ class CfgPatches {
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
-		version = 3.2
+		version = 3.3
 		author[] = {"Heartbroken"};
 	};
 };
@@ -540,6 +540,62 @@ class CfgMusic
 		name="(TFP) Jieitai Shutsudou!";
 		sound[]={"\TFP_Music\JieitaiShutsudou!.ogg",1,1};
 		duration = 128;
+		theme = "safe";
+		};
+	class TFP_Music_52 //Release 4.3
+		{
+		name="(TFP) First Flight";
+		sound[]={"\TFP_Music\02-FirstFlight.ogg",1,1};
+		duration = 82;
+		theme = "safe";
+		};
+	class TFP_Music_53
+		{
+		name="(TFP) Squad Loadout";
+		sound[]={"\TFP_Music\08-SquadLoadout.ogg",1,1};
+		duration = 143;
+		theme = "safe";
+		};
+	class TFP_Music_54
+		{
+		name="(TFP) Retaliation";
+		sound[]={"\TFP_Music\10-Retaliation.ogg",1,1};
+		duration = 117;
+		theme = "safe";
+		};
+	class TFP_Music_55
+		{
+		name="(TFP) A Theme for Kjell";
+		sound[]={"\TFP_Music\06_A_Theme_for_Kjell.ogg",1,1};
+		duration = 217;
+		theme = "safe";
+		};
+	class TFP_Music_56 //Musique "BONUS"
+		{
+		name="(TFP) BONUS - Give It Up";
+		sound[]={"\TFP_Music\Give_It_Up-KC&The SunshineBand.ogg",1,1};
+		duration = 245;
+		theme = "safe";
+		};
+	class TFP_Music_57
+		{
+		name="(TFP) Battle Hymn of the Republic";
+		sound[]={"\TFP_Music\03_Battle_Hymn_of_the_Republic.ogg",1,1};
+		duration = 91;
+		theme = "safe";
+		};
+	class TFP_Music_58
+		{
+		name="(TFP) Ember ~Flareon~";
+		sound[]={"\TFP_Music\05-Ember~Flareon~.ogg",1,1};
+		duration = 220;
+		theme = "safe";
+		};
+	class TFP_Music_59
+		{
+		name="(TFP) Sentou 'Mirai'";
+		sound[]={"\TFP_Music\35-Sentou'Mirai'.ogg",1,1};
+		duration = 231;
 		theme = "safe";
 		};
 };
