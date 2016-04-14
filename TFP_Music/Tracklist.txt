@@ -71,3 +71,12 @@
 (TFP) Resilience of Man (XCOM Enemy Unknown)
 (TFP) Kanochi nite ~ Main Theme (GATE)
 (TFP) Jieitai Shutsudou! (GATE)
+(TFP) First Flight (XCOM 2)
+(TFP) Squad Loadout (XCOM 2)
+(TFP) Retaliation (XCOM 2)
+(TFP) A Theme for Kjell (Battlefield 4)
+(TFP) BONUS - Give It Up
+(TFP) Battle Hymn of the Republic (Girls und Panzer)
+(TFP) Panzerlied (Girls und Panzer)
+(TFP) Ember ~Flareon~ (Eevee EP)
+(TFP) Sentou 'Mirai' (Zipang)

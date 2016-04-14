@@ -586,12 +586,19 @@ class CfgMusic
 		};
 	class TFP_Music_58
 		{
+		name="(TFP) Panzerlied";
+		sound[]={"\TFP_Music\06_Panzerlied.ogg",1,1};
+		duration = 148;
+		theme = "safe";
+		};
+	class TFP_Music_59
+		{
 		name="(TFP) Ember ~Flareon~";
 		sound[]={"\TFP_Music\05-Ember~Flareon~.ogg",1,1};
 		duration = 220;
 		theme = "safe";
 		};
-	class TFP_Music_59
+	class TFP_Music_60
 		{
 		name="(TFP) Sentou 'Mirai'";
 		sound[]={"\TFP_Music\35-Sentou'Mirai'.ogg",1,1};
