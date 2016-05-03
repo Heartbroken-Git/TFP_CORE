@@ -607,4 +607,11 @@ class CfgMusic
 		duration = 231;
 		theme = "safe";
 		};
+	class TFP_Music_61
+		{
+		name="(TFP) The Walking Dead - Main Title Theme Song";
+		sound[]={"\TFP_Music\TheWalkingDead-MainTitleThemeSong.ogg",1,1};
+		duration = 266;
+		theme = "safe";
+		};
 };
