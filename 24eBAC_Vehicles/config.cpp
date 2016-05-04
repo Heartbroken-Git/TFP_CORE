@@ -5,11 +5,11 @@ class DefaultEventhandlers;	// External class reference
 class CfgPatches
 {
     class 24eBAC_Vehicles {
-        units[] = {"24eBAC_LynxMN_camo","24eBAC_LynxMN_camo_armed","24eBAC_LynxMN","24eBAC_PantherMN","24eBAC_PantherMN_AEM","24eBAC_PantherMN_pedro","24eBAC_PantherMN_armed","24eBAC_VBCI_CE","24eBAC_CamionCE","24eBAC_CamionCE_fuel","24eBAC_VanKaki","24eBAC_VanKaki_container","24eBAC_VanKaki_fuel","24eBAC_VanDGA","24eBAC_VanDGAC","24eBAC_VanLaPoste","24eBAC_VanLaPoste_container","24eBAC_OffroadDGA_securite","24eBAC_OffroadDGAC_followme","24eBAC_OffroadDIR","24eBAC_OffroadTrain","24eBAC_OffroadTrain_CONVEX","24eBAC_PVP_CE","24eBAC_PVP40mm_CE","24eBAC_PVP127mm_CE","24eBAC_VanKaki_PSM","24eBAC_OffroadCoy","24eBAC_OffroadCoy_armed","24eBAC_EBG_CE","24eBAC_OffroadCICR","24eBAC_OffroadMSF","24eBAC_OffroadRC","24eBAC_SUVMSF","24eBAC_SUVCICR","24eBAC_Hatchback_CICR","24eBAC_Hatchback_MSF","24eBAC_Hatchback_RC","24eBAC_PantherCICR","24eBAC_CamionCE_nonbache","24eBAC_CamionCE_EVASAN","24eBAC_CamionCiv_MSF","24eBAC_CamionCiv_CICR","24eBAC_CamionCiv_CICRnonbache"}; 
+        units[] = {"24eBAC_LynxMN_camo","24eBAC_LynxMN_camo_armed","24eBAC_LynxMN","24eBAC_PantherMN","24eBAC_PantherMN_AEM","24eBAC_PantherMN_pedro","24eBAC_PantherMN_armed","24eBAC_VBCI_CE","24eBAC_CamionCE","24eBAC_CamionCE_fuel","24eBAC_VanKaki","24eBAC_VanKaki_container","24eBAC_VanKaki_fuel","24eBAC_VanDGA","24eBAC_VanDGAC","24eBAC_VanLaPoste","24eBAC_VanLaPoste_container","24eBAC_OffroadDGA_securite","24eBAC_OffroadDGAC_followme","24eBAC_OffroadDIR","24eBAC_OffroadTrain","24eBAC_OffroadTrain_CONVEX","24eBAC_PVP_CE","24eBAC_PVP40mm_CE","24eBAC_PVP127mm_CE","24eBAC_VanKaki_PSM","24eBAC_OffroadCoy","24eBAC_OffroadCoy_armed","24eBAC_EBG_CE","24eBAC_OffroadCICR","24eBAC_OffroadMSF","24eBAC_OffroadRC","24eBAC_SUVMSF","24eBAC_SUVCICR","24eBAC_Hatchback_CICR","24eBAC_Hatchback_MSF","24eBAC_Hatchback_RC","24eBAC_PantherCICR","24eBAC_CamionCE_nonbache","24eBAC_CamionCE_EVASAN","24eBAC_CamionCiv_MSF","24eBAC_CamionCiv_CICR","24eBAC_CamionCiv_CICRnonbache","24eBAC_VanSable","24eBAC_VanSable_container","24eBAC_VanSable_fuel","24eBAC_VanSable_PSM"}; 
         weapons[] = {};
         requiredVersion = 0.1;
         requiredAddons[] = {"A3_Air_F_EPB_Heli_light_03"}; //Mettre les autres hélicos ici ?
-		version = 2.2
+		version = 2.3
 		author[] = {"Heartbroken"};
     };
 };
@@ -326,6 +326,80 @@ class cfgVehicles
 			crew = "B_soldier_F";
 			hiddenSelections[]= {"Camo1", "Camo2"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Van_Kaki\VanCabine_Essence.paa", "\24eBAC_Vehicles\Data\Van_Kaki\VanEssence.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+			class EventHandlers 
+				{
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+				};
+		};
+		
+	//Van Sable
+	class 24eBAC_VanSable:C_Van_01_transport_F
+        { 
+			_generalMacro = "C_Van_01_transport_F";
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="Camionnette (Sable)";
+			author = "Heartbroken";
+			crew = "B_soldier_F";
+			hiddenSelections[]= {"Camo1", "Camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Van_Sable\VanCabine_Standard_sable.paa", "\24eBAC_Vehicles\Data\Van_Sable\VanSupplements_sable.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+			class EventHandlers 
+				{
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+				};
+		};
+	
+	class 24eBAC_VanSable_container:C_Van_01_box_F
+        { 
+			_generalMacro = "C_Van_01_box_F";
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="Camionnette Container (Sable)";
+			author = "Heartbroken";
+			crew = "B_soldier_F";
+			hiddenSelections[]= {"Camo1", "Camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Van_Sable\VanCabine_Container_sable.paa", "\24eBAC_Vehicles\Data\Van_Sable\VanSupplements_sable.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+			class EventHandlers 
+				{
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+				};
+		};
+		
+	class 24eBAC_VanSable_PSM:C_Van_01_box_F
+        { 
+			_generalMacro = "C_Van_01_box_F";
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="PSM (Sable)";
+			author = "Heartbroken";
+			crew = "B_medic_F";
+			hiddenSelections[]= {"Camo1", "Camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Van_Sable\VanCabine_PSM_sable.paa", "\24eBAC_Vehicles\Data\Van_Sable\VanSupplements_PSM_sable.paa"};            
+			typicalCargo[] = {"B_medic_F"}; 
+			vehicleClass = "Support";
+			class EventHandlers 
+				{
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomPSM.sqf"""
+				};
+		};
+	
+	class 24eBAC_VanSable_fuel:C_Van_01_fuel_F
+        { 
+			_generalMacro = "C_Van_01_fuel_F";
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="Camionnette SEA (Sable)";
+			author = "Heartbroken";
+			crew = "B_soldier_F";
+			hiddenSelections[]= {"Camo1", "Camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Van_Sable\VanCabine_Essence_sable.paa", "\24eBAC_Vehicles\Data\Van_Sable\VanEssence_sable.paa"};            
 			typicalCargo[] = {"B_soldier_F"}; 
 			class EventHandlers 
 				{
