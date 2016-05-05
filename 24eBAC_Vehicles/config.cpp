@@ -5,7 +5,7 @@ class DefaultEventhandlers;	// External class reference
 class CfgPatches
 {
     class 24eBAC_Vehicles {
-        units[] = {"24eBAC_LynxMN_camo","24eBAC_LynxMN_camo_armed","24eBAC_LynxMN","24eBAC_PantherMN","24eBAC_PantherMN_AEM","24eBAC_PantherMN_pedro","24eBAC_PantherMN_armed","24eBAC_VBCI_CE","24eBAC_CamionCE","24eBAC_CamionCE_fuel","24eBAC_VanKaki","24eBAC_VanKaki_container","24eBAC_VanKaki_fuel","24eBAC_VanDGA","24eBAC_VanDGAC","24eBAC_VanLaPoste","24eBAC_VanLaPoste_container","24eBAC_OffroadDGA_securite","24eBAC_OffroadDGAC_followme","24eBAC_OffroadDIR","24eBAC_OffroadTrain","24eBAC_OffroadTrain_CONVEX","24eBAC_PVP_CE","24eBAC_PVP40mm_CE","24eBAC_PVP127mm_CE","24eBAC_VanKaki_PSM","24eBAC_OffroadCoy","24eBAC_OffroadCoy_armed","24eBAC_EBG_CE","24eBAC_OffroadCICR","24eBAC_OffroadMSF","24eBAC_OffroadRC","24eBAC_SUVMSF","24eBAC_SUVCICR","24eBAC_Hatchback_CICR","24eBAC_Hatchback_MSF","24eBAC_Hatchback_RC","24eBAC_PantherCICR","24eBAC_CamionCE_nonbache","24eBAC_CamionCE_EVASAN","24eBAC_CamionCiv_MSF","24eBAC_CamionCiv_CICR","24eBAC_CamionCiv_CICRnonbache","24eBAC_VanSable","24eBAC_VanSable_container","24eBAC_VanSable_fuel","24eBAC_VanSable_PSM"}; 
+        units[] = {"24eBAC_LynxMN_camo","24eBAC_LynxMN_camo_armed","24eBAC_LynxMN","24eBAC_PantherMN","24eBAC_PantherMN_AEM","24eBAC_PantherMN_pedro","24eBAC_PantherMN_armed","24eBAC_VBCI_CE","24eBAC_CamionCE","24eBAC_CamionCE_fuel","24eBAC_VanKaki","24eBAC_VanKaki_container","24eBAC_VanKaki_fuel","24eBAC_VanDGA","24eBAC_VanDGAC","24eBAC_VanLaPoste","24eBAC_VanLaPoste_container","24eBAC_OffroadDGA_securite","24eBAC_OffroadDGAC_followme","24eBAC_OffroadDIR","24eBAC_OffroadTrain","24eBAC_OffroadTrain_CONVEX","24eBAC_PVP_CE","24eBAC_PVP40mm_CE","24eBAC_PVP127mm_CE","24eBAC_VanKaki_PSM","24eBAC_OffroadCoy","24eBAC_OffroadCoy_armed","24eBAC_EBG_CE","24eBAC_OffroadCICR","24eBAC_OffroadMSF","24eBAC_OffroadRC","24eBAC_SUVMSF","24eBAC_SUVCICR","24eBAC_Hatchback_CICR","24eBAC_Hatchback_MSF","24eBAC_Hatchback_RC","24eBAC_PantherCICR","24eBAC_CamionCE_nonbache","24eBAC_CamionCE_EVASAN","24eBAC_CamionCiv_MSF","24eBAC_CamionCiv_CICR","24eBAC_CamionCiv_CICRnonbache","24eBAC_VanSable","24eBAC_VanSable_container","24eBAC_VanSable_fuel","24eBAC_VanSable_PSM","24eBAC_VBCI_DA"}; 
         weapons[] = {};
         requiredVersion = 0.1;
         requiredAddons[] = {"A3_Air_F_EPB_Heli_light_03"}; //Mettre les autres hélicos ici ?
@@ -156,6 +156,20 @@ class cfgVehicles
 			crew = "B_crew_F";
 			hiddenSelections[]= {"camo1", "camo2", "camo3"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\VBCI_CE\VBCICE_Corps.paa", "\24eBAC_Vehicles\Data\VBCI_CE\VBCICE_Roues.paa", "\24eBAC_Vehicles\Data\VBCI_CE\VBCICE_Tourelle.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+		};
+		
+	class 24eBAC_VBCI_DA:B_APC_Wheeled_01_cannon_F
+        { 
+            //_generalMacro = "B_APC_Wheeled_01_cannon_F"; 
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="VBCI (Daguet)";
+			author = "Heartbroken";
+			crew = "B_crew_F";
+			hiddenSelections[]= {"camo1", "camo2", "camo3"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\VBCI_DA\VBCIDA_Corps.paa", "\24eBAC_Vehicles\Data\VBCI_DA\VBCIDA_Roues.paa", "\24eBAC_Vehicles\Data\VBCI_DA\VBCIDA_Tourelle.paa"};            
 			typicalCargo[] = {"B_soldier_F"}; 
 		};
 		
