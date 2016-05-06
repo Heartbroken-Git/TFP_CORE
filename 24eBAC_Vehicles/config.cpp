@@ -5,7 +5,7 @@ class DefaultEventhandlers;	// External class reference
 class CfgPatches
 {
     class 24eBAC_Vehicles {
-        units[] = {"24eBAC_LynxMN_camo","24eBAC_LynxMN_camo_armed","24eBAC_LynxMN","24eBAC_PantherMN","24eBAC_PantherMN_AEM","24eBAC_PantherMN_pedro","24eBAC_PantherMN_armed","24eBAC_VBCI_CE","24eBAC_CamionCE","24eBAC_CamionCE_fuel","24eBAC_VanKaki","24eBAC_VanKaki_container","24eBAC_VanKaki_fuel","24eBAC_VanDGA","24eBAC_VanDGAC","24eBAC_VanLaPoste","24eBAC_VanLaPoste_container","24eBAC_OffroadDGA_securite","24eBAC_OffroadDGAC_followme","24eBAC_OffroadDIR","24eBAC_OffroadTrain","24eBAC_OffroadTrain_CONVEX","24eBAC_PVP_CE","24eBAC_PVP40mm_CE","24eBAC_PVP127mm_CE","24eBAC_VanKaki_PSM","24eBAC_OffroadCoy","24eBAC_OffroadCoy_armed","24eBAC_EBG_CE","24eBAC_OffroadCICR","24eBAC_OffroadMSF","24eBAC_OffroadRC","24eBAC_SUVMSF","24eBAC_SUVCICR","24eBAC_Hatchback_CICR","24eBAC_Hatchback_MSF","24eBAC_Hatchback_RC","24eBAC_PantherCICR","24eBAC_CamionCE_nonbache","24eBAC_CamionCE_EVASAN","24eBAC_CamionCiv_MSF","24eBAC_CamionCiv_CICR","24eBAC_CamionCiv_CICRnonbache","24eBAC_VanSable","24eBAC_VanSable_container","24eBAC_VanSable_fuel","24eBAC_VanSable_PSM","24eBAC_VBCI_DA","24eBAC_EBG_DA","24eBAC_PVP_DA","24eBAC_PVP40mm_DA","24eBAC_PVP127mm_DA","24eBAC_OffroadCoyDA","24eBAC_OffroadCoyDA_armed"}; 
+        units[] = {"24eBAC_LynxMN_camo","24eBAC_LynxMN_camo_armed","24eBAC_LynxMN","24eBAC_PantherMN","24eBAC_PantherMN_AEM","24eBAC_PantherMN_pedro","24eBAC_PantherMN_armed","24eBAC_VBCI_CE","24eBAC_CamionCE","24eBAC_CamionCE_fuel","24eBAC_VanKaki","24eBAC_VanKaki_container","24eBAC_VanKaki_fuel","24eBAC_VanDGA","24eBAC_VanDGAC","24eBAC_VanLaPoste","24eBAC_VanLaPoste_container","24eBAC_OffroadDGA_securite","24eBAC_OffroadDGAC_followme","24eBAC_OffroadDIR","24eBAC_OffroadTrain","24eBAC_OffroadTrain_CONVEX","24eBAC_PVP_CE","24eBAC_PVP40mm_CE","24eBAC_PVP127mm_CE","24eBAC_VanKaki_PSM","24eBAC_OffroadCoy","24eBAC_OffroadCoy_armed","24eBAC_EBG_CE","24eBAC_OffroadCICR","24eBAC_OffroadMSF","24eBAC_OffroadRC","24eBAC_SUVMSF","24eBAC_SUVCICR","24eBAC_Hatchback_CICR","24eBAC_Hatchback_MSF","24eBAC_Hatchback_RC","24eBAC_PantherCICR","24eBAC_CamionCE_nonbache","24eBAC_CamionCE_EVASAN","24eBAC_CamionCiv_MSF","24eBAC_CamionCiv_CICR","24eBAC_CamionCiv_CICRnonbache","24eBAC_VanSable","24eBAC_VanSable_container","24eBAC_VanSable_fuel","24eBAC_VanSable_PSM","24eBAC_VBCI_DA","24eBAC_EBG_DA","24eBAC_PVP_DA","24eBAC_PVP40mm_DA","24eBAC_PVP127mm_DA","24eBAC_OffroadCoyDA","24eBAC_OffroadCoyDA_armed","24eBAC_CamionDA","24eBAC_CamionDA_fuel","24eBAC_CamionDA_nonbache","24eBAC_CamionDA_EVASAN"}; 
         weapons[] = {};
         requiredVersion = 0.1;
         requiredAddons[] = {"A3_Air_F_EPB_Heli_light_03"}; //Mettre les autres hélicos ici ?
@@ -228,6 +228,7 @@ class cfgVehicles
 			hiddenSelections[]= {"camo1", "camo2"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_CE\ZamakCECabine_EVASAN.paa", "\24eBAC_Vehicles\Data\Camion_CE\ZamakCEEVASAN.paa"};            
 			typicalCargo[] = {"B_medic_F"}; 
+			vehicleClass = "Support";
 		};
 		
 	//Camion (Zamak) Civil
@@ -242,6 +243,7 @@ class cfgVehicles
 			hiddenSelections[]= {"camo1", "camo2"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivCabine_MSF.paa", "\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivBache_MSF.paa"};            
 			typicalCargo[] = {"C_scientist_F"}; 
+			vehicleClass = "Support";
 		};
 	
 	class 24eBAC_CamionCiv_CICR:I_Truck_02_covered_F
@@ -255,6 +257,7 @@ class cfgVehicles
 			hiddenSelections[]= {"camo1", "camo2"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivCabine_CICR.paa", "\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivBache_CICR.paa"};            
 			typicalCargo[] = {"C_scientist_F"}; 
+			vehicleClass = "Support";
 		};
 		
 	class 24eBAC_CamionCiv_CICRnonbache:I_Truck_02_transport_F
@@ -268,6 +271,62 @@ class cfgVehicles
 			hiddenSelections[]= {"camo1", "camo2"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivCabine_CICR.paa", "\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivBache_CICR.paa"};            
 			typicalCargo[] = {"C_scientist_F"}; 
+			vehicleClass = "Support";
+		};
+		
+	//Camion (Zamak) DA
+	class 24eBAC_CamionDA:I_Truck_02_covered_F
+        { 
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="Zamak Bache (Daguet)";
+			author = "Heartbroken";
+			crew = "B_soldier_F";
+			hiddenSelections[]= {"camo1", "camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_DA\ZamakDACabine_Assaut.paa", "\24eBAC_Vehicles\Data\Camion_DA\ZamakDABache.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+		};
+	
+	class 24eBAC_CamionDA_fuel:I_Truck_02_fuel_F
+        { 
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="Zamak SEA (Daguet)";
+			author = "Heartbroken";
+			crew = "B_soldier_F";
+			hiddenSelections[]= {"camo1", "camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_DA\ZamakDACabine_Intendance.paa", "\24eBAC_Vehicles\Data\Camion_DA\ZamakDAEssence.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+		};
+		
+	class 24eBAC_CamionDA_nonbache:I_Truck_02_transport_F
+        { 
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="Zamak (Daguet)";
+			author = "Heartbroken";
+			crew = "B_soldier_F";
+			hiddenSelections[]= {"camo1", "camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_DA\ZamakDACabine_NonBache.paa", "\24eBAC_Vehicles\Data\Camion_DA\ZamakDANonBache.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+		};
+		
+	//class I_Truck_02_medical_F; //Fait apparaître des symboles sur la retexture
+	class 24eBAC_CamionDA_EVASAN:I_Truck_02_covered_F
+        { 
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="Zamak EVASAN (Daguet)";
+			author = "Heartbroken";
+			crew = "B_medic_F";
+			hiddenSelections[]= {"camo1", "camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_DA\ZamakDACabine_EVASAN.paa", "\24eBAC_Vehicles\Data\Camion_DA\ZamakDAEVASAN.paa"};            
+			typicalCargo[] = {"B_medic_F"}; 
+			vehicleClass = "Support";
 		};
 	
 	//Van Kaki
