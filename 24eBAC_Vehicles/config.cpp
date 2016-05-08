@@ -5,11 +5,11 @@ class DefaultEventhandlers;	// External class reference
 class CfgPatches
 {
     class 24eBAC_Vehicles {
-        units[] = {"24eBAC_LynxMN_camo","24eBAC_LynxMN_camo_armed","24eBAC_LynxMN","24eBAC_PantherMN","24eBAC_PantherMN_AEM","24eBAC_PantherMN_pedro","24eBAC_PantherMN_armed","24eBAC_VBCI_CE","24eBAC_CamionCE","24eBAC_CamionCE_fuel","24eBAC_VanKaki","24eBAC_VanKaki_container","24eBAC_VanKaki_fuel","24eBAC_VanDGA","24eBAC_VanDGAC","24eBAC_VanLaPoste","24eBAC_VanLaPoste_container","24eBAC_OffroadDGA_securite","24eBAC_OffroadDGAC_followme","24eBAC_OffroadDIR","24eBAC_OffroadTrain","24eBAC_OffroadTrain_CONVEX","24eBAC_PVP_CE","24eBAC_PVP40mm_CE","24eBAC_PVP127mm_CE","24eBAC_VanKaki_PSM","24eBAC_OffroadCoy","24eBAC_OffroadCoy_armed","24eBAC_EBG_CE","24eBAC_OffroadCICR","24eBAC_OffroadMSF","24eBAC_OffroadRC","24eBAC_SUVMSF","24eBAC_SUVCICR","24eBAC_Hatchback_CICR","24eBAC_Hatchback_MSF","24eBAC_Hatchback_RC","24eBAC_PantherCICR","24eBAC_CamionCE_nonbache","24eBAC_CamionCE_EVASAN","24eBAC_CamionCiv_MSF","24eBAC_CamionCiv_CICR","24eBAC_CamionCiv_CICRnonbache"}; 
+        units[] = {"24eBAC_LynxMN_camo","24eBAC_LynxMN_camo_armed","24eBAC_LynxMN","24eBAC_PantherMN","24eBAC_PantherMN_AEM","24eBAC_PantherMN_pedro","24eBAC_PantherMN_armed","24eBAC_VBCI_CE","24eBAC_CamionCE","24eBAC_CamionCE_fuel","24eBAC_VanKaki","24eBAC_VanKaki_container","24eBAC_VanKaki_fuel","24eBAC_VanDGA","24eBAC_VanDGAC","24eBAC_VanLaPoste","24eBAC_VanLaPoste_container","24eBAC_OffroadDGA_securite","24eBAC_OffroadDGAC_followme","24eBAC_OffroadDIR","24eBAC_OffroadTrain","24eBAC_OffroadTrain_CONVEX","24eBAC_PVP_CE","24eBAC_PVP40mm_CE","24eBAC_PVP127mm_CE","24eBAC_VanKaki_PSM","24eBAC_OffroadCoy","24eBAC_OffroadCoy_armed","24eBAC_EBG_CE","24eBAC_OffroadCICR","24eBAC_OffroadMSF","24eBAC_OffroadRC","24eBAC_SUVMSF","24eBAC_SUVCICR","24eBAC_Hatchback_CICR","24eBAC_Hatchback_MSF","24eBAC_Hatchback_RC","24eBAC_PantherCICR","24eBAC_CamionCE_nonbache","24eBAC_CamionCE_EVASAN","24eBAC_CamionCiv_MSF","24eBAC_CamionCiv_CICR","24eBAC_CamionCiv_CICRnonbache","24eBAC_VanSable","24eBAC_VanSable_container","24eBAC_VanSable_fuel","24eBAC_VanSable_PSM","24eBAC_VBCI_DA","24eBAC_EBG_DA","24eBAC_PVP_DA","24eBAC_PVP40mm_DA","24eBAC_PVP127mm_DA","24eBAC_OffroadCoyDA","24eBAC_OffroadCoyDA_armed","24eBAC_CamionDA","24eBAC_CamionDA_fuel","24eBAC_CamionDA_nonbache","24eBAC_CamionDA_EVASAN"}; 
         weapons[] = {};
         requiredVersion = 0.1;
         requiredAddons[] = {"A3_Air_F_EPB_Heli_light_03"}; //Mettre les autres hélicos ici ?
-		version = 2.2
+		version = 2.3
 		author[] = {"Heartbroken"};
     };
 };
@@ -159,6 +159,20 @@ class cfgVehicles
 			typicalCargo[] = {"B_soldier_F"}; 
 		};
 		
+	class 24eBAC_VBCI_DA:B_APC_Wheeled_01_cannon_F
+        { 
+            //_generalMacro = "B_APC_Wheeled_01_cannon_F"; 
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="VBCI (Daguet)";
+			author = "Heartbroken";
+			crew = "B_crew_F";
+			hiddenSelections[]= {"camo1", "camo2", "camo3"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\VBCI_DA\VBCIDA_Corps.paa", "\24eBAC_Vehicles\Data\VBCI_DA\VBCIDA_Roues.paa", "\24eBAC_Vehicles\Data\VBCI_DA\VBCIDA_Tourelle.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+		};
+		
 	//Camion (Zamak) CE
 	class I_Truck_02_covered_F;
 	class 24eBAC_CamionCE:I_Truck_02_covered_F
@@ -214,6 +228,7 @@ class cfgVehicles
 			hiddenSelections[]= {"camo1", "camo2"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_CE\ZamakCECabine_EVASAN.paa", "\24eBAC_Vehicles\Data\Camion_CE\ZamakCEEVASAN.paa"};            
 			typicalCargo[] = {"B_medic_F"}; 
+			vehicleClass = "Support";
 		};
 		
 	//Camion (Zamak) Civil
@@ -221,39 +236,97 @@ class cfgVehicles
         { 
             scope = 2; 
             side = 3; 
-            faction = "BLU_F";             
+            faction = "CIV_F";             
             displayName="Zamak EVASAN (MSF)";
 			author = "Heartbroken";
 			crew = "C_scientist_F";
 			hiddenSelections[]= {"camo1", "camo2"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivCabine_MSF.paa", "\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivBache_MSF.paa"};            
 			typicalCargo[] = {"C_scientist_F"}; 
+			vehicleClass = "Support";
 		};
 	
 	class 24eBAC_CamionCiv_CICR:I_Truck_02_covered_F
         { 
             scope = 2; 
             side = 3; 
-            faction = "BLU_F";             
+            faction = "CIV_F";             
             displayName="Zamak EVASAN (CICR)";
 			author = "Heartbroken";
 			crew = "C_scientist_F";
 			hiddenSelections[]= {"camo1", "camo2"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivCabine_CICR.paa", "\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivBache_CICR.paa"};            
 			typicalCargo[] = {"C_scientist_F"}; 
+			vehicleClass = "Support";
 		};
 		
 	class 24eBAC_CamionCiv_CICRnonbache:I_Truck_02_transport_F
         { 
             scope = 2; 
             side = 3; 
-            faction = "BLU_F";             
+            faction = "CIV_F";             
             displayName="Zamak (CICR)";
 			author = "Heartbroken";
 			crew = "C_scientist_F";
 			hiddenSelections[]= {"camo1", "camo2"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivCabine_CICR.paa", "\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivBache_CICR.paa"};            
 			typicalCargo[] = {"C_scientist_F"}; 
+			vehicleClass = "Support";
+		};
+		
+	//Camion (Zamak) DA
+	class 24eBAC_CamionDA:I_Truck_02_covered_F
+        { 
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="Zamak Bache (Daguet)";
+			author = "Heartbroken";
+			crew = "B_soldier_F";
+			hiddenSelections[]= {"camo1", "camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_DA\ZamakDACabine_Assaut.paa", "\24eBAC_Vehicles\Data\Camion_DA\ZamakDABache.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+		};
+	
+	class 24eBAC_CamionDA_fuel:I_Truck_02_fuel_F
+        { 
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="Zamak SEA (Daguet)";
+			author = "Heartbroken";
+			crew = "B_soldier_F";
+			hiddenSelections[]= {"camo1", "camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_DA\ZamakDACabine_Intendance.paa", "\24eBAC_Vehicles\Data\Camion_DA\ZamakDAEssence.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+		};
+		
+	class 24eBAC_CamionDA_nonbache:I_Truck_02_transport_F
+        { 
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="Zamak (Daguet)";
+			author = "Heartbroken";
+			crew = "B_soldier_F";
+			hiddenSelections[]= {"camo1", "camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_DA\ZamakDACabine_NonBache.paa", "\24eBAC_Vehicles\Data\Camion_DA\ZamakDANonBache.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+		};
+		
+	//class I_Truck_02_medical_F; //Fait apparaître des symboles sur la retexture
+	class 24eBAC_CamionDA_EVASAN:I_Truck_02_covered_F
+        { 
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="Zamak EVASAN (Daguet)";
+			author = "Heartbroken";
+			crew = "B_medic_F";
+			hiddenSelections[]= {"camo1", "camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_DA\ZamakDACabine_EVASAN.paa", "\24eBAC_Vehicles\Data\Camion_DA\ZamakDAEVASAN.paa"};            
+			typicalCargo[] = {"B_medic_F"}; 
+			vehicleClass = "Support";
 		};
 	
 	//Van Kaki
@@ -326,6 +399,80 @@ class cfgVehicles
 			crew = "B_soldier_F";
 			hiddenSelections[]= {"Camo1", "Camo2"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Van_Kaki\VanCabine_Essence.paa", "\24eBAC_Vehicles\Data\Van_Kaki\VanEssence.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+			class EventHandlers 
+				{
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+				};
+		};
+		
+	//Van Sable
+	class 24eBAC_VanSable:C_Van_01_transport_F
+        { 
+			_generalMacro = "C_Van_01_transport_F";
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="Camionnette (Sable)";
+			author = "Heartbroken";
+			crew = "B_soldier_F";
+			hiddenSelections[]= {"Camo1", "Camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Van_Sable\VanCabine_Standard_sable.paa", "\24eBAC_Vehicles\Data\Van_Sable\VanSupplements_sable.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+			class EventHandlers 
+				{
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+				};
+		};
+	
+	class 24eBAC_VanSable_container:C_Van_01_box_F
+        { 
+			_generalMacro = "C_Van_01_box_F";
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="Camionnette Container (Sable)";
+			author = "Heartbroken";
+			crew = "B_soldier_F";
+			hiddenSelections[]= {"Camo1", "Camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Van_Sable\VanCabine_Container_sable.paa", "\24eBAC_Vehicles\Data\Van_Sable\VanSupplements_sable.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+			class EventHandlers 
+				{
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+				};
+		};
+		
+	class 24eBAC_VanSable_PSM:C_Van_01_box_F
+        { 
+			_generalMacro = "C_Van_01_box_F";
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="PSM (Sable)";
+			author = "Heartbroken";
+			crew = "B_medic_F";
+			hiddenSelections[]= {"Camo1", "Camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Van_Sable\VanCabine_PSM_sable.paa", "\24eBAC_Vehicles\Data\Van_Sable\VanSupplements_PSM_sable.paa"};            
+			typicalCargo[] = {"B_medic_F"}; 
+			vehicleClass = "Support";
+			class EventHandlers 
+				{
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomPSM.sqf"""
+				};
+		};
+	
+	class 24eBAC_VanSable_fuel:C_Van_01_fuel_F
+        { 
+			_generalMacro = "C_Van_01_fuel_F";
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="Camionnette SEA (Sable)";
+			author = "Heartbroken";
+			crew = "B_soldier_F";
+			hiddenSelections[]= {"Camo1", "Camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Van_Sable\VanCabine_Essence_sable.paa", "\24eBAC_Vehicles\Data\Van_Sable\VanEssence_sable.paa"};            
 			typicalCargo[] = {"B_soldier_F"}; 
 			class EventHandlers 
 				{
@@ -659,7 +806,7 @@ class cfgVehicles
 			author = "Heartbroken";
 			crew = "B_recon_F";
 			hiddenSelections[]= {"camo", "camo2"};
-			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Mil\OffroadCoy.paa", "\24eBAC_Vehicles\Data\Offroad_Mil\OffroadCoy.paa"};            
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Mil\OffroadCoyCE.paa", "\24eBAC_Vehicles\Data\Offroad_Mil\OffroadCoyCE.paa"};            
 			typicalCargo[] = {"B_recon_F"}; 
 			class EventHandlers 
 				{
@@ -678,7 +825,43 @@ class cfgVehicles
 			author = "Heartbroken";
 			crew = "B_recon_F";
 			hiddenSelections[]= {"camo", "camo2"};
-			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Mil\OffroadCoy.paa", "\24eBAC_Vehicles\Data\Offroad_Mil\OffroadCoy.paa"};            
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Mil\OffroadCoyCE_hmg.paa", "\24eBAC_Vehicles\Data\Offroad_Mil\OffroadCoyCE_hmg.paa"};            
+			typicalCargo[] = {"B_recon_F"}; 
+			class EventHandlers 
+				{
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomCoyOffroad.sqf"""
+				};
+		};
+		
+	class 24eBAC_OffroadCoyDA:B_G_Offroad_01_F
+        { 
+			_generalMacro = "B_G_Offroad_01_F";
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="Tout-terrain Commandos (Daguet)";
+			author = "Heartbroken";
+			crew = "B_recon_F";
+			hiddenSelections[]= {"camo", "camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Mil\OffroadCoyDA.paa", "\24eBAC_Vehicles\Data\Offroad_Mil\OffroadCoyDA.paa"};            
+			typicalCargo[] = {"B_recon_F"}; 
+			class EventHandlers 
+				{
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomCoyOffroad.sqf"""
+				};
+		};
+		
+	class 24eBAC_OffroadCoyDA_armed:B_G_Offroad_01_armed_F
+        { 
+			_generalMacro = "B_G_Offroad_01_armed_F";
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="Tout-terrain Commandos 12.7mm (Daguet)";
+			author = "Heartbroken";
+			crew = "B_recon_F";
+			hiddenSelections[]= {"camo", "camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Mil\OffroadCoyDA_hmg.paa", "\24eBAC_Vehicles\Data\Offroad_Mil\OffroadCoyDA_hmg.paa"};            
 			typicalCargo[] = {"B_recon_F"}; 
 			class EventHandlers 
 				{
@@ -713,7 +896,7 @@ class cfgVehicles
 			author = "Heartbroken";
 			crew = "B_soldier_F";
 			hiddenSelections[]= {"camo1", "camo2","camo3"};
-			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\PVP_CE\PVPCE_Avant.paa", "\24eBAC_Vehicles\Data\PVP_CE\PVPCE_Arriere.paa", "\24eBAC_Vehicles\Data\PVP_CE\PVPCE_Tourelle.paa"};            
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\PVP_CE\PVPCE_Avant_gmg.paa", "\24eBAC_Vehicles\Data\PVP_CE\PVPCE_Arriere_gmg.paa", "\24eBAC_Vehicles\Data\PVP_CE\PVPCE_Tourelle.paa"};            
 			typicalCargo[] = {"B_soldier_F"}; 
 		};
 		
@@ -728,7 +911,49 @@ class cfgVehicles
 			author = "Heartbroken";
 			crew = "B_soldier_F";
 			hiddenSelections[]= {"camo1", "camo2","camo3"};
-			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\PVP_CE\PVPCE_Avant.paa", "\24eBAC_Vehicles\Data\PVP_CE\PVPCE_Arriere.paa","\24eBAC_Vehicles\Data\PVP_CE\PVPCE_Tourelle.paa"};            
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\PVP_CE\PVPCE_Avant_hmg.paa", "\24eBAC_Vehicles\Data\PVP_CE\PVPCE_Arriere_hmg.paa","\24eBAC_Vehicles\Data\PVP_CE\PVPCE_Tourelle.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+		};
+		
+	class 24eBAC_PVP_DA:B_MRAP_01_F
+        { 
+            _generalMacro = "B_MRAP_01_F"; 
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="PVP (Daguet)";
+			author = "Heartbroken";
+			crew = "B_soldier_F";
+			hiddenSelections[]= {"camo1", "camo2"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\PVP_DA\PVPDA_Avant.paa", "\24eBAC_Vehicles\Data\PVP_DA\PVPDA_Arriere.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+		};
+		
+	class 24eBAC_PVP40mm_DA:B_MRAP_01_gmg_F
+        { 
+            _generalMacro = "B_MRAP_01_gmg_F"; 
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="PVP 40mm (Daguet)";
+			author = "Heartbroken";
+			crew = "B_soldier_F";
+			hiddenSelections[]= {"camo1", "camo2","camo3"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\PVP_DA\PVPDA_Avant_gmg.paa", "\24eBAC_Vehicles\Data\PVP_DA\PVPDA_Arriere_gmg.paa", "\24eBAC_Vehicles\Data\PVP_DA\PVPDA_Tourelle.paa"};            
+			typicalCargo[] = {"B_soldier_F"}; 
+		};
+		
+	class 24eBAC_PVP127mm_DA:B_MRAP_01_hmg_F
+        { 
+            _generalMacro = "B_MRAP_01_hmg_F"; 
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="PVP 12.7mm (Daguet)";
+			author = "Heartbroken";
+			crew = "B_soldier_F";
+			hiddenSelections[]= {"camo1", "camo2","camo3"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\PVP_DA\PVPDA_Avant_hmg.paa", "\24eBAC_Vehicles\Data\PVP_DA\PVPDA_Arriere_hmg.paa","\24eBAC_Vehicles\Data\PVP_DA\PVPDA_Tourelle.paa"};            
 			typicalCargo[] = {"B_soldier_F"}; 
 		};
 		
@@ -745,6 +970,20 @@ class cfgVehicles
 			crew = "B_engineer_F";
 			hiddenSelections[]= {"camo1", "camo2","camo3","camo4"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\EBG_CE\EBGCE_Corps.paa", "\24eBAC_Vehicles\Data\EBG_CE\EBGCE_Jupes.paa", "\24eBAC_Vehicles\Data\PVP_CE\PVPCE_Tourelle.paa","\24eBAC_Vehicles\Data\EBG_CE\EBGCE_Dozer.paa"};            
+			typicalCargo[] = {"B_engineer_F"}; 
+		};
+		
+	class 24eBAC_EBG_DA:B_APC_Tracked_01_CRV_F
+        { 
+            _generalMacro = "B_APC_Tracked_01_CRV_F"; 
+            scope = 2; 
+            side = 1; 
+            faction = "BLU_F";             
+            displayName="EBG (Daguet)";
+			author = "Heartbroken";
+			crew = "B_engineer_F";
+			hiddenSelections[]= {"camo1", "camo2","camo3","camo4"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\EBG_DA\EBGDA_Corps.paa", "\24eBAC_Vehicles\Data\EBG_DA\EBGDA_Jupes.paa", "\24eBAC_Vehicles\Data\PVP_DA\PVPDA_Tourelle.paa","\24eBAC_Vehicles\Data\EBG_DA\EBGDA_Dozer.paa"};            
 			typicalCargo[] = {"B_engineer_F"}; 
 		};
 };

@@ -4,7 +4,7 @@ class CfgPatches {
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
-		version = 3.2
+		version = 3.3
 		author[] = {"Heartbroken"};
 	};
 };
@@ -174,7 +174,7 @@ class CfgUnitInsignia
 	};
 	class TFP_XCOM_mech
 	{
-		displayName = "[XCOM] MECH Soldier";
+		displayName = "[XCOM] MEC Trooper";
 		author = "Heartbroken";
 		texture = "TFP_Patches\data\XCOM_Mech.paa";
 		textureVehicle = "";
@@ -544,6 +544,77 @@ class CfgUnitInsignia
 		displayName = "[ONG] Cristal Rouge";
 		author = "Heartbroken";
 		texture = "TFP_Patches\data\Red_Crystal.paa";
+		textureVehicle = "";
+	};
+	//Release 4.3
+	class TFP_FR_ecussondesert
+	{
+		displayName = "[FR] Ecusson France (Desert)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\BV_FRdesert.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_ecussonforet
+	{
+		displayName = "[FR] Ecusson France (Foret)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\BV_FRforet.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DRM
+	{
+		displayName = "[FR] Direction du Renseignement Militaire";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\DRM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendspm
+	{
+		displayName = "[FR] Compagnie de St Pierre et Miquelon - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GEND_SPM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_opexBarkhane
+	{
+		displayName = "[FR] OPEX Barkhane";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\OPEX_Barkhane.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_opexChammalBV
+	{
+		displayName = "[FR] OPEX Chammal (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\OPEX_ChammalBV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_opexDaguetAA
+	{
+		displayName = "[FR] OPEX Daguet (Armee de l'Air)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\OPEX_DaguetAA.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_opexSangaris
+	{
+		displayName = "[FR] OPEX Sangaris";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\OPEX_Sangaris.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_opexServalBV
+	{
+		displayName = "[FR] OPEX Serval (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\OPEX_ServalBV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_opexServalDAA
+	{
+		displayName = "[FR] OPEX Serval (Detachement d'Appui Aeromobilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\OPEX_ServalDAA.paa";
 		textureVehicle = "";
 	};
 };
