@@ -1,3 +1,30 @@
+/ / / R4.3 "Opération Daguet" \ \ \
+
+AJOUTÉ : Intégration des musiques du TFP_Music.pbo dans l'interface Zeus
+AJOUTÉ : Retextures de l'AMV Patria BLUFOR Vanilla en VBCI Daguet
+AJOUTÉ : Retextures du "Fourgon Caisse" civil Vanilla en version sable (dont le PSM)
+AJOUTÉ : Retextures du Kamaz civil Vanilla dans le style des camion Renault en Daguet (toutes versions)
+AJOUTÉ : Retexture du "Hunter" Vanilla en pseudo-PVP Daguet avec les variantes non-armée, 12.7mm et 40mm
+AJOUTÉ : Retextures du "Tout-Terrain" Vanilla de la FIA dans le style des VLRA et P4 utilisés par les commandos en Daguet
+AJOUTÉ : Retextures du CRV Bobcat Vanilla de l'OTAN dans le style des EBG Daguet
+AJOUTÉ : Morceaux provenant de XCOM2
+AJOUTÉ : Theme for Kjell (Battlefield 4)
+AJOUTÉ : Un morceau BONUS
+AJOUTÉ : Battle Hymn of the Republic (Girls Und Panzer)
+AJOUTÉ : Panzerlied (Girls Und Panzer)
+AJOUTÉ : Ember du Eevee EP
+AJOUTÉ : Battle Mirai de Zipang
+AJOUTÉ : Ecussons France basse visibilité (sable et forêt)
+AJOUTÉ : Patch de la DRM
+AJOUTÉ : Patch de la compagnie de Gendarmerie de Saint-Pierre et Miquelon 
+AJOUTÉ : 6 patches d'OPEX françaises
+
+RÉPARÉ : Les Zamaks des ONG sont désormais dans la bonne faction
+RÉPARÉ : Les Zamaks en variante EVASAN sont désormais bien dans la catégorie "Appui"
+RÉPARÉ : Orthographe incorrecte du patch MEC Trooper
+RÉPARÉ : Les deux types de Tout-terrains n'ont plus le même numéro de wagonnage
+RÉPARÉ : Les trois types de Hunter n'ont plus le même numéro de wagonnage
+
 / / / R4.2 "Humanitaire" \ \ \
 
 AJOUTÉ : Retexture du Ka-60 Vanilla en un Panther du CICR
