@@ -11,5 +11,5 @@ If downloaded directly from GitHub extract @TFP_CORE from its .zip file and copy
 (https://www.bistudio.com/assets/img/licenses/APL-SA.png)
 This mod is published under the Arma Public License Share Alike (APL-SA) available here : 
 http://www.bistudio.com/community/licenses/arma-public-license-share-alike
-However, all musical content of TFP_Music.pbo is the creation of their respective owners, I, Heartbroken, am solely responsible for
-their implementation in an ArmA III Mod. No copyright infringement is intended.
+However, all musical content of TFP_Music.pbo is the creation of their respective owners, I, Heartbroken, am solely responsible for their implementation in an ArmA III Mod. 
+No copyright infringement is intended.

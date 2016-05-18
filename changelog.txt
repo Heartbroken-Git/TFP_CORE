@@ -1,3 +1,8 @@
+/ / / R4.3.1 \ \ \
+
+RÉPARÉ : Les musiques de Girls und Panzer marchent correctement
+RÉPARÉ : Correction du Readme
+
 / / / R4.3 "Opération Daguet" \ \ \
 
 AJOUTÉ : Intégration des musiques du TFP_Music.pbo dans l'interface Zeus
