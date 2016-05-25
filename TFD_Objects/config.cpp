@@ -22,5 +22,16 @@ class CfgVehicles {
 		class EventHandlers {
 			init="(_this select 0) setFlagTexture '\TFD_Objects\Data\Drapeau_UE.paa'"
 		}
-	}
-}
+	};
+	
+	class TFD_DrapeauFR : FlagCarrier {
+		_generalMacro = "FlagCarrier"; 
+        scope = 2;
+		scopeCurator=2;		
+        displayName="Drapeau (France)";
+		author = "Heartbroken";           
+		class EventHandlers {
+			init="(_this select 0) setFlagTexture '\TFD_Objects\Data\Drapeau_FR.paa'"
+		}
+	};
+};
