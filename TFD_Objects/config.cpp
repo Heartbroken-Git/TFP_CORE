@@ -78,4 +78,26 @@ class CfgVehicles {
 			init="(_this select 0) setFlagTexture '\TFD_Objects\Data\Drapeau_TFD.paa'"
 		}
 	};
+	
+	class TFD_DrapeauURSS : FlagCarrier {
+		_generalMacro = "FlagCarrier"; 
+        scope = 2;
+		scopeCurator=2;		
+        displayName="Drapeau (URSS)";
+		author = "Heartbroken";           
+		class EventHandlers {
+			init="(_this select 0) setFlagTexture '\TFD_Objects\Data\Drapeau_URSS.paa'"
+		}
+	};
+	
+	class TFD_DrapeauOPEXKoto : FlagCarrier {
+		_generalMacro = "FlagCarrier"; 
+        scope = 2;
+		scopeCurator=2;		
+        displayName="Drapeau (OPEX Suricate)";
+		author = "Heartbroken";           
+		class EventHandlers {
+			init="(_this select 0) setFlagTexture '\TFD_Objects\Data\Drapeau_OPEXKoto.paa'"
+		}
+	};
 };
