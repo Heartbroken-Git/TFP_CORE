@@ -100,4 +100,26 @@ class CfgVehicles {
 			init="(_this select 0) setFlagTexture '\TFD_Objects\Data\Drapeau_OPEXKoto.paa'"
 		}
 	};
+	
+	class SignAd_SponsorS_F;
+	
+	class TFD_PanneauVigipirate : SignAd_SponsorS_F {
+		_generalMacro = "SignAd_SponsorS_F";
+        scope = 2; 
+        scopeCurator = 2;           
+        displayName="Panneau (Vigipirate)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_Vigipirate.paa"};
+	};
+	
+	class TFD_PanneauVigipirateAA : SignAd_SponsorS_F {
+		_generalMacro = "SignAd_SponsorS_F";
+        scope = 2; 
+        scopeCurator = 2;           
+        displayName="Panneau (Vigipirate Alerte Attentat)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_VigipirateAA.paa"};
+	};
 };
