@@ -122,4 +122,26 @@ class CfgVehicles {
 		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_VigipirateAA.paa"};
 	};
+	
+	class TFD_PanneauTerMil : SignAd_SponsorS_F {
+		_generalMacro = "SignAd_SponsorS_F";
+        scope = 2; 
+        scopeCurator = 2;           
+        displayName="Panneau (Terrain Militaire)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_TerMil.paa"};
+	};
+	
+	class SignAd_Sponsor_F;
+	
+	class TFD_PanneauCampTimon : SignAd_Sponsor_F {
+		_generalMacro = "SignAd_SponsorS_F";
+        scope = 2; 
+        scopeCurator = 2;           
+        displayName="Panneau (Camp Timon)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_CampTimon.paa"};
+	}
 };
