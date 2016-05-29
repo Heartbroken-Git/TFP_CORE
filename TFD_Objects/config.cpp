@@ -133,6 +133,36 @@ class CfgVehicles {
 		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_TerMil.paa"};
 	};
 	
+	class TFD_PanneauFOBYork : SignAd_SponsorS_F {
+		_generalMacro = "SignAd_SponsorS_F";
+        scope = 2; 
+        scopeCurator = 2;           
+        displayName="Panneau (FOB York)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_FOBYork.paa"};
+	};
+	
+	class TFD_PanneauFOBMangomak : SignAd_SponsorS_F {
+		_generalMacro = "SignAd_SponsorS_F";
+        scope = 2; 
+        scopeCurator = 2;           
+        displayName="Panneau (FOB Mangomak)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_FOBMangomak.paa"};
+	};
+	
+	class TFD_PanneauCampNala : SignAd_SponsorS_F {
+		_generalMacro = "SignAd_SponsorS_F";
+        scope = 2; 
+        scopeCurator = 2;           
+        displayName="Panneau (Camp Nala)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_CampNala.paa"};
+	};
+	
 	class SignAd_Sponsor_F;
 	
 	class TFD_PanneauCampTimon : SignAd_Sponsor_F {
@@ -143,5 +173,35 @@ class CfgVehicles {
 		author = "Heartbroken";
 		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_CampTimon.paa"};
-	}
+	};
+	
+	class TFD_PanneauCampPumba : SignAd_Sponsor_F {
+		_generalMacro = "SignAd_SponsorS_F";
+        scope = 2; 
+        scopeCurator = 2;           
+        displayName="Panneau (Camp Pumba)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_CampPumba.paa"};
+	};
+	
+	class TFD_PanneauCampHanovre : SignAd_Sponsor_F {
+		_generalMacro = "SignAd_SponsorS_F";
+        scope = 2; 
+        scopeCurator = 2;           
+        displayName="Panneau (Camp Hanovre)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_CampHanovre.paa"};
+	};
+	
+	class TFD_PanneauEnglishStadium : SignAd_Sponsor_F {
+		_generalMacro = "SignAd_SponsorS_F";
+        scope = 2; 
+        scopeCurator = 2;           
+        displayName="Panneau (English's Stadium)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_EnglishStadium.paa"};
+	};
 };
