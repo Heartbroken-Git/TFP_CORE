@@ -234,4 +234,24 @@ class CfgVehicles {
 		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_EnglishStadium.paa"};
 	};
+	
+	class TFD_PanneauCheckpoint : SignAd_Sponsor_F {
+		_generalMacro = "SignAd_SponsorS_F";
+        scope = 2; 
+        scopeCurator = 2;           
+        displayName="Panneau (Checkpoint)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_Checkpoint.paa"};
+	};
+	
+	class TFD_PanneauEntreeBase : SignAd_Sponsor_F {
+		_generalMacro = "SignAd_SponsorS_F";
+        scope = 2; 
+        scopeCurator = 2;           
+        displayName="Panneau (Entree Base)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_EntreeBase.paa"};
+	};
 };
