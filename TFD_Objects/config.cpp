@@ -163,6 +163,36 @@ class CfgVehicles {
 		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_CampNala.paa"};
 	};
 	
+	class TFD_PanneauPPS : SignAd_SponsorS_F {
+		_generalMacro = "SignAd_SponsorS_F";
+        scope = 2; 
+        scopeCurator = 2;           
+        displayName="Panneau (PPS)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_PPS.paa"};
+	};
+	
+	class TFD_PanneauPPR : SignAd_SponsorS_F {
+		_generalMacro = "SignAd_SponsorS_F";
+        scope = 2; 
+        scopeCurator = 2;           
+        displayName="Panneau (PPR)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_PPR.paa"};
+	};
+	
+	class TFD_PanneauPPM : SignAd_SponsorS_F {
+		_generalMacro = "SignAd_SponsorS_F";
+        scope = 2; 
+        scopeCurator = 2;           
+        displayName="Panneau (PPM)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_PPM.paa"};
+	};
+	
 	class SignAd_Sponsor_F;
 	
 	class TFD_PanneauCampTimon : SignAd_Sponsor_F {
