@@ -24,7 +24,7 @@ class cfgVehicles
             _generalMacro = "I_Heli_light_03_unarmed_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";               
+            faction = "TFD_MN";               
             displayName="HAS.4 Lynx Marine";
 			author = "Heartbroken";
 			crew = "B_Helipilot_F"; //Ai ajouté un point virgule après cette ligne, si besoin de débug penser à l'enlever
