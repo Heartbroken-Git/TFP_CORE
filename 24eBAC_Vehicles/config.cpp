@@ -40,7 +40,7 @@ class cfgVehicles
             _generalMacro = "I_Heli_light_03_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";            
+            faction = "TFD_MN";            
             displayName="HAS.4 Lynx Marine (Arme)";
 			author = "Heartbroken";
 			crew = "B_Helipilot_F";
@@ -55,7 +55,7 @@ class cfgVehicles
             _generalMacro = "I_Heli_light_03_unarmed_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_MN";             
             displayName="HAS.4 Lynx Marine (Gris)";
 			author = "Heartbroken";
 			crew = "B_Helipilot_F";
@@ -72,7 +72,7 @@ class cfgVehicles
             _generalMacro = "O_Heli_Light_02_unarmed_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_MN";             
             displayName="AS.365SB Panther Marine (Fonce)";
 			author = "Heartbroken";
 			crew = "B_Helipilot_F";
@@ -87,7 +87,7 @@ class cfgVehicles
             _generalMacro = "O_Heli_Light_02_unarmed_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_MN";             
             displayName="AS.365SB Panther Marine (AEM)";
 			author = "Heartbroken";
 			crew = "B_Helipilot_F";
@@ -102,7 +102,7 @@ class cfgVehicles
             _generalMacro = "O_Heli_Light_02_unarmed_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_MN";             
             displayName="AS.365SB Panther Marine (Pedro)";
 			author = "Heartbroken";
 			crew = "B_Helipilot_F";
@@ -133,7 +133,7 @@ class cfgVehicles
             _generalMacro = "O_Heli_Light_02_unarmed_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_MN";             
             displayName="AS.365SB Panther Marine (Arme)";
 			author = "Heartbroken";
 			crew = "B_Helipilot_F";
@@ -150,7 +150,7 @@ class cfgVehicles
             //_generalMacro = "B_APC_Wheeled_01_cannon_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="VBCI (Centre Europe)";
 			author = "Heartbroken";
 			crew = "B_crew_F";
@@ -164,7 +164,7 @@ class cfgVehicles
             //_generalMacro = "B_APC_Wheeled_01_cannon_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="VBCI (Daguet)";
 			author = "Heartbroken";
 			crew = "B_crew_F";
@@ -179,7 +179,7 @@ class cfgVehicles
         { 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="Zamak Bache (Centre Europe)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -193,7 +193,7 @@ class cfgVehicles
         { 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="Zamak SEA (Centre Europe)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -207,7 +207,7 @@ class cfgVehicles
         { 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="Zamak (Centre Europe)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -221,7 +221,7 @@ class cfgVehicles
         { 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="Zamak EVASAN (Centre Europe)";
 			author = "Heartbroken";
 			crew = "B_medic_F";
@@ -279,7 +279,7 @@ class cfgVehicles
         { 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="Zamak Bache (Daguet)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -292,7 +292,7 @@ class cfgVehicles
         { 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="Zamak SEA (Daguet)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -305,7 +305,7 @@ class cfgVehicles
         { 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="Zamak (Daguet)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -319,7 +319,7 @@ class cfgVehicles
         { 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="Zamak EVASAN (Daguet)";
 			author = "Heartbroken";
 			crew = "B_medic_F";
@@ -336,7 +336,7 @@ class cfgVehicles
 			_generalMacro = "C_Van_01_transport_F";
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AA";             
             displayName="Camionnette (Kaki)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -355,7 +355,7 @@ class cfgVehicles
 			_generalMacro = "C_Van_01_box_F";
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AA";             
             displayName="Camionnette Container (Kaki)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -373,7 +373,7 @@ class cfgVehicles
 			_generalMacro = "C_Van_01_box_F";
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="PSM (Kaki)";
 			author = "Heartbroken";
 			crew = "B_medic_F";
@@ -393,7 +393,7 @@ class cfgVehicles
 			_generalMacro = "C_Van_01_fuel_F";
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AA";             
             displayName="Camionnette SEA (Kaki)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -412,7 +412,7 @@ class cfgVehicles
 			_generalMacro = "C_Van_01_transport_F";
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AA";             
             displayName="Camionnette (Sable)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -430,7 +430,7 @@ class cfgVehicles
 			_generalMacro = "C_Van_01_box_F";
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AA";             
             displayName="Camionnette Container (Sable)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -448,7 +448,7 @@ class cfgVehicles
 			_generalMacro = "C_Van_01_box_F";
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="PSM (Sable)";
 			author = "Heartbroken";
 			crew = "B_medic_F";
@@ -467,7 +467,7 @@ class cfgVehicles
 			_generalMacro = "C_Van_01_fuel_F";
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AA";             
             displayName="Camionnette SEA (Sable)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -764,7 +764,7 @@ class cfgVehicles
 			_generalMacro = "C_Offroad_01_F";
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="Tout-terrain Train";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -782,7 +782,7 @@ class cfgVehicles
 			_generalMacro = "C_Offroad_01_F";
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="Tout-terrain Train (CONVEX)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -801,7 +801,7 @@ class cfgVehicles
 			_generalMacro = "B_G_Offroad_01_F";
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="Tout-terrain Commandos (Centre Europe)";
 			author = "Heartbroken";
 			crew = "B_recon_F";
@@ -820,7 +820,7 @@ class cfgVehicles
 			_generalMacro = "B_G_Offroad_01_armed_F";
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="Tout-terrain Commandos 12.7mm (Centre Europe)";
 			author = "Heartbroken";
 			crew = "B_recon_F";
@@ -838,7 +838,7 @@ class cfgVehicles
 			_generalMacro = "B_G_Offroad_01_F";
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="Tout-terrain Commandos (Daguet)";
 			author = "Heartbroken";
 			crew = "B_recon_F";
@@ -856,7 +856,7 @@ class cfgVehicles
 			_generalMacro = "B_G_Offroad_01_armed_F";
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="Tout-terrain Commandos 12.7mm (Daguet)";
 			author = "Heartbroken";
 			crew = "B_recon_F";
@@ -876,7 +876,7 @@ class cfgVehicles
             _generalMacro = "B_MRAP_01_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="PVP (Centre Europe)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -891,7 +891,7 @@ class cfgVehicles
             _generalMacro = "B_MRAP_01_gmg_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="PVP 40mm (Centre Europe)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -906,7 +906,7 @@ class cfgVehicles
             _generalMacro = "B_MRAP_01_hmg_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="PVP 12.7mm (Centre Europe)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -920,7 +920,7 @@ class cfgVehicles
             _generalMacro = "B_MRAP_01_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="PVP (Daguet)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -934,7 +934,7 @@ class cfgVehicles
             _generalMacro = "B_MRAP_01_gmg_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="PVP 40mm (Daguet)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -948,7 +948,7 @@ class cfgVehicles
             _generalMacro = "B_MRAP_01_hmg_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="PVP 12.7mm (Daguet)";
 			author = "Heartbroken";
 			crew = "B_soldier_F";
@@ -964,7 +964,7 @@ class cfgVehicles
             _generalMacro = "B_APC_Tracked_01_CRV_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="EBG (Centre Europe)";
 			author = "Heartbroken";
 			crew = "B_engineer_F";
@@ -978,7 +978,7 @@ class cfgVehicles
             _generalMacro = "B_APC_Tracked_01_CRV_F"; 
             scope = 2; 
             side = 1; 
-            faction = "BLU_F";             
+            faction = "TFD_AT";             
             displayName="EBG (Daguet)";
 			author = "Heartbroken";
 			crew = "B_engineer_F";
