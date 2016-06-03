@@ -43,3 +43,29 @@ class CfgFactionClasses {
 		//flag = "\a3\Data_f\Flags\flag_Altis_co.paa"; //Mettre le drapeau de la France plus tard ?
 	};
 };
+
+class CfgWeapons {
+	
+	class H_MilCap_blue;
+	class TFD_CasquetteGend_Depart : H_MilCap_blue {
+		_generalMacro = "H_MilCap_blue"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Casquette (Gendarmerie Departementale)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteGend_Depart.paa"};  
+	};
+	
+	class TFD_CasquetteGend_Mobile : H_MilCap_blue {
+		_generalMacro = "H_MilCap_blue"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Casquette (Gendarmerie Mobile)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteGend_Mobile.paa"};  
+	};
+}
