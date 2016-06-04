@@ -52,7 +52,7 @@ class CfgWeapons {
         scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;             
-        displayName="Casquette (Gendarmerie Departementale)";
+        displayName="Casquette Souple (Gendarmerie Departementale)";
 		author = "Heartbroken";
 		hiddenSelections[]= {"camo"}; 
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteGend_Depart.paa"};  
@@ -63,9 +63,31 @@ class CfgWeapons {
         scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;             
-        displayName="Casquette (Gendarmerie Mobile)";
+        displayName="Casquette Souple (Gendarmerie Mobile)";
 		author = "Heartbroken";
 		hiddenSelections[]= {"camo"}; 
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteGend_Mobile.paa"};  
+	};
+	
+	class TFD_CasquettePM_ASVP : H_MilCap_blue {
+		_generalMacro = "H_MilCap_blue"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Casquette Souple (ASVP)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePM_ASVP.paa"};  
+	};
+	
+	class TFD_CasquettePM : H_MilCap_blue {
+		_generalMacro = "H_MilCap_blue"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Casquette Souple (Police Municipale)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePM.paa"};  
 	};
 }
