@@ -90,4 +90,15 @@ class CfgWeapons {
 		hiddenSelections[]= {"camo"}; 
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePM.paa"};  
 	};
+	
+	class TFD_CasquetteAdmPen : H_MilCap_blue {
+		_generalMacro = "H_MilCap_blue"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Casquette Souple (Administration Penitentiaire)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteAdmPen.paa"};  
+	};
 }
