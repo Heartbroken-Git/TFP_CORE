@@ -46,6 +46,7 @@ class CfgFactionClasses {
 
 class CfgWeapons {
 	
+	// CASQUETTE SOUPLE
 	class H_MilCap_blue;
 	class TFD_CasquetteGend_Depart : H_MilCap_blue {
 		_generalMacro = "H_MilCap_blue"; 
@@ -101,4 +102,66 @@ class CfgWeapons {
 		hiddenSelections[]= {"camo"}; 
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteAdmPen.paa"};  
 	};
-}
+	
+	//UNIFORME
+	class UniformItem;
+	
+	//POLO
+	class U_Rangemaster;
+	class TFD_PoloGend : U_Rangemaster {
+		_generalMacro = "U_Rangemaster"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Polo (Gendarmerie Nationale)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloGend.paa"};
+		class ItemInfo: UniformItem{
+            uniformModel = "-";
+            uniformClass = TFD_Gendarme_Depart;
+            containerClass = Supply40;
+            mass = 40;
+		};
+	};
+};
+
+class CfgVehicles {
+	
+	/// Magazines macros definition ///
+ 
+	#define mag_2(a) a, a
+	#define mag_3(a) a, a, a
+	#define mag_4(a) a, a, a, a
+	#define mag_5(a) a, a, a, a, a
+	#define mag_6(a) a, a, a, a, a, a
+	#define mag_7(a) a, a, a, a, a, a, a
+	#define mag_8(a) a, a, a, a, a, a, a, a
+	#define mag_9(a) a, a, a, a, a, a, a, a, a
+	#define mag_10(a) a, a, a, a, a, a, a, a, a, a
+	#define mag_11(a) a, a, a, a, a, a, a, a, a, a, a
+	#define mag_12(a) a, a, a, a, a, a, a, a, a, a, a, a
+	
+	class B_RangeMaster_F;                     // For inheritance to work, the base class has to be defined.
+    class TFD_Gendarme_Depart: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
+    {
+        author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
+		displayName = "Gendarme (Departemental)";
+		side = 1;
+		faction = "TFD_GN";
+        scope = 2;                          // 2 = class is available in the editor; 1 = class is unavailable in the editor, but can be accessed via a macro; 0 = class is unavailable (and used for inheritance only).
+        scopeCurator = 2;                   // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
+        scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
+        uniformClass = "TFD_PoloGend";                          // This links this soldier to a particular uniform. For the details, see below.
+		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloGend.paa"}; 
+        weapons[] = {hgun_Rook40_F, Throw, Put};               // Which weapons the character has.
+        respawnWeapons[] = {hgun_Rook40_F, Throw, Put};        // Which weapons the character respawns with.
+        Items[] = {FirstAidKit};                // Which items the character has.
+        RespawnItems[] = {FirstAidKit};         // Which items the character respawns with.
+        magazines[] = {mag_4(16Rnd_9x21_Mag), Chemlight_green, Chemlight_green};               // What ammunition the character has.
+        respawnMagazines[] = {mag_4(16Rnd_9x21_Mag), Chemlight_green, Chemlight_green};        // What ammunition the character respawns with.
+        linkedItems[] = {V_Rangemaster_belt, TFD_CasquetteGend_Depart, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
+        respawnLinkedItems[] = {V_Rangemaster_belt, TFD_CasquetteGend_Depart, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
+    };
+};
