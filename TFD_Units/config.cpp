@@ -103,10 +103,28 @@ class CfgWeapons {
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteAdmPen.paa"};  
 	};
 	
-	//UNIFORME
+	// VESTES
+	
+	// RECYCLEUR
+	class V_RebreatherB;
+	class TFD_RecycleurHV : V_RebreatherB {
+		_generalMacro = "V_RebreatherB"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Recycleur (Haute Visibilite)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\RecycleurHV.paa"};
+		hiddenUnderwaterSelections[] = {"hide"};
+		shownUnderwaterSelections[] = {"unhide","unhide2"};
+		hiddenUnderwaterSelectionsTextures[] = {"\TFD_Units\Data\Vest\RecycleurHV.paa","\TFD_Units\Data\Vest\RecycleurHV.paa","\A3\characters_f\data\visors_ca.paa"};
+	};
+	
+	// UNIFORME
 	class UniformItem;
 	
-	//POLO
+	// POLO
 	class U_Rangemaster;
 	class TFD_PoloGend : U_Rangemaster {
 		_generalMacro = "U_Rangemaster"; 
@@ -124,6 +142,26 @@ class CfgWeapons {
             mass = 40;
 		};
 	};
+	
+	// WETSUIT
+	class U_B_Wetsuit;
+	class TFD_WetsuitHV : U_B_Wetsuit {
+		_generalMacro = "U_B_Wetsuit"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Combinaison de plongee (Haute Visibilite)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\WetsuitHV.paa"};
+		class ItemInfo: UniformItem{
+            uniformModel = "-";
+            uniformClass = TFD_Pompier_PL;
+            containerClass = Supply80;
+			uniformType = "Neopren";
+            mass = 60;
+		};
+	}
 };
 
 class CfgVehicles {
@@ -163,5 +201,32 @@ class CfgVehicles {
         respawnMagazines[] = {mag_4(16Rnd_9x21_Mag), Chemlight_green, Chemlight_green};        // What ammunition the character respawns with.
         linkedItems[] = {V_Rangemaster_belt, TFD_CasquetteGend_Depart, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {V_Rangemaster_belt, TFD_CasquetteGend_Depart, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
+    };
+	
+	class B_diver_F;
+    class TFD_Pompier_PL: B_diver_F
+    {
+        author = "Heartbroken";
+		displayName = "Sapeur-Pompier (Plongeur)";
+		side = 3;
+		faction = "CIV_F";
+        scope = 2;
+        scopeCurator = 2;
+        scopeArsenal = 2;
+        uniformClass = "TFD_WetsuitHV";
+		hiddenSelections[] = {"Camo1","Camo2"};
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\WetsuitHV.paa","\TFD_Units\Data\Vest\RecycleurHV.paa"};
+		hiddenUnderwaterSelections[] = {"hide"};
+		shownUnderwaterSelections[] = {"unhide","unhide2"};
+		hiddenUnderwaterSelectionsTextures[] = {"\TFD_Units\Data\Vest\RecycleurHV.paa","\TFD_Units\Data\Vest\RecycleurHV.paa","\A3\characters_f\data\visors_ca.paa"};
+		backpack="";
+        weapons[] = {Throw, Put};
+        respawnWeapons[] = {Throw, Put};
+        Items[] = {FirstAidKit};
+        RespawnItems[] = {FirstAidKit};
+        magazines[] = {Chemlight_blue, Chemlight_blue, Chemlight_red, Chemlight_red, Chemlight_green, Chemlight_green};
+        respawnMagazines[] = {Chemlight_blue, Chemlight_blue, Chemlight_red, Chemlight_red, Chemlight_green, Chemlight_green};
+        linkedItems[] = {TFD_RecycleurHV, G_B_Diving, ItemMap, ItemCompass, ItemWatch, ItemRadio};
+        respawnLinkedItems[] = {TFD_RecycleurHV, G_B_Diving, ItemMap, ItemCompass, ItemWatch, ItemRadio};
     };
 };
