@@ -132,6 +132,41 @@ class CfgWeapons {
 		hiddenUnderwaterSelectionsTextures[] = {"\TFD_Units\Data\Vest\RecycleurHV.paa","\TFD_Units\Data\Vest\RecycleurHV.paa","\A3\characters_f\data\visors_ca.paa"};
 	};
 	
+	// GILET TACTIQUE
+	class V_TacVest_blk;
+	class TFD_GHV_Infirmier : V_TacVest_blk {
+		_generalMacro = " V_TacVest_blk"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Gilet Haute Visibilite (Infirmier)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_Infirmier.paa"};
+	};
+	
+	class TFD_GHV_Medecin : V_TacVest_blk {
+		_generalMacro = " V_TacVest_blk"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Gilet Haute Visibilite (Medecin)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_Medecin.paa"};
+	};
+	
+	class TFD_GHV_Formateur : V_TacVest_blk {
+		_generalMacro = " V_TacVest_blk"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Gilet Haute Visibilite (Formateur)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_Formateur.paa"};
+	};
+	
 	// UNIFORME
 	class UniformItem;
 	
