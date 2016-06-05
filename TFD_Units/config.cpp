@@ -103,6 +103,17 @@ class CfgWeapons {
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteAdmPen.paa"};  
 	};
 	
+	class TFD_CasquetteSP : H_MilCap_blue {
+		_generalMacro = "H_MilCap_blue"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Casquette Souple (Sapeur-Pompier)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteSP.paa"};  
+	};
+	
 	// VESTES
 	
 	// RECYCLEUR
@@ -138,6 +149,23 @@ class CfgWeapons {
 		class ItemInfo: UniformItem{
             uniformModel = "-";
             uniformClass = TFD_Gendarme_Depart;
+            containerClass = Supply40;
+            mass = 40;
+		};
+	};
+	
+	class TFD_PoloSP : U_Rangemaster {
+		_generalMacro = "U_Rangemaster"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Polo (Sapeur-Pompier)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloSP.paa"};
+		class ItemInfo: UniformItem{
+            uniformModel = "-";
+            uniformClass = TFD_Pompier_polo;
             containerClass = Supply40;
             mass = 40;
 		};
@@ -223,6 +251,28 @@ class CfgVehicles {
         respawnMagazines[] = {mag_4(16Rnd_9x21_Mag), Chemlight_green, Chemlight_green};        // What ammunition the character respawns with.
         linkedItems[] = {V_Rangemaster_belt, TFD_CasquetteGend_Mobile, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {V_Rangemaster_belt, TFD_CasquetteGend_Mobile, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
+    };
+	
+	class TFD_Pompier_polo: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
+    {
+        author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
+		displayName = "Pompier (Polo)";
+		side = 3;
+		faction = "CIV_F";
+        scope = 2;                          // 2 = class is available in the editor; 1 = class is unavailable in the editor, but can be accessed via a macro; 0 = class is unavailable (and used for inheritance only).
+        scopeCurator = 2;                   // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
+        scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
+        uniformClass = "TFD_PoloSP";                          // This links this soldier to a particular uniform. For the details, see below.
+		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloSP.paa"}; 
+        weapons[] = {Throw, Put};               // Which weapons the character has.
+        respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
+        Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
+        RespawnItems[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};         // Which items the character respawns with.
+        magazines[] = {Chemlight_green, Chemlight_green};               // What ammunition the character has.
+        respawnMagazines[] = {Chemlight_green, Chemlight_green};        // What ammunition the character respawns with.
+        linkedItems[] = {TFD_CasquetteSP, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
+        respawnLinkedItems[] = {TFD_CasquetteSP, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
 	
 	class B_diver_F;
