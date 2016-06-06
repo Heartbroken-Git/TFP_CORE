@@ -170,7 +170,7 @@ class CfgWeapons {
 	// GILET TACTIQUE
 	class V_TacVest_blk;
 	class TFD_GHV_Infirmier : V_TacVest_blk {
-		_generalMacro = " V_TacVest_blk"; 
+		_generalMacro = "V_TacVest_blk"; 
         scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;             
@@ -181,7 +181,7 @@ class CfgWeapons {
 	};
 	
 	class TFD_GHV_Medecin : V_TacVest_blk {
-		_generalMacro = " V_TacVest_blk"; 
+		_generalMacro = "V_TacVest_blk"; 
         scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;             
@@ -192,7 +192,7 @@ class CfgWeapons {
 	};
 	
 	class TFD_GHV_Formateur : V_TacVest_blk {
-		_generalMacro = " V_TacVest_blk"; 
+		_generalMacro = "V_TacVest_blk"; 
         scope = 2;
 		scopeCurator = 2;
 		scopeArsenal = 2;             
@@ -200,6 +200,39 @@ class CfgWeapons {
 		author = "Heartbroken";
 		hiddenSelections[]= {"camo"}; 
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_Formateur.paa"};
+	};
+	
+	class TFD_GiletTac_GN : V_TacVest_blk {
+		_generalMacro = "V_TacVest_blk"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Gilet pare-balles (Gendarmerie)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_GN.paa"};
+	};
+	
+	class TFD_GiletTac_PN : V_TacVest_blk {
+		_generalMacro = "V_TacVest_blk"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Gilet pare-balles (Police)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_PN.paa"};
+	};
+	
+	class TFD_GiletTac_ERIS : V_TacVest_blk {
+		_generalMacro = "V_TacVest_blk"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Gilet pare-balles (ERIS)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_ERIS.paa"};
 	};
 	
 	// UNIFORME
