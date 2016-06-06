@@ -127,6 +127,17 @@ class CfgWeapons {
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteSecurite.paa"};  
 	};
 	
+	class TFD_CasquetteCadet : H_Cap_blk {
+		_generalMacro = "H_Cap_blk"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Casquette (Cadet)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteCadet.paa"};  
+	};
+	
 	// VESTES
 	
 	// RECYCLEUR
