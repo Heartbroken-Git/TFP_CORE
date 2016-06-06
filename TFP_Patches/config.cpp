@@ -617,4 +617,19 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\OPEX_ServalDAA.paa";
 		textureVehicle = "";
 	};
+	//Release 5
+	class TFP_FR_PMrurale
+	{
+		displayName = "[FR] Police Rurale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PM_rurale.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PMruraleEcusson
+	{
+		displayName = "[FR] Ecusson de la Police Rurale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PM_ruraleEcusson.paa";
+		textureVehicle = "";
+	};
 };

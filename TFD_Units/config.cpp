@@ -114,6 +114,17 @@ class CfgWeapons {
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteSP.paa"};  
 	};
 	
+	class TFD_CasquettePM_rurale : H_MilCap_blue {
+		_generalMacro = "H_MilCap_blue"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Casquette Souple (Police Rurale)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePM_rurale.paa"};  
+	};
+	
 	// CASQUETTE
 	class H_Cap_blk;
 	class TFD_CasquetteSecurite : H_Cap_blk {
