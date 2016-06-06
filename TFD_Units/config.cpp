@@ -3,7 +3,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {/*Mettre un addon de base avec des unités*/};
+		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
 		version = 1.0
 		author[] = {"Heartbroken"};
 	};
@@ -114,6 +114,19 @@ class CfgWeapons {
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteSP.paa"};  
 	};
 	
+	// CASQUETTE
+	class H_Cap_blk;
+	class TFD_CasquetteSecurite : H_Cap_blk {
+		_generalMacro = "H_Cap_blk"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Casquette (Securite)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteSecurite.paa"};  
+	};
+	
 	// VESTES
 	
 	// RECYCLEUR
@@ -218,6 +231,23 @@ class CfgWeapons {
 		class ItemInfo: UniformItem{
             uniformModel = "-";
             uniformClass = TFD_PompierAir_polo;
+            containerClass = Supply40;
+            mass = 40;
+		};
+	};
+	
+	class TFD_PoloSecurite : U_Rangemaster {
+		_generalMacro = "U_Rangemaster"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Polo (Securite)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloSecurite.paa"};
+		class ItemInfo: UniformItem{
+            uniformModel = "-";
+            uniformClass = TFD_Vigile_polo;
             containerClass = Supply40;
             mass = 40;
 		};
@@ -347,6 +377,28 @@ class CfgVehicles {
         respawnMagazines[] = {Chemlight_green, Chemlight_green};        // What ammunition the character respawns with.
         linkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
+    };
+	
+	class TFD_Vigile_polo: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
+    {
+        author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
+		displayName = "Vigile (Polo)";
+		side = 3;
+		faction = "CIV_F";
+        scope = 2;                          // 2 = class is available in the editor; 1 = class is unavailable in the editor, but can be accessed via a macro; 0 = class is unavailable (and used for inheritance only).
+        scopeCurator = 2;                   // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
+        scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
+        uniformClass = "TFD_PoloSecurite";                          // This links this soldier to a particular uniform. For the details, see below.
+		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloSecurite.paa"}; 
+        weapons[] = {Throw, Put};               // Which weapons the character has.
+        respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
+        Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
+        RespawnItems[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};         // Which items the character respawns with.
+        magazines[] = {Chemlight_green, Chemlight_green};               // What ammunition the character has.
+        respawnMagazines[] = {Chemlight_green, Chemlight_green};        // What ammunition the character respawns with.
+        linkedItems[] = {TFD_CasquetteSecurite, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
+        respawnLinkedItems[] = {TFD_CasquetteSecurite, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
 	
 	class B_diver_F;
