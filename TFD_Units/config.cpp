@@ -235,6 +235,40 @@ class CfgWeapons {
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_ERIS.paa"};
 	};
 	
+	class TFD_GiletTac_Nego : V_TacVest_blk {
+		_generalMacro = "V_TacVest_blk"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Gilet pare-balles (Negociateur)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_Nego.paa"};
+	};
+	
+	class TFD_GiletTac_SC : V_TacVest_blk {
+		_generalMacro = "V_TacVest_blk"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Gilet pare-balles (Deminage)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_SC.paa"};
+	};
+	
+	class V_TacVest_camo;
+	class TFD_GiletTac_CE : V_TacVest_camo {
+		_generalMacro = "V_TacVest_camo"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Gilet pare-balles (Centre Europe)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_CE.paa"};
+	};
+	
 	// UNIFORME
 	class UniformItem;
 	
