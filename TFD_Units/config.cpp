@@ -149,6 +149,28 @@ class CfgWeapons {
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteCadet.paa"};  
 	};
 	
+	class TFD_CasquettePolice : H_Cap_blk {
+		_generalMacro = "H_Cap_blk"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Casquette (Police)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePolice.paa"};  
+	};
+	
+	class TFD_CasquettePC : H_Cap_blk {
+		_generalMacro = "H_Cap_blk"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Casquette (Protection Civile)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePC.paa"};  
+	};
+	
 	// CASQUE F2
 	class H_HelmetB_plain_blk;
 	class TFD_CasqueF2_HDR : H_HelmetB_plain_blk {
