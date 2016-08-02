@@ -193,6 +193,16 @@ class CfgVehicles {
 		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_PPM.paa"};
 	};
 	
+	class TFD_PanneauZDHS : SignAd_SponsorS_F {
+		_generalMacro = "SignAd_SponsorS_F";
+        scope = 2; 
+        scopeCurator = 2;           
+        displayName="Panneau (ZDHS)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_ZDHS.paa"};
+	};
+	
 	class SignAd_Sponsor_F;
 	
 	class TFD_PanneauCampTimon : SignAd_Sponsor_F {
