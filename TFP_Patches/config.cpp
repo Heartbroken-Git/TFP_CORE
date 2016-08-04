@@ -632,4 +632,74 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\PM_ruraleEcusson.paa";
 		textureVehicle = "";
 	};
+	class TFP_Teams_24eBAC
+	{
+		displayName = "[Teams] 24eme Bataillon Aeroporte de Choc";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\24eBAC.paa";
+		textureVehicle = "";
+	};
+	class TFP_Teams_TFD
+	{
+		displayName = "[Teams] The French Devils";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\TFD.paa";
+		textureVehicle = "";
+	};
+	class TFP_Teams_TFP
+	{
+		displayName = "[Teams] Task Force Phoenix";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\TFP.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_AP
+	{
+		displayName = "[FR] Administration Penitentiaire";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\AP.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_APeris
+	{
+		displayName = "[FR] Equipe Regionale d'Intervention et de Securite";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\AP_ERIS.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PM
+	{
+		displayName = "[FR] Police Municipale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PMasvp
+	{
+		displayName = "[FR] Agent de Surveillance de la Voie Publique";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PM_ASVP.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PN
+	{
+		displayName = "[FR] Police Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PNcrs
+	{
+		displayName = "[FR] Compagnie Republicaine de Securite";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_CRS.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SP
+	{
+		displayName = "[FR] Sapeurs-Pompiers";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SP.paa";
+		textureVehicle = "";
+	};
 };
