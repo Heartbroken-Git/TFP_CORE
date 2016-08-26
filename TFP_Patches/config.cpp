@@ -744,4 +744,18 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\DLEM.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_DGSI
+	{
+		displayName = "[FR] Direction Generale de la Securite Interieure";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\DGSI.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_ANSSI
+	{
+		displayName = "[FR] Agence Nationale de la Securite des Systemes d'Information";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\ANSSI.paa";
+		textureVehicle = "";
+	};
 };
