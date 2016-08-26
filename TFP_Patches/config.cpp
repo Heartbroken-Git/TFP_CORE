@@ -702,4 +702,46 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\SP.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_2eBB
+	{
+		displayName = "[FR] 2eme Brigade Blindee";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\2eBB.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_2eBBBV
+	{
+		displayName = "[FR] 2eme Brigade Blindee (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\2eBB_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_2eREP
+	{
+		displayName = "[FR] 2eme Regiment Etranger de Parachutistes";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\2eREP.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_2eREPBV
+	{
+		displayName = "[FR] 2eme Regiment Etranger de Parachutistes (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\2eREP_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_6eRG
+	{
+		displayName = "[FR] 6e Regiment du Genie";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\6eRG.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DLEM
+	{
+		displayName = "[FR] Detachement de Legion Etrangere de Mayotte";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\DLEM.paa";
+		textureVehicle = "";
+	};
 };
