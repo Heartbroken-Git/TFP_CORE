@@ -253,10 +253,10 @@ class cfgVehicles
             faction = "CIV_F";             
             displayName="Zamak EVASAN (CICR)";
 			author = "Heartbroken";
-			crew = "C_scientist_F";
+			crew = "TFD_Chirurgien_CICR";
 			hiddenSelections[]= {"camo1", "camo2"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivCabine_CICR.paa", "\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivBache_CICR.paa"};            
-			typicalCargo[] = {"C_scientist_F"}; 
+			typicalCargo[] = {"TFD_Medecin_CICR","TFD_Chirurgien_CICR", "TFD_Chirurgien_CICR"}; 
 			vehicleClass = "Support";
 		};
 		
@@ -267,10 +267,10 @@ class cfgVehicles
             faction = "CIV_F";             
             displayName="Zamak (CICR)";
 			author = "Heartbroken";
-			crew = "C_scientist_F";
+			crew = "TFD_Medecin_CICR";
 			hiddenSelections[]= {"camo1", "camo2"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivCabine_CICR.paa", "\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivBache_CICR.paa"};            
-			typicalCargo[] = {"C_scientist_F"}; 
+			typicalCargo[] = {"TFD_Medecin_CICR", "TFD_Medecin_CICR"}; 
 			vehicleClass = "Support";
 		};
 		
