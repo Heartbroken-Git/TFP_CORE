@@ -618,10 +618,10 @@ class cfgVehicles
             faction = "CIV_F";             
             displayName="Tout-terrain CICR";
 			author = "Heartbroken";
-			crew = "C_scientist_F";
+			crew = "TFD_Benevole_polo";
 			hiddenSelections[]= {"camo", "camo2"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_CICR.paa", "\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_CICR.paa"};            
-			typicalCargo[] = {"C_scientist_F"}; 
+			typicalCargo[] = {"TFD_Benevole_polo"}; 
 			class EventHandlers 
 				{
 					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomNGOOffroad.sqf"""
@@ -692,10 +692,10 @@ class cfgVehicles
             faction = "CIV_F";             
             displayName="SUV CICR";
 			author = "Heartbroken";
-			crew = "C_scientist_F";
+			crew = "TFD_Benevole_polo";
 			hiddenSelections[]= {"Camo1"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\SUV_Civ\SUV_CICR.paa"};            
-			typicalCargo[] = {"C_scientist_F"}; 
+			typicalCargo[] = {"TFD_Benevole_polo","TFD_Benevole_polo"}; 
 			class EventHandlers 
 				{
 					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
@@ -712,10 +712,10 @@ class cfgVehicles
             faction = "CIV_F";             
             displayName="Voiture a hayon CICR";
 			author = "Heartbroken";
-			crew = "C_scientist_F";
+			crew = "TFD_Benevole_polo";
 			hiddenSelections[]= {"Camo1"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Hatchback_Civ\Hatchback_CICR.paa"};            
-			typicalCargo[] = {"C_scientist_F"}; 
+			typicalCargo[] = {"TFD_Benevole_polo","TFD_Benevole_polo"}; 
 			class EventHandlers 
 				{
 					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
