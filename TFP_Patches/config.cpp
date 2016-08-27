@@ -758,4 +758,18 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\ANSSI.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_PNdcpj
+	{
+		displayName = "[FR] Direction Centrale de la Police Judiciaire";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_DCPJ.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PNcadet
+	{
+		displayName = "[FR] Cadet de la Republique";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_Cadet.paa";
+		textureVehicle = "";
+	};
 };
