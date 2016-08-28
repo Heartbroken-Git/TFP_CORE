@@ -772,4 +772,130 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\PN_Cadet.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_9eBIMa
+	{
+		displayName = "[FR] 9eme Brigade d'Infanterie de Marine";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\9eBIMa.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_9eBIMaBV
+	{
+		displayName = "[FR] 9eme Brigade d'Infanterie de Marine (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\9eBIMa_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_35F
+	{
+		displayName = "[FR] Flottille 35F";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\35F.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_CDTCyberDefense
+	{
+		displayName = "[FR] Commandement Operationnel de Cyberdefense";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\CDTCyberDefense.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_CDTCyberDefenseBV
+	{
+		displayName = "[FR] Commandement Operationnel de Cyberdefense (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\CDTCyberDefense_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_ONG_CRF
+	{
+		displayName = "[ONG] Croix Rouge Francaise";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\CRF.paa";
+		textureVehicle = "";
+	};
+	class TFP_ONG_CRFsecouriste
+	{
+		displayName = "[ONG] Croix Rouge Francaise (Secouriste)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\CRF_Secouriste.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DGA
+	{
+		displayName = "[FR] Direction Generale de l'Armement";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\DGA.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_Douanes
+	{
+		displayName = "[FR] Douanes";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\Douanes.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_LaPoste
+	{
+		displayName = "[FR] La Poste";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\LaPoste.paa";
+		textureVehicle = "";
+	};
+	class TFP_MORALE_FlapFlap
+	{
+		displayName = "[MORALE] Flap-Flap";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\MORALE_FlapFlap.paa";
+		textureVehicle = "";
+	};
+	class TFP_MORALE_PumaSAR
+	{
+		displayName = "[MORALE] Puma SAR";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\MORALE_PumaSAR.paa";
+		textureVehicle = "";
+	};
+	class TFP_ONG_PC
+	{
+		displayName = "[ONG] Protection Civile";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PC.paa";
+		textureVehicle = "";
+	};
+	class TFP_ONG_PCblason
+	{
+		displayName = "[ONG] Federation Nationale de Protection Civile";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PC_Blason.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCdeminage
+	{
+		displayName = "[FR] Securite Civile - Deminage";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_Deminage.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCdeminageBV
+	{
+		displayName = "[FR] Securite Civile - Deminage (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_DeminageBV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCForMiSC
+	{
+		displayName = "[FR] Securite Civile - Formations Militaires";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_ForMiSC.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCOPEX
+	{
+		displayName = "[FR] Securite Civile - OPEX";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_OPEX.paa";
+		textureVehicle = "";
+	};
 };
