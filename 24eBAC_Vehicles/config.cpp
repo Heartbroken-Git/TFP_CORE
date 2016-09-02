@@ -10,7 +10,7 @@ class CfgPatches
         requiredVersion = 0.1;
         requiredAddons[] = {"A3_Air_F_EPB_Heli_light_03","TFD_Units"}; //Mettre les autres hélicos ici ?
 		version = 2.3
-		author[] = "Heartbroken";
+		author = "Heartbroken";
     };
 };
 
