@@ -206,6 +206,17 @@ class CfgWeapons {
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasqueF2_Off.paa"};  
 	};
 	
+	class TFD_CasqueF2_PC : H_HelmetB_plain_blk {
+		_generalMacro = "H_HelmetB_plain_blk"; 
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;             
+        displayName="Casque F2 (Protection Civile)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"}; 
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasqueF2_PC.paa"};  
+	};
+	
 	// VESTES
 	
 	// RECYCLEUR
