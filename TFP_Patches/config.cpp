@@ -364,9 +364,9 @@ class CfgUnitInsignia
 	};
 	class TFP_FR_gendpi
 	{
-		displayName = "[FR] Peloton d'Intervention de la Gendarmerie Nationale";
+		displayName = "[FR] Peloton d'Intervention de la Gendarmerie Mobile";
 		author = "Heartbroken";
-		texture = "TFP_Patches\data\GEND_PI.paa";
+		texture = "TFP_Patches\data\GN\Specialites\PI.paa";
 		textureVehicle = "";
 	};
 	//Release 4
@@ -572,7 +572,7 @@ class CfgUnitInsignia
 	{
 		displayName = "[FR] Compagnie de St Pierre et Miquelon - Gendarmerie Nationale";
 		author = "Heartbroken";
-		texture = "TFP_Patches\data\GEND_SPM.paa";
+		texture = "TFP_Patches\data\GN\Specialites\SPM.paa";
 		textureVehicle = "";
 	};
 	class TFP_FR_opexBarkhane
@@ -1225,6 +1225,125 @@ class CfgUnitInsignia
 		displayName = "[FR] Region de Gendarmerie (Saint-Pierre-et-Miquelon)";
 		author = "Heartbroken";
 		texture = "TFP_Patches\data\GN\Regions\7eLGM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendAGIGN
+	{
+		displayName = "[FR] Antenne du GIGN";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\AGIGN.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendArmurier
+	{
+		displayName = "[FR] Armurier Pyrotechnicien - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\Armurier.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendBRI
+	{
+		displayName = "[FR] Brigade Rapide d'Intervention - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\BRI.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendCentreOperationsRenseignement
+	{
+		displayName = "[FR] Centre d'Operations et de Renseignement - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\CentreOperationsRenseignement.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendConducteurAutorite
+	{
+		displayName = "[FR] Conducteur d'Autorite - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\ConducteurAutorite.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendFluvial
+	{
+		displayName = "[FR] Brigade Fluviale - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\Fluvial.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendHauteMontagne
+	{
+		displayName = "[FR] Peloton de Gendarmerie de Haute Montagne";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\HauteMontagne.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendNRBC
+	{
+		displayName = "[FR] Escadron NRBC - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\NRBC.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendOPJ
+	{
+		displayName = "[FR] Officier de Police Judiciaire - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\OPJ.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendpibv
+	{
+		displayName = "[FR] Peloton d'Intervention de la Gendarmerie Mobile (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\PI_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendPlongeursAutonomes
+	{
+		displayName = "[FR] Plongeurs Autonomes - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\PlongeursAutonomes.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendPSIG
+	{
+		displayName = "[FR] Peloton de Securite et d'Intervention de la Gendarmerie Departementale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\PSIG.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendPSIGbv
+	{
+		displayName = "[FR] Peloton de Securite et d'Intervention de la Gendarmerie Departementale (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\PSIG_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendPSP
+	{
+		displayName = "[FR] Peloton Specialise Protection de la Gendarmerie Departementale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\PSP.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendPSPbv
+	{
+		displayName = "[FR] Peloton Specialise Protection de la Gendarmerie Departementale (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\PSP_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendSIC
+	{
+		displayName = "[FR] Systemes d'Information et de Communication - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\SIC.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendTIC
+	{
+		displayName = "[FR] Technicien d'Identification Criminelle - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\TIC.paa";
 		textureVehicle = "";
 	};
 };
