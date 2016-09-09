@@ -600,10 +600,10 @@ class cfgVehicles
             faction = "CIV_F";             
             displayName="Tout-terrain DIR";
 			author = "Heartbroken";
-			crew = "C_man_w_worker_F";
+			crew = "TFD_Patrouilleur_DIR";
 			hiddenSelections[]= {"camo", "camo2"};
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_DIR.paa", "\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_DGASec.paa"};            
-			typicalCargo[] = {"C_man_w_worker_F"}; 
+			typicalCargo[] = {"TFD_Patrouilleur_DIR"}; 
 			class EventHandlers 
 				{
 					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomServOffroad.sqf"""
