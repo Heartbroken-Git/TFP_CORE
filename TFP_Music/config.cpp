@@ -712,4 +712,28 @@ class CfgMusic
 		theme = "safe";
 		musicClass = "TFP_Music";
 		};
+	class TFP_Music_62 //Release 5.0
+		{
+		name="(TFP) A Lannister Always Pays His Debts";
+		sound[]={"\TFP_Music\ALannisterAlwaysPaysHisDebts.ogg",1,1};
+		duration = 170;
+		theme = "safe";
+		musicClass = "TFP_Music";
+		};
+	class TFP_Music_63
+		{
+		name="(TFP) Space Above and Beyond - Main Theme";
+		sound[]={"\TFP_Music\SpaceAboveAndBeyondTheme.ogg",1,1};
+		duration = 243;
+		theme = "safe";
+		musicClass = "TFP_Music";
+		};
+	class TFP_Music_64
+		{
+		name="(TFP) Space Truckin'";
+		sound[]={"\TFP_Music\SpaceTruckin'.ogg",1,1};
+		duration = 273;
+		theme = "safe";
+		musicClass = "TFP_Music";
+		};
 };
