@@ -101,6 +101,83 @@ class CfgVehicles {
 		}
 	};
 	
+	class TFD_DrapeauCH : FlagCarrier {
+		_generalMacro = "FlagCarrier"; 
+        scope = 2;
+		scopeCurator=2;		
+        displayName="Drapeau (Republique Populaire de Chine)";
+		author = "Heartbroken";           
+		class EventHandlers {
+			init="(_this select 0) setFlagTexture '\TFD_Objects\Data\Drapeau_CH.paa'"
+		}
+	};
+	
+	class TFD_DrapeauCHPLA : FlagCarrier {
+		_generalMacro = "FlagCarrier"; 
+        scope = 2;
+		scopeCurator=2;		
+        displayName="Etendard (Republique Populaire de Chine)";
+		author = "Heartbroken";           
+		class EventHandlers {
+			init="(_this select 0) setFlagTexture '\TFD_Objects\Data\Drapeau_CHPLA.paa'"
+		}
+	};
+	
+	class TFD_DrapeauGB : FlagCarrier {
+		_generalMacro = "FlagCarrier"; 
+        scope = 2;
+		scopeCurator=2;		
+        displayName="Drapeau (Gabon)";
+		author = "Heartbroken";           
+		class EventHandlers {
+			init="(_this select 0) setFlagTexture '\TFD_Objects\Data\Drapeau_GB.paa'"
+		}
+	};
+	
+	class TFD_DrapeauJP : FlagCarrier {
+		_generalMacro = "FlagCarrier"; 
+        scope = 2;
+		scopeCurator=2;		
+        displayName="Drapeau (Japon)";
+		author = "Heartbroken";           
+		class EventHandlers {
+			init="(_this select 0) setFlagTexture '\TFD_Objects\Data\Drapeau_JP.paa'"
+		}
+	};
+	
+	class TFD_DrapeauJPJSDF : FlagCarrier {
+		_generalMacro = "FlagCarrier"; 
+        scope = 2;
+		scopeCurator=2;		
+        displayName="Etendard (Japon)";
+		author = "Heartbroken";           
+		class EventHandlers {
+			init="(_this select 0) setFlagTexture '\TFD_Objects\Data\Drapeau_JPJSDF.paa'"
+		}
+	};
+	
+	class TFD_DrapeauMO : FlagCarrier {
+		_generalMacro = "FlagCarrier"; 
+        scope = 2;
+		scopeCurator=2;		
+        displayName="Drapeau (Maroc)";
+		author = "Heartbroken";           
+		class EventHandlers {
+			init="(_this select 0) setFlagTexture '\TFD_Objects\Data\Drapeau_MO.paa'"
+		}
+	};
+	
+	class TFD_DrapeauNG : FlagCarrier {
+		_generalMacro = "FlagCarrier"; 
+        scope = 2;
+		scopeCurator=2;		
+        displayName="Drapeau (Niger)";
+		author = "Heartbroken";           
+		class EventHandlers {
+			init="(_this select 0) setFlagTexture '\TFD_Objects\Data\Drapeau_NG.paa'"
+		}
+	};
+	
 	class SignAd_SponsorS_F;
 	
 	class TFD_PanneauVigipirate : SignAd_SponsorS_F {
