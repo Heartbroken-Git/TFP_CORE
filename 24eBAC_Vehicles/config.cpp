@@ -757,6 +757,24 @@ class cfgVehicles
 					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
 				};
 		};
+		
+	class 24eBAC_Hatchback_SNCF:C_Hatchback_01_F
+        { 
+			_generalMacro = "C_Hatchback_01_F";
+            scope = 2; 
+            side = 3; 
+            faction = "CIV_F";             
+            displayName="Voiture a hayon SNCF";
+			author = "Heartbroken";
+			crew = "C_man_polo_1_F_euro";
+			hiddenSelections[]= {"Camo1"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Hatchback_Civ\Hatchback_SNCF.paa"};            
+			typicalCargo[] = {"C_man_polo_1_F_euro"}; 
+			class EventHandlers 
+				{
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+				};
+		};
 	
 	//Offroad Militaire
 	class 24eBAC_OffroadTrain:C_Offroad_01_F
