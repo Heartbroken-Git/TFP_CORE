@@ -811,6 +811,24 @@ class cfgVehicles
 					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
 				};
 		};
+		
+	class 24eBAC_Hatchback_SP:C_Hatchback_01_F
+        { 
+			_generalMacro = "C_Hatchback_01_F";
+            scope = 2; 
+            side = 3; 
+            faction = "CIV_F";             
+            displayName="Vehicule de Liaison (SDIS 44)";
+			author = "Heartbroken";
+			crew = "TFD_Pompier_polo";
+			hiddenSelections[]= {"Camo1"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Hatchback_Civ\Hatchback_SP.paa"};            
+			typicalCargo[] = {"TFD_Pompier_polo"}; 
+			class EventHandlers 
+				{
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+				};
+		};
 	
 	//Offroad Militaire
 	class 24eBAC_OffroadTrain:C_Offroad_01_F
