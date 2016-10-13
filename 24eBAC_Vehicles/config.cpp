@@ -829,6 +829,25 @@ class cfgVehicles
 					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
 				};
 		};
+		
+	//Hatchback Militaire
+	class 24eBAC_Hatchback_Vigipirate:C_Hatchback_01_F
+        { 
+			_generalMacro = "C_Hatchback_01_F";
+            scope = 2; 
+            side = 1; 
+            faction = "TFD_AT";             
+            displayName="Voiture a hayon (Vigipirate)";
+			author = "Heartbroken";
+			crew = "B_soldier_F";
+			hiddenSelections[]= {"Camo1"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Hatchback_Mil\Hatchback_Vigipirate.paa"};
+			typicalCargo[] = {"B_soldier_F"}; 
+			class EventHandlers 
+				{
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+				};
+		};
 	
 	//Offroad Militaire
 	class 24eBAC_OffroadTrain:C_Offroad_01_F
