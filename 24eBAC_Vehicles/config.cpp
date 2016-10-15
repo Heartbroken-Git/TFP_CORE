@@ -830,6 +830,24 @@ class cfgVehicles
 				};
 		};
 		
+	class 24eBAC_Hatchback_AP:C_Hatchback_01_F
+        { 
+			_generalMacro = "C_Hatchback_01_F";
+            scope = 2; 
+            side = 3; 
+            faction = "CIV_F";             
+            displayName="Voiture a hayon Administration Penitentiaire";
+			author = "Heartbroken";
+			crew = "TFD_SurveillantAdmPen_polo";
+			hiddenSelections[]= {"Camo1"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Hatchback_Civ\Hatchback_AP.paa"};            
+			typicalCargo[] = {"TFD_SurveillantAdmPen_polo"}; 
+			class EventHandlers 
+				{
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+				};
+		};
+		
 	//Hatchback Militaire
 	class 24eBAC_Hatchback_Vigipirate:C_Hatchback_01_F
         { 
