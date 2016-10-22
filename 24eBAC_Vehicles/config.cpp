@@ -701,6 +701,24 @@ class cfgVehicles
 					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
 				};
 		};
+		
+	class 24eBAC_SUVSAMU:C_SUV_01_F
+        { 
+			_generalMacro = "C_SUV_01_F";
+            scope = 2; 
+            side = 3; 
+            faction = "CIV_F";             
+            displayName="SUV SAMU";
+			author = "Heartbroken";
+			crew = "TFD_Ambulancier_SAMU";
+			hiddenSelections[]= {"Camo1"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\SUV_Civ\SUV_SAMU.paa"};            
+			typicalCargo[] = {"TFD_Ambulancier_SAMU"}; 
+			class EventHandlers 
+				{
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+				};
+		};
 	
 	//Hatchback Civil
 	class C_Hatchback_01_F;
