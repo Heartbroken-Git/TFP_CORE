@@ -127,6 +127,21 @@ class cfgVehicles
             availableForSupportTypes[] = {"Drop","Transport"}; 
 		};
 		
+	class 24eBAC_PantherSAMU:Heli_Light_02_unarmed_base_F
+        { 
+            _generalMacro = "O_Heli_Light_02_unarmed_F"; 
+            scope = 2; 
+            side = 3; 
+            faction = "CIV_F";             
+            displayName="AS.365SB Panther SAMU";
+			author = "Heartbroken";
+			crew = "TFD_Ambulancier_SAMU";
+			hiddenSelections[]= {"camo1"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Panther_Civ\PantherSAMU.paa"};            
+			typicalCargo[] = {"TFD_Ambulancier_SAMU"}; 
+            availableForSupportTypes[] = {"Drop","Transport"}; 
+		};
+		
 	class Heli_Light_02_base_F;
 	class 24eBAC_PantherMN_armed:Heli_Light_02_base_F
         { 
