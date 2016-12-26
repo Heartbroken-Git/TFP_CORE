@@ -9,7 +9,7 @@ class CfgPatches
         weapons[] = {};
         requiredVersion = 0.1;
         requiredAddons[] = {"A3_Air_F_EPB_Heli_light_03","TFD_Units"}; //Mettre les autres hélicos ici ?
-		version = 2.3
+		version = 2.3;
 		author = "Heartbroken";
     };
 };
@@ -360,7 +360,7 @@ class cfgVehicles
 			typicalCargo[] = {"B_soldier_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 	
@@ -379,7 +379,7 @@ class cfgVehicles
 			typicalCargo[] = {"B_soldier_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 		
@@ -398,7 +398,7 @@ class cfgVehicles
 			vehicleClass = "Support";
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomPSM.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomPSM.sqf""";
 				};
 		};
 	
@@ -417,7 +417,7 @@ class cfgVehicles
 			typicalCargo[] = {"B_soldier_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 		
@@ -436,7 +436,7 @@ class cfgVehicles
 			typicalCargo[] = {"B_soldier_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 	
@@ -454,7 +454,7 @@ class cfgVehicles
 			typicalCargo[] = {"B_soldier_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 		
@@ -473,7 +473,7 @@ class cfgVehicles
 			vehicleClass = "Support";
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomPSM.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomPSM.sqf""";
 				};
 		};
 	
@@ -491,7 +491,7 @@ class cfgVehicles
 			typicalCargo[] = {"B_soldier_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 	
@@ -510,7 +510,7 @@ class cfgVehicles
 			typicalCargo[] = {"C_scientist_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 	
@@ -528,7 +528,7 @@ class cfgVehicles
 			typicalCargo[] = {"C_man_w_worker_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 	
@@ -547,7 +547,7 @@ class cfgVehicles
 			typicalCargo[] = {"C_man_p_fugitive_F_euro"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 		
@@ -565,7 +565,7 @@ class cfgVehicles
 			typicalCargo[] = {"C_man_p_fugitive_F_euro"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 		
@@ -585,7 +585,7 @@ class cfgVehicles
 			typicalCargo[] = {"TFD_Vigile_polo"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomPolOffroad.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomPolOffroad.sqf""";
 				};
 		};
 		
@@ -603,7 +603,7 @@ class cfgVehicles
 			typicalCargo[] = {"C_man_w_worker_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomServOffroad.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomServOffroad.sqf""";
 				};
 		};
 	
@@ -621,7 +621,7 @@ class cfgVehicles
 			typicalCargo[] = {"TFD_Patrouilleur_DIR"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomServOffroad.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomServOffroad.sqf""";
 				};
 		};
 		
@@ -639,7 +639,7 @@ class cfgVehicles
 			typicalCargo[] = {"TFD_Benevole_polo"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomNGOOffroad.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomNGOOffroad.sqf""";
 				};
 		};
 		
@@ -657,7 +657,7 @@ class cfgVehicles
 			typicalCargo[] = {"C_scientist_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomNGOOffroad.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomNGOOffroad.sqf""";
 				};
 		};
 		
@@ -675,7 +675,7 @@ class cfgVehicles
 			typicalCargo[] = {"C_scientist_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomNGOOffroad.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomNGOOffroad.sqf""";
 				};
 		};
 		
@@ -695,7 +695,7 @@ class cfgVehicles
 			typicalCargo[] = {"C_scientist_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 	
@@ -713,7 +713,7 @@ class cfgVehicles
 			typicalCargo[] = {"TFD_Benevole_polo","TFD_Benevole_polo"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 		
@@ -731,7 +731,7 @@ class cfgVehicles
 			typicalCargo[] = {"TFD_Ambulancier_SAMU"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 	
@@ -751,7 +751,7 @@ class cfgVehicles
 			typicalCargo[] = {"TFD_Benevole_polo","TFD_Benevole_polo"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 		
@@ -769,7 +769,7 @@ class cfgVehicles
 			typicalCargo[] = {"C_scientist_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 	
@@ -787,7 +787,7 @@ class cfgVehicles
 			typicalCargo[] = {"C_scientist_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 		
@@ -805,7 +805,7 @@ class cfgVehicles
 			typicalCargo[] = {"C_man_polo_1_F_euro"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 		
@@ -823,7 +823,7 @@ class cfgVehicles
 			typicalCargo[] = {"TFD_Vigile_polo"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 		
@@ -841,7 +841,7 @@ class cfgVehicles
 			typicalCargo[] = {"C_man_polo_1_F_euro"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 		
@@ -859,7 +859,7 @@ class cfgVehicles
 			typicalCargo[] = {"TFD_Pompier_polo"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 		
@@ -877,7 +877,7 @@ class cfgVehicles
 			typicalCargo[] = {"TFD_SurveillantAdmPen_polo"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 		
@@ -896,7 +896,7 @@ class cfgVehicles
 			typicalCargo[] = {"B_soldier_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 	
@@ -915,7 +915,7 @@ class cfgVehicles
 			typicalCargo[] = {"B_soldier_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 				};
 		};
 		
@@ -933,7 +933,7 @@ class cfgVehicles
 			typicalCargo[] = {"B_soldier_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomServOffroad.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomServOffroad.sqf""";
 				};
 		};
 	
@@ -952,7 +952,7 @@ class cfgVehicles
 			typicalCargo[] = {"B_recon_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomCoyOffroad.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomCoyOffroad.sqf""";
 				};
 		};
 		
@@ -971,7 +971,7 @@ class cfgVehicles
 			typicalCargo[] = {"B_recon_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomCoyOffroad.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomCoyOffroad.sqf""";
 				};
 		};
 		
@@ -989,7 +989,7 @@ class cfgVehicles
 			typicalCargo[] = {"B_recon_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomCoyOffroad.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomCoyOffroad.sqf""";
 				};
 		};
 		
@@ -1007,7 +1007,7 @@ class cfgVehicles
 			typicalCargo[] = {"B_recon_F"}; 
 			class EventHandlers 
 				{
-					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomCoyOffroad.sqf"""
+					init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomCoyOffroad.sqf""";
 				};
 		};
 	
