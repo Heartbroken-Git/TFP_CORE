@@ -1178,4 +1178,20 @@ class cfgVehicles
 			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\UAV_AA\UAV_AA.paa"};
 			typicalCargo[] = {"B_UAV_AI"};
 		};
+
+    //VBRG
+    class I_MRAP_03_F;
+	class 24eBAC_UAVcas_AA:I_MRAP_03_F
+        {
+            _generalMacro = "I_MRAP_03_F";
+            scope = 2;
+            side = 1;
+            faction = "TFD_GN";
+            displayName="VBRG";
+			author = "Heartbroken";
+			crew = "TFD_Gendarme_Mobile";
+			hiddenSelections[]= {"camo1"};
+			hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\VBRG\VBRG.paa"};
+			typicalCargo[] = {"TFD_Gendarme_Mobile"};
+		};
 };
