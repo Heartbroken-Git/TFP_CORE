@@ -1,7 +1,7 @@
 class CfgPatches {
 	class TFD_Units {
 		units[] = {"TFD_SacIntervention","TFD_Gendarme_Depart","TFD_Gendarme_Mobile","TFD_Pompier_polo","TFD_PompierAir_polo","TFD_Vigile_polo","TFD_PolicierMun_poloMarine","TFD_PolicierMun_poloBlanc","TFD_PolicierMun_poloASVP","TFD_PolicierMun_poloRurale","TFD_SurveillantAdmPen_polo","TFD_Formateur_polo","TFD_Benevole_polo","TFD_Douanier_polo","TFD_SapeurSauveteur_polo","TFD_PolicierNat_Polo","TFD_Pompier_PL","TFD_Pistard_AA","TFD_Patrouilleur_DIR","TFD_Marin_TPB","TFD_Marin_TPBfeu","TFD_Ambulancier_SAMU","TFD_Medecin_CICR","TFD_Chirurgien_CICR","TFD_Pilote_GN","TFD_Pilote_SC","TFD_Soldat_Pull","TFD_Aviateur_Pull","TFD_Plouf_UBACS"};
-		weapons[] = {"TFD_CasquetteGend_Depart","TFD_CasquetteGend_Mobile","TFD_CasquettePM_ASVP","TFD_CasquettePM","TFD_CasquetteAdmPen","TFD_CasquetteSP","TFD_CasquettePM_rurale","TFD_CasquetteSecurite","TFD_CasquetteCadet","TFD_CasquettePolice","TFD_CasquettePC","TFD_CasqueF2_HDR","TFD_CasqueF2_SO","TFD_CasqueF2_Off","TFD_CasqueF2_PC","TFD_CasqueHeli_GN","TFD_CasqueHeli_SC","TFD_RecycleurHV","TFD_GHV_Infirmier","TFD_GHV_Medecin","TFD_GHV_Formateur","TFD_GiletTac_GN","TFD_GiletTac_PN","TFD_GiletTac_ERIS","TFD_GiletTac_Nego","TFD_GiletTac_SC","TFD_GiletTac_CE","TFD_GiletS3_GN","TFD_GiletS3_PN","TFD_GiletS3_CE","TFD_GiletAssaut_GIPN","TFD_GiletAssaut_Douane","TFD_GiletAssaut_GN","TFD_GiletAssautLourd_GIPN","TFD_GiletAssautLourd_Douane","TFD_GiletAssautLourd_GN","TFD_PoloGend","TFD_PoloSP","TFD_PoloSP_air","TFD_PoloSecurite","TFD_PoloPM_marine","TFD_PoloPM_blanc","TFD_PoloPM_ASVP","TFD_PoloPM_rurale","TFD_PoloAdmPen","TFD_PoloFormateur","TFD_PoloBenevole","TFD_PoloDouane","TFD_PoloUIISC","TFD_PoloPN","TFD_WetsuitHV","TFD_CombiPistard","TFD_CombiDIR","TFD_CombiTPB","TFD_CombiTPBfeu","TFD_CombiSAMU","TFD_CombiCICR","TFD_CombiCICR_sang","TFD_CombiPilote_GN","TFD_CombiPilote_SC","TFD_PullCE_AT","TFD_PullMarine_AA","TFD_UBACSCE_Palmes"};
+		weapons[] = {"TFD_CasquetteGend_Depart","TFD_CasquetteGend_Mobile","TFD_CasquettePM_ASVP","TFD_CasquettePM","TFD_CasquetteAdmPen","TFD_CasquetteSP","TFD_CasquettePM_rurale","TFD_CasquetteSecurite","TFD_CasquetteCadet","TFD_CasquettePolice","TFD_CasquettePC","TFD_CasqueF2_HDR","TFD_CasqueF2_SO","TFD_CasqueF2_Off","TFD_CasqueF2_PC","TFD_CasqueHeli_GN","TFD_CasqueHeli_SC","TFD_RecycleurHV","TFD_GHV_Infirmier","TFD_GHV_Medecin","TFD_GHV_Formateur","TFD_GiletTac_GN","TFD_GiletTac_PN","TFD_GiletTac_ERIS","TFD_GiletTac_Nego","TFD_GiletTac_SC","TFD_GiletTac_CE","TFD_GiletS3_GN","TFD_GiletS3_PN","TFD_GiletS3_CE","TFD_GiletAssaut_GIPN","TFD_GiletAssaut_Douane","TFD_GiletAssaut_GN","TFD_GiletAssautLourd_GIPN","TFD_GiletAssautLourd_Douane","TFD_GiletAssautLourd_GN","TFD_PoloGend","TFD_PoloSP","TFD_PoloSP_air","TFD_PoloSecurite","TFD_PoloPM_marine","TFD_PoloPM_blanc","TFD_PoloPM_ASVP","TFD_PoloPM_rurale","TFD_PoloAdmPen","TFD_PoloFormateur","TFD_PoloBenevole","TFD_PoloDouane","TFD_PoloUIISC","TFD_PoloPN","TFD_PoloCRF","TFD_WetsuitHV","TFD_CombiPistard","TFD_CombiDIR","TFD_CombiTPB","TFD_CombiTPBfeu","TFD_CombiSAMU","TFD_CombiCICR","TFD_CombiCICR_sang","TFD_CombiPilote_GN","TFD_CombiPilote_SC","TFD_PullCE_AT","TFD_PullMarine_AA","TFD_UBACSCE_Palmes"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
 		version = 1.0;
@@ -10,7 +10,7 @@ class CfgPatches {
 };
 
 class CfgFactionClasses {
-	
+
 	class TFD_AA {
 		displayName = "Armee de l'Air";
 		priority = 5;
@@ -18,7 +18,7 @@ class CfgFactionClasses {
 		icon = "\TFD_Units\Data\Icons\Ico_AA.paa";
 		//flag = "\a3\Data_f\Flags\flag_Altis_co.paa"; //Mettre le drapeau de la France plus tard ?
 	};
-	
+
 	class TFD_AT {
 		displayName = "Armee de Terre";
 		priority = 6;
@@ -26,7 +26,7 @@ class CfgFactionClasses {
 		icon = "\TFD_Units\Data\Icons\Ico_AT.paa";
 		//flag = "\a3\Data_f\Flags\flag_Altis_co.paa"; //Mettre le drapeau de la France plus tard ?
 	};
-	
+
 	class TFD_GN {
 		displayName = "Gendarmerie Nationale";
 		priority = 7;
@@ -34,7 +34,7 @@ class CfgFactionClasses {
 		icon = "\TFD_Units\Data\Icons\Ico_GN.paa";
 		//flag = "\a3\Data_f\Flags\flag_Altis_co.paa"; //Mettre le drapeau de la France plus tard ?
 	};
-	
+
 	class TFD_MN {
 		displayName = "Marine Nationale";
 		priority = 8;
@@ -45,369 +45,369 @@ class CfgFactionClasses {
 };
 
 class CfgWeapons {
-	
+
 	// CASQUETTE SOUPLE
 	class H_MilCap_blue;
 	class TFD_CasquetteGend_Depart : H_MilCap_blue {
-		_generalMacro = "H_MilCap_blue"; 
+		_generalMacro = "H_MilCap_blue";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casquette Souple (Gendarmerie Departementale)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteGend_Depart.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteGend_Depart.paa"};
 	};
-	
+
 	class TFD_CasquetteGend_Mobile : H_MilCap_blue {
-		_generalMacro = "H_MilCap_blue"; 
+		_generalMacro = "H_MilCap_blue";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casquette Souple (Gendarmerie Mobile)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteGend_Mobile.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteGend_Mobile.paa"};
 	};
-	
+
 	class TFD_CasquettePM_ASVP : H_MilCap_blue {
-		_generalMacro = "H_MilCap_blue"; 
+		_generalMacro = "H_MilCap_blue";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casquette Souple (ASVP)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePM_ASVP.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePM_ASVP.paa"};
 	};
-	
+
 	class TFD_CasquettePM : H_MilCap_blue {
-		_generalMacro = "H_MilCap_blue"; 
+		_generalMacro = "H_MilCap_blue";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casquette Souple (Police Municipale)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePM.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePM.paa"};
 	};
-	
+
 	class TFD_CasquetteAdmPen : H_MilCap_blue {
-		_generalMacro = "H_MilCap_blue"; 
+		_generalMacro = "H_MilCap_blue";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casquette Souple (Administration Penitentiaire)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteAdmPen.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteAdmPen.paa"};
 	};
-	
+
 	class TFD_CasquetteSP : H_MilCap_blue {
-		_generalMacro = "H_MilCap_blue"; 
+		_generalMacro = "H_MilCap_blue";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casquette Souple (Sapeur-Pompier)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteSP.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteSP.paa"};
 	};
-	
+
 	class TFD_CasquettePM_rurale : H_MilCap_blue {
-		_generalMacro = "H_MilCap_blue"; 
+		_generalMacro = "H_MilCap_blue";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casquette Souple (Police Rurale)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePM_rurale.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePM_rurale.paa"};
 	};
-	
+
 	// CASQUETTE
 	class H_Cap_blk;
 	class TFD_CasquetteSecurite : H_Cap_blk {
-		_generalMacro = "H_Cap_blk"; 
+		_generalMacro = "H_Cap_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casquette (Securite)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteSecurite.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteSecurite.paa"};
 	};
-	
+
 	class TFD_CasquetteCadet : H_Cap_blk {
-		_generalMacro = "H_Cap_blk"; 
+		_generalMacro = "H_Cap_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casquette (Cadet)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteCadet.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteCadet.paa"};
 	};
-	
+
 	class TFD_CasquettePolice : H_Cap_blk {
-		_generalMacro = "H_Cap_blk"; 
+		_generalMacro = "H_Cap_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casquette (Police)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePolice.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePolice.paa"};
 	};
-	
+
 	class TFD_CasquettePC : H_Cap_blk {
-		_generalMacro = "H_Cap_blk"; 
+		_generalMacro = "H_Cap_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casquette (Protection Civile)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePC.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePC.paa"};
 	};
-	
+
 	// CASQUE F2
 	class H_HelmetB_plain_blk;
 	class TFD_CasqueF2_HDR : H_HelmetB_plain_blk {
-		_generalMacro = "H_HelmetB_plain_blk"; 
+		_generalMacro = "H_HelmetB_plain_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casque F2 (Homme du Rang)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasqueF2_HDR.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasqueF2_HDR.paa"};
 	};
-	
+
 	class TFD_CasqueF2_SO : H_HelmetB_plain_blk {
-		_generalMacro = "H_HelmetB_plain_blk"; 
+		_generalMacro = "H_HelmetB_plain_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casque F2 (Sous-Officier)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasqueF2_SO.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasqueF2_SO.paa"};
 	};
-	
+
 	class TFD_CasqueF2_Off : H_HelmetB_plain_blk {
-		_generalMacro = "H_HelmetB_plain_blk"; 
+		_generalMacro = "H_HelmetB_plain_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casque F2 (Officier)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasqueF2_Off.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasqueF2_Off.paa"};
 	};
-	
+
 	class TFD_CasqueF2_PC : H_HelmetB_plain_blk {
-		_generalMacro = "H_HelmetB_plain_blk"; 
+		_generalMacro = "H_HelmetB_plain_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casque F2 (Protection Civile)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasqueF2_PC.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasqueF2_PC.paa"};
 	};
-	
+
 	//CASQUE HELICOPTERE
 	class H_PilotHelmetHeli_B;
 	class TFD_CasqueHeli_GN : H_PilotHelmetHeli_B {
-		_generalMacro = "H_PilotHelmetHeli_B"; 
+		_generalMacro = "H_PilotHelmetHeli_B";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casque de pilote d'helicoptere (Gendarmerie)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasqueHeli_GN.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasqueHeli_GN.paa"};
 	};
-	
+
 	class TFD_CasqueHeli_SC : H_PilotHelmetHeli_B {
-		_generalMacro = "H_PilotHelmetHeli_B"; 
+		_generalMacro = "H_PilotHelmetHeli_B";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Casque de pilote d'helicoptere (Securite Civile)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
-		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasqueHeli_SC.paa"};  
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasqueHeli_SC.paa"};
 	};
-	
+
 	// VESTES
-	
+
 	// RECYCLEUR
 	class V_RebreatherB;
 	class TFD_RecycleurHV : V_RebreatherB {
-		_generalMacro = "V_RebreatherB"; 
+		_generalMacro = "V_RebreatherB";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Recycleur (Haute Visibilite)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\RecycleurHV.paa"};
 		hiddenUnderwaterSelections[] = {"hide"};
 		shownUnderwaterSelections[] = {"unhide","unhide2"};
 		hiddenUnderwaterSelectionsTextures[] = {"\TFD_Units\Data\Vest\RecycleurHV.paa","\TFD_Units\Data\Vest\RecycleurHV.paa","\A3\characters_f\data\visors_ca.paa"};
 	};
-	
+
 	// GILET TACTIQUE
 	class V_TacVest_blk;
 	class TFD_GHV_Infirmier : V_TacVest_blk {
-		_generalMacro = "V_TacVest_blk"; 
+		_generalMacro = "V_TacVest_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet Haute Visibilite (Infirmier)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_Infirmier.paa"};
 	};
-	
+
 	class TFD_GHV_Medecin : V_TacVest_blk {
-		_generalMacro = "V_TacVest_blk"; 
+		_generalMacro = "V_TacVest_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet Haute Visibilite (Medecin)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_Medecin.paa"};
 	};
-	
+
 	class TFD_GHV_Formateur : V_TacVest_blk {
-		_generalMacro = "V_TacVest_blk"; 
+		_generalMacro = "V_TacVest_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet Haute Visibilite (Formateur)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_Formateur.paa"};
 	};
-	
+
 	class TFD_GiletTac_GN : V_TacVest_blk {
-		_generalMacro = "V_TacVest_blk"; 
+		_generalMacro = "V_TacVest_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet pare-balles (Gendarmerie)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_GN.paa"};
 	};
-	
+
 	class TFD_GiletTac_PN : V_TacVest_blk {
-		_generalMacro = "V_TacVest_blk"; 
+		_generalMacro = "V_TacVest_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet pare-balles (Police)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_PN.paa"};
 	};
-	
+
 	class TFD_GiletTac_ERIS : V_TacVest_blk {
-		_generalMacro = "V_TacVest_blk"; 
+		_generalMacro = "V_TacVest_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet pare-balles (ERIS)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_ERIS.paa"};
 	};
-	
+
 	class TFD_GiletTac_Nego : V_TacVest_blk {
-		_generalMacro = "V_TacVest_blk"; 
+		_generalMacro = "V_TacVest_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet pare-balles (Negociateur)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_Nego.paa"};
 	};
-	
+
 	class TFD_GiletTac_SC : V_TacVest_blk {
-		_generalMacro = "V_TacVest_blk"; 
+		_generalMacro = "V_TacVest_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet pare-balles (Deminage)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_SC.paa"};
 	};
-	
+
 	class V_TacVest_camo;
 	class TFD_GiletTac_CE : V_TacVest_camo {
-		_generalMacro = "V_TacVest_camo"; 
+		_generalMacro = "V_TacVest_camo";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet pare-balles (Centre Europe)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_CE.paa"};
 	};
-	
+
 	// GILET S3
 	class V_Press_F;
 	class TFD_GiletS3_GN : V_Press_F {
-		_generalMacro = "V_Press_F"; 
+		_generalMacro = "V_Press_F";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet S3 (Gendarmerie)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletS3_GN.paa"};
 	};
-	
+
 	class TFD_GiletS3_PN : V_Press_F {
-		_generalMacro = "V_Press_F"; 
+		_generalMacro = "V_Press_F";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet S3 (Police)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletS3_PN.paa"};
 	};
-	
+
 	class TFD_GiletS3_CE : V_Press_F {
-		_generalMacro = "V_Press_F"; 
+		_generalMacro = "V_Press_F";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet S3 (Centre Europe)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletS3_CE.paa"};
 	};
-	
+
 	//GILET D'ASSAUT
 	class Vest_Camo_Base;
 	class VestItem;
-	class TFD_GiletAssaut_GIPN : Vest_Camo_Base { 
+	class TFD_GiletAssaut_GIPN : Vest_Camo_Base {
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet d'assaut (GIPN)";
 		picture = "\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_01_ca.paa";
 		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletAssaut_GIPN.paa"};
 		descriptionShort = "Protection ballistique III";
 		class ItemInfo: VestItem {
@@ -419,16 +419,16 @@ class CfgWeapons {
 			hiddenSelections[]= {"camo"};
 		}
 	};
-	
-	class TFD_GiletAssaut_Douane : Vest_Camo_Base { 
+
+	class TFD_GiletAssaut_Douane : Vest_Camo_Base {
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet d'assaut (Douane)";
 		picture = "\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_01_ca.paa";
 		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletAssaut_Douane.paa"};
 		descriptionShort = "Protection ballistique III";
 		class ItemInfo: VestItem {
@@ -440,16 +440,16 @@ class CfgWeapons {
 			hiddenSelections[]= {"camo"};
 		}
 	};
-	
-	class TFD_GiletAssaut_GN : Vest_Camo_Base { 
+
+	class TFD_GiletAssaut_GN : Vest_Camo_Base {
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet d'assaut (Gendarmerie)";
 		picture = "\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_01_ca.paa";
 		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletAssaut_GN.paa"};
 		descriptionShort = "Protection ballistique III";
 		class ItemInfo: VestItem {
@@ -461,55 +461,55 @@ class CfgWeapons {
 			hiddenSelections[]= {"camo"};
 		}
 	};
-	
+
 	//GILET D'ASSAUT LOURD
 	class V_PlateCarrierIAGL_oli;
 	class TFD_GiletAssautLourd_GIPN : V_PlateCarrierIAGL_oli {
-		_generalMacro = "V_PlateCarrierIAGL_oli"; 
+		_generalMacro = "V_PlateCarrierIAGL_oli";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet d'assaut lourd (GIPN)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo1","camo2"}; 
+		hiddenSelections[]= {"camo1","camo2"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletAssaut_GIPN.paa","\TFD_Units\Data\Vest\GiletAssautLourd_Noir.paa"};
 	};
-	
+
 	class TFD_GiletAssautLourd_Douane : V_PlateCarrierIAGL_oli {
-		_generalMacro = "V_PlateCarrierIAGL_oli"; 
+		_generalMacro = "V_PlateCarrierIAGL_oli";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet d'assaut lourd (Douane)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo1","camo2"}; 
+		hiddenSelections[]= {"camo1","camo2"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletAssaut_Douane.paa","\TFD_Units\Data\Vest\GiletAssautLourd_Noir.paa"};
 	};
-	
+
 	class TFD_GiletAssautLourd_GN : V_PlateCarrierIAGL_oli {
-		_generalMacro = "V_PlateCarrierIAGL_oli"; 
+		_generalMacro = "V_PlateCarrierIAGL_oli";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Gilet d'assaut lourd (Gendarmerie)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo1","camo2"}; 
+		hiddenSelections[]= {"camo1","camo2"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletAssaut_GN.paa","\TFD_Units\Data\Vest\GiletAssautLourd_Noir.paa"};
 	};
-	
+
 	// UNIFORME
 	class UniformItem;
-	
+
 	// POLO
 	class U_Rangemaster;
 	class TFD_PoloGend : U_Rangemaster {
-		_generalMacro = "U_Rangemaster"; 
+		_generalMacro = "U_Rangemaster";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Polo (Gendarmerie Nationale)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloGend.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -518,15 +518,15 @@ class CfgWeapons {
             mass = 40;
 		};
 	};
-	
+
 	class TFD_PoloSP : U_Rangemaster {
-		_generalMacro = "U_Rangemaster"; 
+		_generalMacro = "U_Rangemaster";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Polo (Sapeur-Pompier)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloSP.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -535,15 +535,15 @@ class CfgWeapons {
             mass = 40;
 		};
 	};
-	
+
 	class TFD_PoloSP_air : U_Rangemaster {
-		_generalMacro = "U_Rangemaster"; 
+		_generalMacro = "U_Rangemaster";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Polo (Pompier de l'Air)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloSP_air.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -552,15 +552,15 @@ class CfgWeapons {
             mass = 40;
 		};
 	};
-	
+
 	class TFD_PoloSecurite : U_Rangemaster {
-		_generalMacro = "U_Rangemaster"; 
+		_generalMacro = "U_Rangemaster";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Polo (Securite)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloSecurite.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -569,15 +569,15 @@ class CfgWeapons {
             mass = 40;
 		};
 	};
-	
+
 	class TFD_PoloPM_marine : U_Rangemaster {
-		_generalMacro = "U_Rangemaster"; 
+		_generalMacro = "U_Rangemaster";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Polo (Police Municipale - Marine)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloPM_marine.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -586,15 +586,15 @@ class CfgWeapons {
             mass = 40;
 		};
 	};
-	
+
 	class TFD_PoloPM_blanc : U_Rangemaster {
-		_generalMacro = "U_Rangemaster"; 
+		_generalMacro = "U_Rangemaster";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Polo (Police Municipale - Blanc)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloPM_blanc.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -603,15 +603,15 @@ class CfgWeapons {
             mass = 40;
 		};
 	};
-	
+
 	class TFD_PoloPM_ASVP : U_Rangemaster {
-		_generalMacro = "U_Rangemaster"; 
+		_generalMacro = "U_Rangemaster";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Polo (ASVP)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloPM_ASVP.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -620,15 +620,15 @@ class CfgWeapons {
             mass = 40;
 		};
 	};
-	
+
 	class TFD_PoloPM_rurale : U_Rangemaster {
-		_generalMacro = "U_Rangemaster"; 
+		_generalMacro = "U_Rangemaster";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Polo (Police Rurale)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloPM_rurale.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -637,15 +637,15 @@ class CfgWeapons {
             mass = 40;
 		};
 	};
-	
+
 	class TFD_PoloAdmPen : U_Rangemaster {
-		_generalMacro = "U_Rangemaster"; 
+		_generalMacro = "U_Rangemaster";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Polo (Administration Penitentiaire)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloAdmPen.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -654,15 +654,15 @@ class CfgWeapons {
             mass = 40;
 		};
 	};
-	
+
 	class TFD_PoloFormateur : U_Rangemaster {
-		_generalMacro = "U_Rangemaster"; 
+		_generalMacro = "U_Rangemaster";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Polo (Formateur)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloFormateur.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -671,15 +671,15 @@ class CfgWeapons {
             mass = 40;
 		};
 	};
-	
+
 	class TFD_PoloBenevole : U_Rangemaster {
-		_generalMacro = "U_Rangemaster"; 
+		_generalMacro = "U_Rangemaster";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Polo (CICR)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloCICR.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -688,15 +688,15 @@ class CfgWeapons {
             mass = 40;
 		};
 	};
-	
+
 	class TFD_PoloDouane : U_Rangemaster {
-		_generalMacro = "U_Rangemaster"; 
+		_generalMacro = "U_Rangemaster";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Polo (Douane)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloDouane.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -705,15 +705,15 @@ class CfgWeapons {
             mass = 40;
 		};
 	};
-	
+
 	class TFD_PoloUIISC : U_Rangemaster {
-		_generalMacro = "U_Rangemaster"; 
+		_generalMacro = "U_Rangemaster";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Polo (UIISC)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloUIISC.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -722,15 +722,15 @@ class CfgWeapons {
             mass = 40;
 		};
 	};
-	
+
 	class TFD_PoloPN : U_Rangemaster {
-		_generalMacro = "U_Rangemaster"; 
+		_generalMacro = "U_Rangemaster";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Polo (Police Nationale)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloPN.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -739,17 +739,34 @@ class CfgWeapons {
             mass = 40;
 		};
 	};
-	
+
+	class TFD_PoloCRF : U_Rangemaster {
+		_generalMacro = "U_Rangemaster";
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+        displayName="Polo (Croix Rouge Francaise)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloCRF.paa"};
+		class ItemInfo: UniformItem{
+            uniformModel = "-";
+            uniformClass = TFD_BenevoleCRF_polo;
+            containerClass = Supply40;
+            mass = 40;
+		};
+	};
+
 	// WETSUIT
 	class U_B_Wetsuit;
 	class TFD_WetsuitHV : U_B_Wetsuit {
-		_generalMacro = "U_B_Wetsuit"; 
+		_generalMacro = "U_B_Wetsuit";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Combinaison de plongee (Haute Visibilite)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\WetsuitHV.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -759,17 +776,17 @@ class CfgWeapons {
             mass = 60;
 		};
 	};
-	
+
 	//Combinaison
 	class U_C_WorkerCoveralls;
 	class TFD_CombiPistard : U_C_WorkerCoveralls {
-		_generalMacro = "U_C_WorkerCoveralls"; 
+		_generalMacro = "U_C_WorkerCoveralls";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Combinaison de mecanicien (Armee de l'Air)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\Combi_pistardAA.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -778,15 +795,15 @@ class CfgWeapons {
             mass = 30;
 		};
 	};
-	
+
 	class TFD_CombiDIR : U_C_WorkerCoveralls {
-		_generalMacro = "U_C_WorkerCoveralls"; 
+		_generalMacro = "U_C_WorkerCoveralls";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Combinaison de patrouilleur (DIR)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\Combi_patrouilleurDIR.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -795,15 +812,15 @@ class CfgWeapons {
             mass = 30;
 		};
 	};
-	
+
 	class TFD_CombiTPB : U_C_WorkerCoveralls {
-		_generalMacro = "U_C_WorkerCoveralls"; 
+		_generalMacro = "U_C_WorkerCoveralls";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Tenue de Protection de Base";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\Combi_TPB.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -812,15 +829,15 @@ class CfgWeapons {
             mass = 30;
 		};
 	};
-	
+
 	class TFD_CombiTPBfeu : U_C_WorkerCoveralls {
-		_generalMacro = "U_C_WorkerCoveralls"; 
+		_generalMacro = "U_C_WorkerCoveralls";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Tenue de Protection de Base (Feu)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\Combi_TPBfeu.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -829,16 +846,16 @@ class CfgWeapons {
             mass = 30;
 		};
 	};
-	
+
 	class U_C_Scientist;
 	class TFD_CombiSAMU : U_C_Scientist {
-		_generalMacro = "U_C_Scientist"; 
+		_generalMacro = "U_C_Scientist";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Combinaison d'ambulancier (SAMU)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\Combi_SAMU.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -847,15 +864,15 @@ class CfgWeapons {
             mass = 30;
 		};
 	};
-	
+
 	class TFD_CombiCICR : U_C_Scientist {
-		_generalMacro = "U_C_Scientist"; 
+		_generalMacro = "U_C_Scientist";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Combinaison de medecin (CICR)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\Combi_docCICR.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -864,15 +881,15 @@ class CfgWeapons {
             mass = 30;
 		};
 	};
-	
+
 	class TFD_CombiCICR_sang : U_C_Scientist {
-		_generalMacro = "U_C_Scientist"; 
+		_generalMacro = "U_C_Scientist";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Combinaison de chirurgien (CICR)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\Combi_docCICR_sang.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -881,16 +898,16 @@ class CfgWeapons {
             mass = 30;
 		};
 	};
-	
+
 	class U_B_HeliPilotCoveralls;
 	class TFD_CombiPilote_GN : U_B_HeliPilotCoveralls {
-		_generalMacro = "U_B_HeliPilotCoveralls"; 
+		_generalMacro = "U_B_HeliPilotCoveralls";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Combinaison de pilote d'helicoptere (Gendarmerie)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\Combi_piloteGN.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -899,15 +916,15 @@ class CfgWeapons {
             mass = 30;
 		};
 	};
-	
+
 	class TFD_CombiPilote_SC : U_B_HeliPilotCoveralls {
-		_generalMacro = "U_B_HeliPilotCoveralls"; 
+		_generalMacro = "U_B_HeliPilotCoveralls";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Combinaison de pilote d'helicoptere (Securite Civile)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\Combi_piloteSC.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -916,17 +933,17 @@ class CfgWeapons {
             mass = 30;
 		};
 	};
-	
+
 	//PULL
 	class U_BG_Guerrilla_6_1;
 	class TFD_PullCE_AT : U_BG_Guerrilla_6_1 {
-		_generalMacro = "U_BG_Guerrilla_6_1"; 
+		_generalMacro = "U_BG_Guerrilla_6_1";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Pull-over (Armee de Terre)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PullCE_AT.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -935,15 +952,15 @@ class CfgWeapons {
             mass = 30;
 		};
 	};
-	
+
 	class TFD_PullMarine_AA : U_BG_Guerrilla_6_1 {
-		_generalMacro = "U_BG_Guerrilla_6_1"; 
+		_generalMacro = "U_BG_Guerrilla_6_1";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Pull-over (Armee de l'Air)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PullMarine_AA.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -952,17 +969,17 @@ class CfgWeapons {
             mass = 30;
 		};
 	};
-	
+
 	//UBACS
 	class U_B_survival_uniform;
 	class TFD_UBACSCE_Palmes : U_B_survival_uniform {
-		_generalMacro = "U_B_survival_uniform"; 
+		_generalMacro = "U_B_survival_uniform";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName="Treillis UBACS de survie (Centre Europe)";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\UBACS_CE.paa"};
 		class ItemInfo: UniformItem{
             uniformModel = "-";
@@ -975,22 +992,22 @@ class CfgWeapons {
 };
 
 class CfgVehicles {
-	
+
 	///BACKPACKS
 	class B_AssaultPack_blk;
 	class TFD_SacIntervention : B_AssaultPack_blk {
-		_generalMacro = "B_AssaultPack_blk"; 
+		_generalMacro = "B_AssaultPack_blk";
         scope = 2;
 		scopeCurator = 2;
-		scopeArsenal = 2;             
+		scopeArsenal = 2;
         displayName= "Sac d'intervention";
 		author = "Heartbroken";
-		hiddenSelections[]= {"camo"}; 
+		hiddenSelections[]= {"camo"};
 		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Backpack\SacIntervention.paa"};
 	};
-	
+
 	/// Magazines macros definition ///
- 
+
 	#define mag_2(a) a, a
 	#define mag_3(a) a, a, a
 	#define mag_4(a) a, a, a, a
@@ -1002,7 +1019,7 @@ class CfgVehicles {
 	#define mag_10(a) a, a, a, a, a, a, a, a, a, a
 	#define mag_11(a) a, a, a, a, a, a, a, a, a, a, a
 	#define mag_12(a) a, a, a, a, a, a, a, a, a, a, a, a
-	
+
 	class B_RangeMaster_F;                     // For inheritance to work, the base class has to be defined.
     class TFD_Gendarme_Depart: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
@@ -1015,7 +1032,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PoloGend";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloGend.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloGend.paa"};
         weapons[] = {hgun_Rook40_F, Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {hgun_Rook40_F, Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit};                // Which items the character has.
@@ -1025,7 +1042,7 @@ class CfgVehicles {
         linkedItems[] = {V_Rangemaster_belt, TFD_CasquetteGend_Depart, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {V_Rangemaster_belt, TFD_CasquetteGend_Depart, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
-	
+
 	class TFD_Gendarme_Mobile: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1037,7 +1054,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PoloGend";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloGend.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloGend.paa"};
         weapons[] = {hgun_Rook40_F, Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {hgun_Rook40_F, Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit};                // Which items the character has.
@@ -1047,7 +1064,7 @@ class CfgVehicles {
         linkedItems[] = {V_Rangemaster_belt, TFD_CasquetteGend_Mobile, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {V_Rangemaster_belt, TFD_CasquetteGend_Mobile, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
-	
+
 	class TFD_Pompier_polo: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1059,7 +1076,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PoloSP";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloSP.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloSP.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
@@ -1069,7 +1086,7 @@ class CfgVehicles {
         linkedItems[] = {TFD_CasquetteSP, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {TFD_CasquetteSP, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
-	
+
 	class TFD_PompierAir_polo: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1081,7 +1098,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PoloSP_air";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloSP_air.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloSP_air.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
@@ -1091,7 +1108,7 @@ class CfgVehicles {
         linkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
-	
+
 	class TFD_Vigile_polo: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1103,7 +1120,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PoloSecurite";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloSecurite.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloSecurite.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
@@ -1113,7 +1130,7 @@ class CfgVehicles {
         linkedItems[] = {TFD_CasquetteSecurite, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {TFD_CasquetteSecurite, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
-	
+
 	class TFD_PolicierMun_poloMarine: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1125,7 +1142,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PoloPM_marine";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloPM_marine.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloPM_marine.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
@@ -1135,7 +1152,7 @@ class CfgVehicles {
         linkedItems[] = {TFD_CasquettePM, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {TFD_CasquettePM, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
-	
+
 	class TFD_PolicierMun_poloBlanc: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1147,7 +1164,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PoloPM_blanc";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloPM_blanc.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloPM_blanc.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
@@ -1157,7 +1174,7 @@ class CfgVehicles {
         linkedItems[] = {TFD_CasquettePM, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {TFD_CasquettePM, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
-	
+
 	class TFD_PolicierMun_poloASVP: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1169,7 +1186,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PoloPM_ASVP";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloPM_ASVP.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloPM_ASVP.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
@@ -1179,7 +1196,7 @@ class CfgVehicles {
         linkedItems[] = {TFD_CasquettePM_ASVP, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {TFD_CasquettePM_ASVP, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
-	
+
 	class TFD_PolicierMun_poloRurale: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1191,7 +1208,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PoloPM_rurale";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloPM_rurale.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloPM_rurale.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
@@ -1201,7 +1218,7 @@ class CfgVehicles {
         linkedItems[] = {TFD_CasquettePM_rurale, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {TFD_CasquettePM_rurale, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
-	
+
 	class TFD_SurveillantAdmPen_polo: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1213,7 +1230,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PoloAdmPen";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloAdmPen.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloAdmPen.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
@@ -1235,7 +1252,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PoloFormateur";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloFormateur.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloFormateur.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
@@ -1245,7 +1262,7 @@ class CfgVehicles {
         linkedItems[] = {TFD_GHV_Formateur, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {TFD_GHV_Formateur, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
-	
+
 	class TFD_Benevole_polo: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1257,7 +1274,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PoloBenevole";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloCICR.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloCICR.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
@@ -1267,7 +1284,7 @@ class CfgVehicles {
         linkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
-	
+
 	class TFD_Douanier_polo: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1279,7 +1296,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PoloDouane";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloDouane.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloDouane.paa"};
         weapons[] = {hgun_Rook40_F, Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {hgun_Rook40_F, Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit};                // Which items the character has.
@@ -1289,7 +1306,7 @@ class CfgVehicles {
         linkedItems[] = {V_Rangemaster_belt, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {V_Rangemaster_belt, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
-	
+
 	class TFD_SapeurSauveteur_polo: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1301,7 +1318,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PoloUIISC";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloUIISC.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloUIISC.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
@@ -1311,7 +1328,7 @@ class CfgVehicles {
         linkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
-	
+
 	class TFD_PolicierNat_Polo: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1323,7 +1340,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PoloPN";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloPN.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloPN.paa"};
         weapons[] = {hgun_Rook40_F, Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {hgun_Rook40_F, Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit};                // Which items the character has.
@@ -1333,7 +1350,29 @@ class CfgVehicles {
         linkedItems[] = {V_Rangemaster_belt, TFD_CasquettePolice, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {V_Rangemaster_belt, TFD_CasquettePolice, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
-	
+
+	class TFD_BenevoleCRF_polo: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
+    {
+        author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
+		displayName = "Benevole CRF (Polo)";
+		side = 3;
+		faction = "CIV_F";
+        scope = 2;                          // 2 = class is available in the editor; 1 = class is unavailable in the editor, but can be accessed via a macro; 0 = class is unavailable (and used for inheritance only).
+        scopeCurator = 2;                   // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
+        scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
+        uniformClass = "TFD_PoloCRF";                          // This links this soldier to a particular uniform. For the details, see below.
+		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloCRF.paa"};
+        weapons[] = {Throw, Put};               // Which weapons the character has.
+        respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
+        Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
+        RespawnItems[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};         // Which items the character respawns with.
+        magazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};               // What ammunition the character has.
+        respawnMagazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};        // What ammunition the character respawns with.
+        linkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
+        respawnLinkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
+    };
+
 	class B_diver_F;
     class TFD_Pompier_PL: B_diver_F
     {
@@ -1360,7 +1399,7 @@ class CfgVehicles {
         linkedItems[] = {TFD_RecycleurHV, G_B_Diving, ItemMap, ItemCompass, ItemWatch, ItemRadio};
         respawnLinkedItems[] = {TFD_RecycleurHV, G_B_Diving, ItemMap, ItemCompass, ItemWatch, ItemRadio};
     };
-	
+
 	class C_man_w_worker_F;                     // For inheritance to work, the base class has to be defined.
     class TFD_Pistard_AA: C_man_w_worker_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
@@ -1373,7 +1412,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_CombiPistard";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_pistardAA.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_pistardAA.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit};                // Which items the character has.
@@ -1382,12 +1421,12 @@ class CfgVehicles {
         respawnMagazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};        // What ammunition the character respawns with.
         linkedItems[] = {H_Cap_headphones, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {H_Cap_headphones, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
-		class EventHandlers 
+		class EventHandlers
 			{
 				init = "(_this select 0) execVM ""\TFD_Units\Script\stopRandom.sqf"""
 			};
     };
-	
+
 	class TFD_Patrouilleur_DIR: C_man_w_worker_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1399,7 +1438,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_CombiDIR";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_patrouilleurDIR.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_patrouilleurDIR.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit};                // Which items the character has.
@@ -1408,12 +1447,12 @@ class CfgVehicles {
         respawnMagazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};        // What ammunition the character respawns with.
         linkedItems[] = {H_Cap_marshal, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {H_Cap_marshal, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
-		class EventHandlers 
+		class EventHandlers
 			{
 				init = "(_this select 0) execVM ""\TFD_Units\Script\stopRandom.sqf"""
 			};
     };
-	
+
 	class TFD_Marin_TPB: C_man_w_worker_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1425,7 +1464,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_CombiTPB";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_TPB.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_TPB.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit};                // Which items the character has.
@@ -1434,12 +1473,12 @@ class CfgVehicles {
         respawnMagazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};        // What ammunition the character respawns with.
         linkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
-		class EventHandlers 
+		class EventHandlers
 			{
 				init = "(_this select 0) execVM ""\TFD_Units\Script\stopRandom.sqf"""
 			};
     };
-	
+
 	class TFD_Marin_TPBfeu: C_man_w_worker_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1451,7 +1490,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_CombiTPBfeu";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_TPBfeu.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_TPBfeu.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit};                // Which items the character has.
@@ -1460,12 +1499,12 @@ class CfgVehicles {
         respawnMagazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};        // What ammunition the character respawns with.
         linkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
-		class EventHandlers 
+		class EventHandlers
 			{
 				init = "(_this select 0) execVM ""\TFD_Units\Script\stopRandom.sqf"""
 			};
     };
-	
+
 	class C_scientist_F;                     // For inheritance to work, the base class has to be defined.
     class TFD_Ambulancier_SAMU: C_scientist_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
@@ -1478,7 +1517,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_CombiSAMU";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_SAMU.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_SAMU.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
@@ -1487,12 +1526,12 @@ class CfgVehicles {
         respawnMagazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};        // What ammunition the character respawns with.
         linkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
-		class EventHandlers 
+		class EventHandlers
 			{
 				init = "(_this select 0) execVM ""\TFD_Units\Script\stopRandom.sqf"""
 			};
     };
-	
+
 	class TFD_Medecin_CICR: C_scientist_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1504,7 +1543,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_CombiCICR";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_docCICR.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_docCICR.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
@@ -1513,12 +1552,12 @@ class CfgVehicles {
         respawnMagazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};        // What ammunition the character respawns with.
         linkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
-		class EventHandlers 
+		class EventHandlers
 			{
 				init = "(_this select 0) execVM ""\TFD_Units\Script\stopRandom.sqf"""
 			};
     };
-	
+
 	class TFD_Chirurgien_CICR: C_scientist_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1530,7 +1569,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_CombiCICR_sang";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_docCICR_sang.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_docCICR_sang.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
@@ -1539,12 +1578,12 @@ class CfgVehicles {
         respawnMagazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};        // What ammunition the character respawns with.
         linkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
-		class EventHandlers 
+		class EventHandlers
 			{
 				init = "(_this select 0) execVM ""\TFD_Units\Script\stopRandom.sqf"""
 			};
     };
-	
+
 	class B_Helipilot_F;
 	class TFD_Pilote_GN: B_Helipilot_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
@@ -1557,7 +1596,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_CombiPilote_GN";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_piloteGN.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_piloteGN.paa"};
         weapons[] = {hgun_Rook40_F, Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {hgun_Rook40_F, Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit};                // Which items the character has.
@@ -1566,12 +1605,12 @@ class CfgVehicles {
         respawnMagazines[] = {mag_4(16Rnd_9x21_Mag), Chemlight_green, Chemlight_green};        // What ammunition the character respawns with.
         linkedItems[] = {TFD_CasqueHeli_GN, V_Rangemaster_belt, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {TFD_CasqueHeli_GN, V_Rangemaster_belt, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
-		class EventHandlers 
+		class EventHandlers
 			{
 				init = "(_this select 0) execVM ""\TFD_Units\Script\stopRandom.sqf"""
 			};
     };
-	
+
 	class TFD_Pilote_SC: C_man_w_worker_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1583,7 +1622,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_CombiPilote_SC";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_piloteSC.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_piloteSC.paa"};
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
         Items[] = {FirstAidKit};                // Which items the character has.
@@ -1592,12 +1631,12 @@ class CfgVehicles {
         respawnMagazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};        // What ammunition the character respawns with.
         linkedItems[] = {TFD_CasqueHeli_SC, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {TFD_CasqueHeli_SC, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
-		class EventHandlers 
+		class EventHandlers
 			{
 				init = "(_this select 0) execVM ""\TFD_Units\Script\stopRandom.sqf"""
 			};
 	};
-	
+
 	class B_G_Soldier_LAT_F;                     // For inheritance to work, the base class has to be defined.
     class TFD_Soldat_Pull: B_G_Soldier_LAT_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
@@ -1610,7 +1649,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PullCE_AT";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PullCE_AT.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PullCE_AT.paa"};
 		backpack = "";
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
@@ -1620,12 +1659,12 @@ class CfgVehicles {
         respawnMagazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};        // What ammunition the character respawns with.
         linkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
-		class EventHandlers 
+		class EventHandlers
 			{
 				init = "(_this select 0) execVM ""\TFD_Units\Script\stopRandom.sqf"""
 			};
     };
-	
+
 	class TFD_Aviateur_Pull: B_G_Soldier_LAT_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
         author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
@@ -1637,7 +1676,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_PullMarine_AA";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PullMarine_AA.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PullMarine_AA.paa"};
 		backpack = "";
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
@@ -1647,12 +1686,12 @@ class CfgVehicles {
         respawnMagazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};        // What ammunition the character respawns with.
         linkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
-		class EventHandlers 
+		class EventHandlers
 			{
 				init = "(_this select 0) execVM ""\TFD_Units\Script\stopRandom.sqf"""
 			};
     };
-	
+
 	class b_soldier_survival_F;
 	class TFD_Plouf_UBACS: b_soldier_survival_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
     {
@@ -1665,7 +1704,7 @@ class CfgVehicles {
         scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
         uniformClass = "TFD_UBACSCE_Palmes";                          // This links this soldier to a particular uniform. For the details, see below.
 		hiddenSelections[] = {"camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
-        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\UBACS_CE.paa"}; 
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\UBACS_CE.paa"};
 		backpack = "";
         weapons[] = {Throw, Put};               // Which weapons the character has.
         respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
@@ -1676,5 +1715,5 @@ class CfgVehicles {
         linkedItems[] = {G_B_Diving, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {G_B_Diving, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
-	
+
 };
