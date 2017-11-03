@@ -1,7 +1,7 @@
 class CfgPatches {
 	class TFD_Units {
-		units[] = {"TFD_SacIntervention","TFD_Gendarme_Depart","TFD_Gendarme_Mobile","TFD_Pompier_polo","TFD_PompierAir_polo","TFD_Vigile_polo","TFD_PolicierMun_poloMarine","TFD_PolicierMun_poloBlanc","TFD_PolicierMun_poloASVP","TFD_PolicierMun_poloRurale","TFD_SurveillantAdmPen_polo","TFD_Formateur_polo","TFD_Benevole_polo","TFD_Douanier_polo","TFD_SapeurSauveteur_polo","TFD_PolicierNat_Polo","TFD_Pompier_PL","TFD_Pistard_AA","TFD_Patrouilleur_DIR","TFD_Marin_TPB","TFD_Marin_TPBfeu","TFD_Ambulancier_SAMU","TFD_Medecin_CICR","TFD_Chirurgien_CICR","TFD_Pilote_GN","TFD_Pilote_SC","TFD_Soldat_Pull","TFD_Aviateur_Pull","TFD_Plouf_UBACS"};
-		weapons[] = {"TFD_CasquetteGend_Depart","TFD_CasquetteGend_Mobile","TFD_CasquettePM_ASVP","TFD_CasquettePM","TFD_CasquetteAdmPen","TFD_CasquetteSP","TFD_CasquettePM_rurale","TFD_CasquetteSecurite","TFD_CasquetteCadet","TFD_CasquettePolice","TFD_CasquettePC","TFD_CasqueF2_HDR","TFD_CasqueF2_SO","TFD_CasqueF2_Off","TFD_CasqueF2_PC","TFD_CasqueHeli_GN","TFD_CasqueHeli_SC","TFD_RecycleurHV","TFD_GHV_Infirmier","TFD_GHV_Medecin","TFD_GHV_Formateur","TFD_GiletTac_GN","TFD_GiletTac_PN","TFD_GiletTac_ERIS","TFD_GiletTac_Nego","TFD_GiletTac_SC","TFD_GiletTac_CE","TFD_GiletS3_GN","TFD_GiletS3_PN","TFD_GiletS3_CE","TFD_GiletAssaut_GIPN","TFD_GiletAssaut_Douane","TFD_GiletAssaut_GN","TFD_GiletAssautLourd_GIPN","TFD_GiletAssautLourd_Douane","TFD_GiletAssautLourd_GN","TFD_PoloGend","TFD_PoloSP","TFD_PoloSP_air","TFD_PoloSecurite","TFD_PoloPM_marine","TFD_PoloPM_blanc","TFD_PoloPM_ASVP","TFD_PoloPM_rurale","TFD_PoloAdmPen","TFD_PoloFormateur","TFD_PoloBenevole","TFD_PoloDouane","TFD_PoloUIISC","TFD_PoloPN","TFD_PoloCRF","TFD_WetsuitHV","TFD_CombiPistard","TFD_CombiDIR","TFD_CombiTPB","TFD_CombiTPBfeu","TFD_CombiSAMU","TFD_CombiCICR","TFD_CombiCICR_sang","TFD_CombiPilote_GN","TFD_CombiPilote_SC","TFD_PullCE_AT","TFD_PullMarine_AA","TFD_UBACSCE_Palmes"};
+		units[] = {"TFD_SacIntervention","TFD_Gendarme_Depart","TFD_Gendarme_Mobile","TFD_Pompier_polo","TFD_PompierAir_polo","TFD_Vigile_polo","TFD_PolicierMun_poloMarine","TFD_PolicierMun_poloBlanc","TFD_PolicierMun_poloASVP","TFD_PolicierMun_poloRurale","TFD_SurveillantAdmPen_polo","TFD_Formateur_polo","TFD_Benevole_polo","TFD_Douanier_polo","TFD_SapeurSauveteur_polo","TFD_PolicierNat_Polo","TTFD_BenevoleCRF_polo","TFD_BenevolePC_polo","TFD_Pompier_PL","TFD_Pistard_AA","TFD_Patrouilleur_DIR","TFD_Marin_TPB","TFD_Marin_TPBfeu","TFD_Ambulancier_SAMU","TFD_Medecin_CICR","TFD_Chirurgien_CICR","TFD_Pilote_GN","TFD_Pilote_SC","TFD_Soldat_Pull","TFD_Aviateur_Pull","TFD_Plouf_UBACS"};
+		weapons[] = {"TFD_CasquetteGend_Depart","TFD_CasquetteGend_Mobile","TFD_CasquettePM_ASVP","TFD_CasquettePM","TFD_CasquetteAdmPen","TFD_CasquetteSP","TFD_CasquettePM_rurale","TFD_CasquetteSecurite","TFD_CasquetteCadet","TFD_CasquettePolice","TFD_CasquettePC","TFD_CasqueF2_HDR","TFD_CasqueF2_SO","TFD_CasqueF2_Off","TFD_CasqueF2_PC","TFD_CasqueHeli_GN","TFD_CasqueHeli_SC","TFD_RecycleurHV","TFD_GHV_Infirmier","TFD_GHV_Medecin","TFD_GHV_Formateur","TFD_GiletTac_GN","TFD_GiletTac_PN","TFD_GiletTac_ERIS","TFD_GiletTac_Nego","TFD_GiletTac_SC","TFD_GiletTac_CE","TFD_GiletS3_GN","TFD_GiletS3_PN","TFD_GiletS3_CE","TFD_GiletAssaut_GIPN","TFD_GiletAssaut_Douane","TFD_GiletAssaut_GN","TFD_GiletAssautLourd_GIPN","TFD_GiletAssautLourd_Douane","TFD_GiletAssautLourd_GN","TFD_PoloGend","TFD_PoloSP","TFD_PoloSP_air","TFD_PoloSecurite","TFD_PoloPM_marine","TFD_PoloPM_blanc","TFD_PoloPM_ASVP","TFD_PoloPM_rurale","TFD_PoloAdmPen","TFD_PoloFormateur","TFD_PoloBenevole","TFD_PoloDouane","TFD_PoloUIISC","TFD_PoloPN","TFD_PoloCRF","TFD_PoloPC","TFD_WetsuitHV","TFD_CombiPistard","TFD_CombiDIR","TFD_CombiTPB","TFD_CombiTPBfeu","TFD_CombiSAMU","TFD_CombiCICR","TFD_CombiCICR_sang","TFD_CombiPilote_GN","TFD_CombiPilote_SC","TFD_PullCE_AT","TFD_PullMarine_AA","TFD_UBACSCE_Palmes"};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
 		version = 1.0;
@@ -757,6 +757,23 @@ class CfgWeapons {
 		};
 	};
 
+	class TFD_PoloPC : U_Rangemaster {
+		_generalMacro = "U_Rangemaster";
+        scope = 2;
+		scopeCurator = 2;
+		scopeArsenal = 2;
+        displayName="Polo (Protection Civile)";
+		author = "Heartbroken";
+		hiddenSelections[]= {"camo"};
+		hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloPC.paa"};
+		class ItemInfo: UniformItem{
+            uniformModel = "-";
+            uniformClass = TFD_BenevolePC_polo;
+            containerClass = Supply40;
+            mass = 40;
+		};
+	};
+
 	// WETSUIT
 	class U_B_Wetsuit;
 	class TFD_WetsuitHV : U_B_Wetsuit {
@@ -1371,6 +1388,28 @@ class CfgVehicles {
         respawnMagazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};        // What ammunition the character respawns with.
         linkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
         respawnLinkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
+    };
+
+	class TFD_BenevolePC_polo: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
+    {
+        author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
+		displayName = "Benevole Protection Civile (Polo)";
+		side = 3;
+		faction = "CIV_F";
+        scope = 2;                          // 2 = class is available in the editor; 1 = class is unavailable in the editor, but can be accessed via a macro; 0 = class is unavailable (and used for inheritance only).
+        scopeCurator = 2;                   // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
+        scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
+        uniformClass = "TFD_PoloPC";                          // This links this soldier to a particular uniform. For the details, see below.
+		hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
+        hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\PoloPC.paa"};
+        weapons[] = {Throw, Put};               // Which weapons the character has.
+        respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
+        Items[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};                // Which items the character has.
+        RespawnItems[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};         // Which items the character respawns with.
+        magazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};               // What ammunition the character has.
+        respawnMagazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};        // What ammunition the character respawns with.
+        linkedItems[] = {TFD_CasquettePC, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
+        respawnLinkedItems[] = {TFD_CasquettePC, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
     };
 
 	class B_diver_F;
