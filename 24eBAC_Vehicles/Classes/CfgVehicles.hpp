@@ -70,4 +70,8 @@ class cfgVehicles
 	class I_MRAP_03_F;
 	#include "Vehicles\VBRG.hpp"
 
+	// Vedette armée
+    class O_Boat_Armed_01_hmg_F;
+    #include "Vehicles\Vedette.hpp"
+
 };
