@@ -74,4 +74,7 @@ class cfgVehicles
     class O_Boat_Armed_01_hmg_F;
     #include "Vehicles\Vedette.hpp"
 
+	// Hors-bord
+	class C_Boat_Civil_01_police_F;
+	#include "Vehicles\Hors-Bord.hpp"
 };
