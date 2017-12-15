@@ -16,8 +16,11 @@ No copyright infringement is intended.
 
 The author would like to thank all the mod developpers and content creator that opened their productions to tinkering and learning with modder-friendly licenses.
 
+
 This mod was orginally created for the now defunct *Task Force Phoenix* and *24e Bataillon Aéroporté de Choc* and is still developped in conjunction with *The French Devils* team whose support and testing only made the mod better. For that I am grateful.
 
+
 A special thank you is also given to all of those that provide texture templates for those of us that aren't 2D/texture artists in the slightest.
+
 
 And finally this mod would not have been made if it wasn't for ArmA III's developpers openness to modders.
