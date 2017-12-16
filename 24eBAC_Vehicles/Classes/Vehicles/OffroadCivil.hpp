@@ -105,3 +105,21 @@ class 24eBAC_OffroadRC:C_Offroad_01_F
 		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomNGOOffroad.sqf""";
 	};
 };
+
+class 24eBAC_OffroadSP:C_Offroad_01_F
+{
+	_generalMacro = "C_Offroad_01_F";
+	scope = 2;
+	side = 3;
+	faction = "CIV_F";
+	displayName="VLHR (SDIS 44)";
+	author = "Heartbroken";
+	crew = "TFD_Pompier_polo";
+	hiddenSelections[]= {"camo", "camo2"};
+	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_SP.paa", "\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_SP.paa"};
+	typicalCargo[] = {"TFD_Pompier_polo"};
+	class EventHandlers
+	{
+		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomSPOffroad.sqf""";
+	};
+};
