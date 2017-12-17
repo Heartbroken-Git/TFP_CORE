@@ -16,6 +16,7 @@ class cfgVehicles
 	#include "Vehicles\CamionZamakCE.hpp"
 
 	//Camion (Zamak) Civil
+	class C_IDAP_Truck_02_water_F;
 	#include "Vehicles\CamionZamakCivil.hpp"
 
 	//Camion (Zamak) DA

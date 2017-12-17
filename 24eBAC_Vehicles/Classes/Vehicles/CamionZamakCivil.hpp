@@ -39,3 +39,18 @@ class 24eBAC_CamionCiv_CICRnonbache:I_Truck_02_transport_F
 	typicalCargo[] = {"TFD_Medecin_CICR", "TFD_Medecin_CICR"};
 	vehicleClass = "Support";
 };
+
+class 24eBAC_CamionCiv_SP:C_IDAP_Truck_02_water_F
+{
+	scope = 2;
+	side = 3;
+	faction = "CIV_F";
+	displayName="CCGC (SDIS 44)";
+	author = "Heartbroken";
+	crew = "TFD_Pompier_polo";
+	hiddenSelections[]= {"camo1", "camo2"};
+	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivCabine_SP.paa", "\24eBAC_Vehicles\Data\Camion_Civ\ZamakCivCiterne_SP.paa"};
+	typicalCargo[] = {"TFD_Pompier_polo", "TFD_Pompier_polo"};
+	vehicleClass = "Support";
+	DLC = "";
+};
