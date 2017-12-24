@@ -36,6 +36,7 @@ class CfgPatches
 			"24eBAC_OffroadMSF",
 			"24eBAC_OffroadRC",
 			"24eBAC_OffroadSP",
+			"24eBAC_OffroadPM_rurale",
 			"24eBAC_SUVMSF",
 			"24eBAC_SUVCICR",
 			"24eBAC_Hatchback_CICR",

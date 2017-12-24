@@ -123,3 +123,21 @@ class 24eBAC_OffroadSP:C_Offroad_01_F
 		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomSPOffroad.sqf""";
 	};
 };
+
+class 24eBAC_OffroadPM_rurale:C_Offroad_01_F
+{
+	_generalMacro = "C_Offroad_01_F";
+	scope = 2;
+	side = 3;
+	faction = "CIV_F";
+	displayName="Tout-terrain (Police Rurale)";
+	author = "Heartbroken";
+	crew = "TFD_PolicierMun_poloRurale";
+	hiddenSelections[]= {"camo", "camo2"};
+	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_PMrurale.paa", "\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_PMrurale.paa"};
+	typicalCargo[] = {"TFD_PolicierMun_poloRurale"};
+	class EventHandlers
+	{
+		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomPolOffroad.sqf""";
+	};
+};
