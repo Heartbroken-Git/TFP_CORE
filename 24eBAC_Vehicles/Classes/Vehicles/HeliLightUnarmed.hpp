@@ -44,6 +44,22 @@ class 24eBAC_LynxMN:Heli_light_03_unarmed_base_F     //Lynx en simple gris Marin
     availableForSupportTypes[] = {"Drop","Transport"};
 };
 
+//Lynx Civils
+class 24eBAC_LynxDouanes:Heli_light_03_unarmed_base_F     //Lynx en simple gris Marine (transport uniquement)
+{
+    _generalMacro = "I_Heli_light_03_unarmed_F";
+    scope = 2;
+    side = 3;
+    faction = "CIV_F";
+    displayName="HAS.4 Lynx Douanes";
+	author = "Heartbroken";
+	crew = "TFD_Douanier_polo";
+	hiddenSelections[]= {"camo"};
+	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Lynx_Civ\Lynx_Douanes.paa"};
+	typicalCargo[] = {"TFD_Douanier_polo"};
+    availableForSupportTypes[] = {"Drop","Transport"};
+};
+
 //Panther
 class Heli_Light_02_unarmed_base_F;
 class 24eBAC_PantherMN:Heli_Light_02_unarmed_base_F     //Base pour Panther
