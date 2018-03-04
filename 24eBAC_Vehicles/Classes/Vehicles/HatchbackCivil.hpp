@@ -159,3 +159,21 @@ class 24eBAC_Hatchback_Douane:C_Hatchback_01_F
 		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
     };
 };
+
+class 24eBAC_Hatchback_PMrurale:C_Hatchback_01_F
+{
+	_generalMacro = "C_Hatchback_01_F";
+	scope = 2;
+	side = 3;
+	faction = "CIV_F";
+	displayName="Voiture a hayon Police Rurale";
+	author = "Heartbroken";
+	crew = "TFD_PolicierMun_poloRurale";
+	hiddenSelections[]= {"Camo1"};
+	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Hatchback_Civ\Hatchback_PMrurale.paa"};
+	typicalCargo[] = {"TFD_PolicierMun_poloRurale"};
+	class EventHandlers
+	{
+		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
+	};
+};

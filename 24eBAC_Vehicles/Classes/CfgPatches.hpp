@@ -71,6 +71,7 @@ class CfgPatches
 			"24eBAC_Hatchback_SP",
 			"24eBAC_Hatchback_AP",
 			"24eBAC_Hatchback_Douane",
+			"24eBAC_Hatchback_PMrurale",
 			"24eBAC_Hatchback_Vigipirate",
 			"24eBAC_Hatchback_GN",
 			"24eBAC_UAV_AA",
