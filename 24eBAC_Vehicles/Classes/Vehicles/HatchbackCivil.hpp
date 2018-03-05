@@ -160,6 +160,24 @@ class 24eBAC_Hatchback_Douane:C_Hatchback_01_F
     };
 };
 
+class 24eBAC_Hatchback_PM:C_Hatchback_01_F
+{
+	_generalMacro = "C_Hatchback_01_F";
+	scope = 2;
+	side = 3;
+	faction = "CIV_F";
+	displayName="Voiture a hayon Police Municipale";
+	author = "Heartbroken";
+	crew = "TFD_PolicierMun_poloMarine";
+	hiddenSelections[]= {"Camo1"};
+	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Hatchback_Civ\Hatchback_PM.paa"};
+	typicalCargo[] = {"TFD_PolicierMun_poloBlanc"};
+	class EventHandlers
+	{
+		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
+	};
+};
+
 class 24eBAC_Hatchback_PMrurale:C_Hatchback_01_F
 {
 	_generalMacro = "C_Hatchback_01_F";
