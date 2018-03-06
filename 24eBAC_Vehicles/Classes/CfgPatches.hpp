@@ -5,6 +5,8 @@ class CfgPatches
 			"24eBAC_LynxMN_camo",
 			"24eBAC_LynxMN_camo_armed",
 			"24eBAC_LynxMN",
+			"24eBAC_LynxGN",
+			"24eBAC_LynxDouanes",
 			"24eBAC_PantherMN",
 			"24eBAC_PantherMN_AEM",
 			"24eBAC_PantherMN_pedro",

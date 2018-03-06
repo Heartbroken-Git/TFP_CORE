@@ -44,6 +44,21 @@ class 24eBAC_LynxMN:Heli_light_03_unarmed_base_F     //Lynx en simple gris Marin
     availableForSupportTypes[] = {"Drop","Transport"};
 };
 
+class 24eBAC_LynxGN:Heli_light_03_unarmed_base_F     //Lynx dans le style des EC135 de la Gendarmerie
+{
+    _generalMacro = "I_Heli_light_03_unarmed_F";
+    scope = 2;
+    side = 1;
+    faction = "TFD_GN";
+    displayName="HAS.4 Lynx";
+	author = "Heartbroken";
+	crew = "TFD_Pilote_GN";
+	hiddenSelections[]= {"camo"};
+	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Lynx_GN\Lynx_GN.paa"};
+	typicalCargo[] = {"TFD_Pilote_GN"};
+    availableForSupportTypes[] = {"Drop","Transport"};
+};
+
 //Lynx Civils
 class 24eBAC_LynxDouanes:Heli_light_03_unarmed_base_F     //Lynx en simple gris Marine (transport uniquement)
 {
