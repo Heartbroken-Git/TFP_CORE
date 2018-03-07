@@ -2,7 +2,7 @@ class CfgPatches {
 	class TFD_Units {
 		units[] = {
 			"TFD_SacIntervention",
-			"TFD_Gendarme_Depart","TFD_Gendarme_Mobile",
+			"TFD_Gendarme_Depart","TFD_Gendarme_Mobile","TFD_Gendarme_Polaire",
 			"TFD_Pompier_polo",
 			"TFD_PompierAir_polo",
 			"TFD_Vigile_polo",
@@ -68,7 +68,7 @@ class CfgPatches {
 			"TFD_CombiCICR","TFD_CombiCICR_sang",
 			"TFD_CombiPilote_GN",
 			"TFD_CombiPilote_SC",
-			"TFD_PullCE_AT","TFD_PullMarine_AA",
+			"TFD_PullCE_AT","TFD_PullMarine_AA","TFD_PullMarine_GN",
 			"TFD_UBACSCE_Palmes"
 		};
 		requiredVersion = 0.1;

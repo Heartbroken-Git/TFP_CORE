@@ -45,4 +45,8 @@ class CfgVehicles {
 
     #include "Vehicles\SoldierSurvival.hpp"
 
+    class B_Soldier_F;
+
+    #include "Vehicles\Soldier.hpp"
+
 };

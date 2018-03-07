@@ -30,7 +30,7 @@ class CfgWeapons {
 	class UniformItem;
 
 	#include "Weapons\Uniformes\Polo.hpp"
-	
+
 	#include "Weapons\Uniformes\Wetsuit.hpp"
 
 	#include "Weapons\Uniformes\Combinaison.hpp"
@@ -38,5 +38,7 @@ class CfgWeapons {
 	#include "Weapons\Uniformes\Pull.hpp"
 
 	#include "Weapons\Uniformes\UBACS.hpp"
+
+	#include "Weapons\Uniformes\TenueInter.hpp"
 
 };
