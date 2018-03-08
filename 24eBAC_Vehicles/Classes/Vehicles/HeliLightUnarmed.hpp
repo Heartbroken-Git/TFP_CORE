@@ -75,6 +75,21 @@ class 24eBAC_LynxDouanes:Heli_light_03_unarmed_base_F     //Lynx en simple gris 
     availableForSupportTypes[] = {"Drop","Transport"};
 };
 
+class 24eBAC_LynxSC:Heli_light_03_unarmed_base_F     //Lynx dans le style des EC135 de la Gendarmerie
+{
+    _generalMacro = "I_Heli_light_03_unarmed_F";
+    scope = 2;
+    side = 3;
+    faction = "CIV_F";
+    displayName="HAS.4 Lynx (Dragon)";
+	author = "Heartbroken";
+	crew = "TFD_Pilote_SC";
+	hiddenSelections[]= {"camo"};
+	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Lynx_Civ\Lynx_SC.paa"};
+	typicalCargo[] = {"TFD_Pilote_SC"};
+    availableForSupportTypes[] = {"Drop","Transport"};
+};
+
 //Panther
 class Heli_Light_02_unarmed_base_F;
 class 24eBAC_PantherMN:Heli_Light_02_unarmed_base_F     //Base pour Panther

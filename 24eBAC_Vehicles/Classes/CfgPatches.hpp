@@ -7,6 +7,7 @@ class CfgPatches
 			"24eBAC_LynxMN",
 			"24eBAC_LynxGN",
 			"24eBAC_LynxDouanes",
+			"24eBAC_LynxSC",
 			"24eBAC_PantherMN",
 			"24eBAC_PantherMN_AEM",
 			"24eBAC_PantherMN_pedro",

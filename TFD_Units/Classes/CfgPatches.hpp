@@ -2,7 +2,7 @@ class CfgPatches {
 	class TFD_Units {
 		units[] = {
 			"TFD_SacIntervention",
-			"TFD_Gendarme_Depart","TFD_Gendarme_Mobile","TFD_Gendarme_Polaire",
+			"TFD_Gendarme_Depart","TFD_Gendarme_Mobile","TFD_Gendarme_MobileInter","TFD_Gendarme_Polaire",
 			"TFD_Pompier_polo",
 			"TFD_PompierAir_polo",
 			"TFD_Vigile_polo",
