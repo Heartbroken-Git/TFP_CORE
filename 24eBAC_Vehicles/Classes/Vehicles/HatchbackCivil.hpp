@@ -195,3 +195,21 @@ class 24eBAC_Hatchback_PMrurale:C_Hatchback_01_F
 		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
 	};
 };
+
+class 24eBAC_Hatchback_PN:C_Hatchback_01_F
+{
+	_generalMacro = "C_Hatchback_01_F";
+	scope = 2;
+	side = 3;
+	faction = "CIV_F";
+	displayName="Voiture a hayon Police Nationale";
+	author = "Heartbroken";
+	crew = "TFD_PolicierNat_Polo";
+	hiddenSelections[]= {"Camo1"};
+	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Hatchback_Civ\Hatchback_PN.paa"};
+	typicalCargo[] = {"TFD_PolicierNat_Polo"};
+	class EventHandlers
+	{
+		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
+	};
+};
