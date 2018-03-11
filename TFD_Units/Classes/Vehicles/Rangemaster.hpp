@@ -280,8 +280,8 @@ class TFD_Douanier_polo: B_RangeMaster_F       // Define of a new class, which p
     RespawnItems[] = {FirstAidKit};         // Which items the character respawns with.
     magazines[] = {mag_4(16Rnd_9x21_Mag), Chemlight_green, Chemlight_green};               // What ammunition the character has.
     respawnMagazines[] = {mag_4(16Rnd_9x21_Mag), Chemlight_green, Chemlight_green};        // What ammunition the character respawns with.
-    linkedItems[] = {V_Rangemaster_belt, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
-    respawnLinkedItems[] = {V_Rangemaster_belt, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
+    linkedItems[] = {V_Rangemaster_belt, TFD_CasquetteDouanes, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
+    respawnLinkedItems[] = {V_Rangemaster_belt, TFD_CasquetteDouanes, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
 };
 
 class TFD_SapeurSauveteur_polo: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.

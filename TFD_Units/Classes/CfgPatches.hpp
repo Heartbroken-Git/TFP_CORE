@@ -10,7 +10,7 @@ class CfgPatches {
 			"TFD_SurveillantAdmPen_polo",
 			"TFD_Formateur_polo",
 			"TFD_Benevole_polo",
-			"TFD_Douanier_polo",
+			"TFD_Douanier_polo","TFD_Douanier_Inter",
 			"TFD_SapeurSauveteur_polo",
 			"TFD_PolicierNat_Polo","TFD_PolicierNat_Inter",
 			"TTFD_BenevoleCRF_polo",
@@ -37,6 +37,7 @@ class CfgPatches {
 			"TFD_CasquetteCadet",
 			"TFD_CasquettePolice",
 			"TFD_CasquettePC",
+			"TFD_CasquetteDouanes",
 			"TFD_CasquetteABFormateur",
 			"TFD_CasqueF2_HDR","TFD_CasqueF2_SO","TFD_CasqueF2_Off","TFD_CasqueF2_PC",
 			"TFD_CasqueHeli_GN",
@@ -71,7 +72,8 @@ class CfgPatches {
 			"TFD_PullCE_AT","TFD_PullMarine_AA","TFD_PullMarine_GN",
 			"TFD_UBACSCE_Palmes",
 			"TFD_TenueInter_GN",
-			"TFD_TenueInter_PN"
+			"TFD_TenueInter_PN",
+			"TFD_TenueInter_Douanes"
 		};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};

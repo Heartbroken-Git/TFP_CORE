@@ -43,3 +43,14 @@ class TFD_CasquettePC : H_Cap_blk {
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquettePC.paa"};
 };
+
+class TFD_CasquetteDouanes : H_Cap_blk {
+	_generalMacro = "H_Cap_blk";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Casquette (Douanes)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Headgear\CasquetteDouanes.paa"};
+};
