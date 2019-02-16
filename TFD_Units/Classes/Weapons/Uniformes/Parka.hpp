@@ -17,3 +17,20 @@ class TFD_ParkaFeuSP : U_O_T_Officer_F {
 		mass = 40;
 	};
 };
+
+class TFD_ParkaGN : U_O_T_Officer_F {
+	_generalMacro = "U_O_T_Officer_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Parka (Gendarmerie)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo", "insignia"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\ParkaGN.paa"};
+	class ItemInfo: UniformItem{
+		uniformModel = "-";
+		uniformClass = TFD_Gendarme_Parka;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};

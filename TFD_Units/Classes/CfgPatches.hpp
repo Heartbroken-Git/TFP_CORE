@@ -2,7 +2,7 @@ class CfgPatches {
 	class TFD_Units {
 		units[] = {
 			"TFD_SacIntervention",
-			"TFD_Gendarme_Depart","TFD_Gendarme_Mobile","TFD_Gendarme_MobileInter","TFD_Gendarme_Polaire",
+			"TFD_Gendarme_Depart","TFD_Gendarme_Mobile","TFD_Gendarme_MobileInter","TFD_Gendarme_Polaire","TFD_Gendarme_Parka",
 			"TFD_Pompier_polo","TFD_Pompier_PL","TFD_Pompier_FDF",
 			"TFD_PompierAir_polo",
 			"TFD_Vigile_polo",
@@ -73,7 +73,8 @@ class CfgPatches {
 			"TFD_TenueInter_GN",
 			"TFD_TenueInter_PN",
 			"TFD_TenueInter_Douanes",
-			"TFD_ParkaFeuSP"
+			"TFD_ParkaFeuSP",
+			"TFD_ParkaGN"
 		};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
