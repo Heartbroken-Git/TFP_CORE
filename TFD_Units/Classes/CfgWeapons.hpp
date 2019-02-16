@@ -41,4 +41,6 @@ class CfgWeapons {
 
 	#include "Weapons\Uniformes\TenueInter.hpp"
 
+	#include "Weapons\Uniformes\Parka.hpp"
+
 };

@@ -49,4 +49,8 @@ class CfgVehicles {
 
     #include "Vehicles\Soldier.hpp"
 
+    class O_T_Officer_F; // May change to CSAT officer to avoid star impressions
+
+    #include "Vehicles\Officer.hpp"
+
 };

@@ -3,7 +3,7 @@ class CfgPatches {
 		units[] = {
 			"TFD_SacIntervention",
 			"TFD_Gendarme_Depart","TFD_Gendarme_Mobile","TFD_Gendarme_MobileInter","TFD_Gendarme_Polaire",
-			"TFD_Pompier_polo",
+			"TFD_Pompier_polo","TFD_Pompier_PL","TFD_Pompier_FDF",
 			"TFD_PompierAir_polo",
 			"TFD_Vigile_polo",
 			"TFD_PolicierMun_poloMarine","TFD_PolicierMun_poloBlanc","TFD_PolicierMun_poloASVP","TFD_PolicierMun_poloRurale",
@@ -15,7 +15,6 @@ class CfgPatches {
 			"TFD_PolicierNat_Polo","TFD_PolicierNat_Inter",
 			"TTFD_BenevoleCRF_polo",
 			"TFD_BenevolePC_polo",
-			"TFD_Pompier_PL",
 			"TFD_Pistard_AA",
 			"TFD_Patrouilleur_DIR",
 			"TFD_Marin_TPB","TFD_Marin_TPBfeu","TFD_Marin_TPBpc",
@@ -73,7 +72,8 @@ class CfgPatches {
 			"TFD_UBACSCE_Palmes",
 			"TFD_TenueInter_GN",
 			"TFD_TenueInter_PN",
-			"TFD_TenueInter_Douanes"
+			"TFD_TenueInter_Douanes",
+			"TFD_ParkaFeuSP"
 		};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};

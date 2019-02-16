@@ -45,7 +45,7 @@ class TFD_Gendarme_Mobile: B_RangeMaster_F       // Define of a new class, which
 class TFD_Pompier_polo: B_RangeMaster_F       // Define of a new class, which parameters are inherited from B_Soldier_base_F, with exception of those defined below.
 {
     author = "Heartbroken";         // The name of the author of the asset, which is displayed in the editor.
-	displayName = "Pompier (Polo)";
+	displayName = "Sapeur-Pompier (Polo)";
 	side = 3;
 	faction = "CIV_F";
     scope = 2;                          // 2 = class is available in the editor; 1 = class is unavailable in the editor, but can be accessed via a macro; 0 = class is unavailable (and used for inheritance only).
