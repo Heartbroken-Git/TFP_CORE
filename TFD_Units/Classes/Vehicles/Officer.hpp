@@ -41,3 +41,25 @@ class TFD_Gendarme_Parka: O_T_Officer_F
     linkedItems[] = {V_Rangemaster_belt, TFD_CasquetteGend_Depart, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
     respawnLinkedItems[] = {V_Rangemaster_belt, TFD_CasquetteGend_Depart, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
 };
+
+class TFD_PolicierNat_Moto: O_T_Officer_F
+{
+    author = "Heartbroken";
+	displayName = "Policier (Motard)";
+	side = 3;
+	faction = "CIV_F";
+    scope = 2;
+    scopeCurator = 2;
+    scopeArsenal = 2;
+    uniformClass = "TFD_ParkaPNmoto";
+	hiddenSelections[] = {"Camo", "insignia"};
+    hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\ParkaPNmoto.paa"};
+    weapons[] = {hgun_Rook40_F, Throw, Put};               // Which weapons the character has.
+    respawnWeapons[] = {hgun_Rook40_F, Throw, Put};        // Which weapons the character respawns with.
+    Items[] = {FirstAidKit};                // Which items the character has.
+    RespawnItems[] = {FirstAidKit};         // Which items the character respawns with.
+    magazines[] = {mag_4(16Rnd_9x21_Mag), Chemlight_green, Chemlight_green};               // What ammunition the character has.
+    respawnMagazines[] = {mag_4(16Rnd_9x21_Mag), Chemlight_green, Chemlight_green};        // What ammunition the character respawns with.
+    linkedItems[] = {V_Rangemaster_belt, H_RacingHelmet_1_white_F, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
+    respawnLinkedItems[] = {V_Rangemaster_belt, H_RacingHelmet_1_white_F, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
+};
