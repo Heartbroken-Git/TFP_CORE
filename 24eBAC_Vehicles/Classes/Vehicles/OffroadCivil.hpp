@@ -141,3 +141,21 @@ class 24eBAC_OffroadPM_rurale:C_Offroad_01_F
 		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomPolOffroad.sqf""";
 	};
 };
+
+class 24eBAC_OffroadCRF:C_Offroad_01_F
+{
+	_generalMacro = "C_Offroad_01_F";
+	scope = 2;
+	side = 3;
+	faction = "CIV_F";
+	displayName="Tout-terrain Croix-Rouge Francaise";
+	author = "Heartbroken";
+	crew = "TFD_BenevoleCRF_polo";
+	hiddenSelections[]= {"camo", "camo2"};
+	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_CRF.paa", "\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_CRF.paa"};
+	typicalCargo[] = {"TFD_BenevoleCRF_polo"};
+	class EventHandlers
+	{
+		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomSPOffroad.sqf""";
+	};
+};
