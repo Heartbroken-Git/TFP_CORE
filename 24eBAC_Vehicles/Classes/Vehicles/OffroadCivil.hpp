@@ -27,6 +27,7 @@ class 24eBAC_OffroadDGAC_followme:C_Offroad_01_F
 	crew = "C_man_w_worker_F";
 	hiddenSelections[]= {"camo", "camo2"};
 	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_DGAC.paa", "\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_DGASec.paa"};
+	transportRepair = 200000000;
 	typicalCargo[] = {"C_man_w_worker_F"};
 	class EventHandlers
 	{
@@ -45,6 +46,7 @@ class 24eBAC_OffroadDIR:C_Offroad_01_F
 	crew = "TFD_Patrouilleur_DIR";
 	hiddenSelections[]= {"camo", "camo2"};
 	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_DIR.paa", "\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_DGASec.paa"};
+	transportRepair = 200000000;
 	typicalCargo[] = {"TFD_Patrouilleur_DIR"};
 	class EventHandlers
 	{

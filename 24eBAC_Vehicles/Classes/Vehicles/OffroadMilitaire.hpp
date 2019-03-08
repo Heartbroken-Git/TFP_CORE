@@ -9,6 +9,7 @@ class 24eBAC_OffroadTrain:C_Offroad_01_F
 	crew = "B_soldier_F";
 	hiddenSelections[]= {"camo", "camo2"};
 	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Mil\OffroadTrain.paa", "\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_DGASec.paa"};
+	transportRepair = 200000000;
 	typicalCargo[] = {"B_soldier_F"};
 	class EventHandlers
 		{
@@ -27,6 +28,7 @@ class 24eBAC_OffroadTrain_CONVEX:C_Offroad_01_F
 	crew = "B_soldier_F";
 	hiddenSelections[]= {"camo", "camo2"};
 	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Mil\OffroadTrain_CONVEX.paa", "\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_DGASec.paa"};
+	transportRepair = 200000000;
 	typicalCargo[] = {"B_soldier_F"};
 	class EventHandlers
 		{
