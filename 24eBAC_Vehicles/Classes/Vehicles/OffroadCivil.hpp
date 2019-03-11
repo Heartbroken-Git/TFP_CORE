@@ -148,12 +148,13 @@ class 24eBAC_OffroadCRF:C_Offroad_01_F
 	scope = 2;
 	side = 3;
 	faction = "CIV_F";
-	displayName="Tout-terrain Croix-Rouge Francaise";
+	displayName="Tout-terrain CRF";
 	author = "Heartbroken";
 	crew = "TFD_BenevoleCRF_polo";
 	hiddenSelections[]= {"camo", "camo2"};
 	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_CRF.paa", "\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_CRF.paa"};
 	typicalCargo[] = {"TFD_BenevoleCRF_polo"};
+	attendant = 1;
 	class EventHandlers
 	{
 		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomSPOffroad.sqf""";
