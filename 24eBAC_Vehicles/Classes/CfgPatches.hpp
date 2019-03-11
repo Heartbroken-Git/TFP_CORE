@@ -34,6 +34,7 @@ class CfgPatches
 			"24eBAC_OffroadCoy",
 			"24eBAC_OffroadCoy_armed",
 			"24eBAC_OffroadGN",
+			"24eBAC_OffroadUIISC",
 			"24eBAC_EBG_CE",
 			"24eBAC_OffroadCICR",
 			"24eBAC_OffroadMSF",
