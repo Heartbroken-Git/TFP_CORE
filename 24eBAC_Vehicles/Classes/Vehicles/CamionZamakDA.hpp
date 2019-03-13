@@ -50,4 +50,5 @@ class 24eBAC_CamionDA_EVASAN:I_Truck_02_covered_F
 	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Camion_DA\ZamakDACabine_EVASAN.paa", "\24eBAC_Vehicles\Data\Camion_DA\ZamakDAEVASAN.paa"};
 	typicalCargo[] = {"B_medic_F"};
 	vehicleClass = "Support";
+	attendant = 1;
 };

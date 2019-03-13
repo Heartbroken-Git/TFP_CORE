@@ -66,6 +66,7 @@ class 24eBAC_OffroadCICR:C_Offroad_01_F
 	hiddenSelections[]= {"camo", "camo2"};
 	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_CICR.paa", "\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_CICR.paa"};
 	typicalCargo[] = {"TFD_Benevole_polo"};
+	attendant = 1;
 	class EventHandlers
 	{
 		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomNGOOffroad.sqf""";
@@ -84,6 +85,7 @@ class 24eBAC_OffroadMSF:C_Offroad_01_F
 	hiddenSelections[]= {"camo", "camo2"};
 	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_MSF.paa", "\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_MSF.paa"};
 	typicalCargo[] = {"C_scientist_F"};
+	attendant = 1;
 	class EventHandlers
 	{
 		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomNGOOffroad.sqf""";
@@ -102,6 +104,7 @@ class 24eBAC_OffroadRC:C_Offroad_01_F
 	hiddenSelections[]= {"camo", "camo2"};
 	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_RC.paa", "\24eBAC_Vehicles\Data\Offroad_Civ\Offroad_RC.paa"};
 	typicalCargo[] = {"C_scientist_F"};
+	attendant = 1;
 	class EventHandlers
 	{
 		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomNGOOffroad.sqf""";
