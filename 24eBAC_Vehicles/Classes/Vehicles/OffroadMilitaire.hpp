@@ -127,3 +127,21 @@ class 24eBAC_OffroadGN:C_Offroad_01_F
 			init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomPolOffroad.sqf""";
 		};
 };
+
+class 24eBAC_OffroadUIISC:C_Offroad_01_F
+{
+	_generalMacro = "C_Offroad_01_F";
+    scope = 2;
+    side = 1;
+    faction = "TFD_AT";
+    displayName="VLC (UIISC)";
+	author = "Heartbroken";
+	crew = "TFD_SapeurSauveteur_polo";
+	hiddenSelections[]= {"camo", "camo2"};
+	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Offroad_Mil\OffroadUIISC.paa", "\24eBAC_Vehicles\Data\Offroad_Mil\OffroadUIISC.paa"};
+	typicalCargo[] = {"TFD_SapeurSauveteur_polo"};
+	class EventHandlers
+		{
+			init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomSPOffroad.sqf""";
+		};
+};

@@ -13,7 +13,7 @@ class CfgPatches {
 			"TFD_Douanier_polo","TFD_Douanier_Inter",
 			"TFD_SapeurSauveteur_polo",
 			"TFD_PolicierNat_Polo","TFD_PolicierNat_Inter",
-			"TTFD_BenevoleCRF_polo",
+			"TFD_BenevoleCRF_polo",
 			"TFD_BenevolePC_polo",
 			"TFD_Pistard_AA",
 			"TFD_Patrouilleur_DIR",

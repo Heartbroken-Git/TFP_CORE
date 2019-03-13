@@ -34,3 +34,20 @@ class TFD_ParkaGN : U_O_T_Officer_F {
 		mass = 40;
 	};
 };
+
+class TFD_ParkaPNmoto : U_O_T_Officer_F {
+	_generalMacro = "U_O_T_Officer_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Parka (Police Nationale)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo", "insignia"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\ParkaPNmoto.paa"};
+	class ItemInfo: UniformItem{
+		uniformModel = "-";
+		uniformClass = TFD_PolicierNat_Moto;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
