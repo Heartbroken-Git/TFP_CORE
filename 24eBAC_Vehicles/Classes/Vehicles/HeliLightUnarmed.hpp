@@ -146,6 +146,7 @@ class 24eBAC_PantherCICR:Heli_Light_02_unarmed_base_F
     displayName="AS.365SB Panther CICR";
 	author = "Heartbroken";
 	crew = "C_Marshal_F";
+    attendant = 1;
 	hiddenSelections[]= {"camo1"};
 	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Panther_Civ\PantherCICR.paa"};
 	typicalCargo[] = {"C_Marshal_F"};

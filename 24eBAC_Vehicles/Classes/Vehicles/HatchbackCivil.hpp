@@ -10,6 +10,7 @@ class 24eBAC_Hatchback_CICR:C_Hatchback_01_F
 	hiddenSelections[]= {"Camo1"};
 	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Hatchback_Civ\Hatchback_CICR.paa"};
 	typicalCargo[] = {"TFD_Benevole_polo","TFD_Benevole_polo"};
+	attendant = 1;
 	class EventHandlers
 	{
 		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
@@ -28,6 +29,7 @@ class 24eBAC_Hatchback_MSF:C_Hatchback_01_F
 	hiddenSelections[]= {"Camo1"};
 	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Hatchback_Civ\Hatchback_MSF.paa"};
 	typicalCargo[] = {"C_scientist_F"};
+	attendant = 1;
 	class EventHandlers
 	{
 		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";
@@ -46,6 +48,7 @@ class 24eBAC_Hatchback_RC:C_Hatchback_01_F
 	hiddenSelections[]= {"Camo1"};
 	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Hatchback_Civ\Hatchback_RC.paa"};
 	typicalCargo[] = {"C_scientist_F"};
+	attendant = 1;
 	class EventHandlers
 	{
 		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandom.sqf""";

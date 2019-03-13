@@ -48,6 +48,7 @@ class 24eBAC_VanKaki_PSM:C_Van_01_box_F
 	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Van_Kaki\VanCabine_PSM.paa", "\24eBAC_Vehicles\Data\Van_Kaki\VanSupplements_PSM.paa"};
 	typicalCargo[] = {"B_medic_F"};
 	vehicleClass = "Support";
+	attendant = 1;
 	class EventHandlers
 	{
 		init = "(_this select 0) execVM ""\24eBAC_Vehicles\Script\stopRandomPSM.sqf""";
