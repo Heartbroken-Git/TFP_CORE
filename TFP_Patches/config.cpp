@@ -4,7 +4,7 @@ class CfgPatches {
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
-		version = 3.3;
+		version = 4.0;
 		author = "Heartbroken";
 	};
 };
@@ -27,7 +27,7 @@ class CfgUnitInsignia
 	};
 	class TFP_FR_coscpa10
 	{
-		displayName = "[FR] Commando Parachutiste de l'Air n°10 (Basse Visibilite)";
+		displayName = "[FR] Commando Parachutiste de l'Air nï¿½10 (Basse Visibilite)";
 		author = "Heartbroken";
 		texture = "TFP_Patches\data\COS_CPA10.paa";
 		textureVehicle = "";

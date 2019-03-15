@@ -6,10 +6,10 @@ If downloaded from SyncWithSix the mod should work like any other ArmA III mod o
 If downloaded directly from GitHub extract @TFP_CORE from its .zip file and copy-paste it in your root ArmA III directory. Then enable it either on the ArmA III launcher or directly ingame.
 
 ## License
-@TFP_CORE an ArmA III modification by Heartbroken *et al.*
+@TFP_CORE an ArmA III modification by Heartbroken *et al.*  
 ![Arma Public License Share Alike (APL-SA)](https://www.bistudio.com/assets/img/licenses/APL-SA.png)  
-This mod is published under the Arma Public License Share Alike (APL-SA) as written in the `LICENSE.md` file included with it ([retrieved on the 22nd of September 2017 from here](https://www.bistudio.com/community/licenses/arma-public-license-share-alike)).  
-However, all musical content of TFP_Music.pbo is the creation of their respective owners, I, Heartbroken, am solely responsible for their implementation in an ArmA III Mod.
+This mod is published under the *Arma Public License Share Alike (APL-SA)* as written in the `LICENSE.md` file included with it ([retrieved on the 22nd of September 2017 from here](https://www.bistudio.com/community/licenses/arma-public-license-share-alike)).  
+However, all musical content of `TFP_Music.pbo` is the creation of their respective owners, I, Heartbroken, am solely responsible for their implementation in an ArmA III Mod.
 No copyright infringement is intended.
 
 ## Special Thanks
