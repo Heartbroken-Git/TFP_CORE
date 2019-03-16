@@ -4,8 +4,8 @@ class CfgPatches {
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
-		version = 3.3
-		author[] = {"Heartbroken"};
+		version = 4.0;
+		author = "Heartbroken";
 	};
 };
 
@@ -27,7 +27,7 @@ class CfgUnitInsignia
 	};
 	class TFP_FR_coscpa10
 	{
-		displayName = "[FR] Commando Parachutiste de l'Air n°10 (Basse Visibilite)";
+		displayName = "[FR] Commando Parachutiste de l'Air nï¿½10 (Basse Visibilite)";
 		author = "Heartbroken";
 		texture = "TFP_Patches\data\COS_CPA10.paa";
 		textureVehicle = "";
@@ -359,14 +359,14 @@ class CfgUnitInsignia
 	{
 		displayName = "[FR] Forces de la Gendarmerie en Afghanistan";
 		author = "Heartbroken";
-		texture = "TFP_Patches\data\GEND_AFGHA.paa";
+		texture = "TFP_Patches\data\GN\Regions\Afgha.paa";
 		textureVehicle = "";
 	};
 	class TFP_FR_gendpi
 	{
-		displayName = "[FR] Peloton d'Intervention de la Gendarmerie Nationale";
+		displayName = "[FR] Peloton d'Intervention de la Gendarmerie Mobile";
 		author = "Heartbroken";
-		texture = "TFP_Patches\data\GEND_PI.paa";
+		texture = "TFP_Patches\data\GN\Specialites\PI.paa";
 		textureVehicle = "";
 	};
 	//Release 4
@@ -572,7 +572,7 @@ class CfgUnitInsignia
 	{
 		displayName = "[FR] Compagnie de St Pierre et Miquelon - Gendarmerie Nationale";
 		author = "Heartbroken";
-		texture = "TFP_Patches\data\GEND_SPM.paa";
+		texture = "TFP_Patches\data\GN\Specialites\SPM.paa";
 		textureVehicle = "";
 	};
 	class TFP_FR_opexBarkhane
@@ -615,6 +615,735 @@ class CfgUnitInsignia
 		displayName = "[FR] OPEX Serval (Detachement d'Appui Aeromobilite)";
 		author = "Heartbroken";
 		texture = "TFP_Patches\data\OPEX_ServalDAA.paa";
+		textureVehicle = "";
+	};
+	//Release 5
+	class TFP_FR_PMrurale
+	{
+		displayName = "[FR] Police Rurale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PM_rurale.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PMruraleEcusson
+	{
+		displayName = "[FR] Ecusson de la Police Rurale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PM_ruraleEcusson.paa";
+		textureVehicle = "";
+	};
+	class TFP_Teams_24eBAC
+	{
+		displayName = "[Teams] 24eme Bataillon Aeroporte de Choc";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\24eBAC.paa";
+		textureVehicle = "";
+	};
+	class TFP_Teams_TFD
+	{
+		displayName = "[Teams] The French Devils";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\TFD.paa";
+		textureVehicle = "";
+	};
+	class TFP_Teams_TFP
+	{
+		displayName = "[Teams] Task Force Phoenix";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\TFP.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_AP
+	{
+		displayName = "[FR] Administration Penitentiaire";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\AP.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_APeris
+	{
+		displayName = "[FR] Equipe Regionale d'Intervention et de Securite";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\AP_ERIS.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PM
+	{
+		displayName = "[FR] Police Municipale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PMasvp
+	{
+		displayName = "[FR] Agent de Surveillance de la Voie Publique";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PM_ASVP.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PN
+	{
+		displayName = "[FR] Police Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PNcrs
+	{
+		displayName = "[FR] Compagnie Republicaine de Securite";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_CRS.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SP
+	{
+		displayName = "[FR] Sapeurs-Pompiers";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SP.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_2eBB
+	{
+		displayName = "[FR] 2eme Brigade Blindee";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\2eBB.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_2eBBBV
+	{
+		displayName = "[FR] 2eme Brigade Blindee (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\2eBB_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_2eREP
+	{
+		displayName = "[FR] 2eme Regiment Etranger de Parachutistes";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\2eREP.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_2eREPBV
+	{
+		displayName = "[FR] 2eme Regiment Etranger de Parachutistes (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\2eREP_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_6eRG
+	{
+		displayName = "[FR] 6e Regiment du Genie";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\6eRG.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DLEM
+	{
+		displayName = "[FR] Detachement de Legion Etrangere de Mayotte";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\DLEM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DGSI
+	{
+		displayName = "[FR] Direction Generale de la Securite Interieure";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\DGSI.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_ANSSI
+	{
+		displayName = "[FR] Agence Nationale de la Securite des Systemes d'Information";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\ANSSI.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PNdcpj
+	{
+		displayName = "[FR] Direction Centrale de la Police Judiciaire";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_DCPJ.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PNcadet
+	{
+		displayName = "[FR] Cadet de la Republique";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_Cadet.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_9eBIMa
+	{
+		displayName = "[FR] 9eme Brigade d'Infanterie de Marine";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\9eBIMa.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_9eBIMaBV
+	{
+		displayName = "[FR] 9eme Brigade d'Infanterie de Marine (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\9eBIMa_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_35F
+	{
+		displayName = "[FR] Flottille 35F";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\35F.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_CDTCyberDefense
+	{
+		displayName = "[FR] Commandement Operationnel de Cyberdefense";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\CDTCyberDefense.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_CDTCyberDefenseBV
+	{
+		displayName = "[FR] Commandement Operationnel de Cyberdefense (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\CDTCyberDefense_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_ONG_CRF
+	{
+		displayName = "[ONG] Croix Rouge Francaise";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\CRF.paa";
+		textureVehicle = "";
+	};
+	class TFP_ONG_CRFsecouriste
+	{
+		displayName = "[ONG] Croix Rouge Francaise (Secouriste)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\CRF_Secouriste.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DGA
+	{
+		displayName = "[FR] Direction Generale de l'Armement";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\DGA.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_Douanes
+	{
+		displayName = "[FR] Douanes";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\Douanes.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_LaPoste
+	{
+		displayName = "[FR] La Poste";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\LaPoste.paa";
+		textureVehicle = "";
+	};
+	class TFP_MORALE_FlapFlap
+	{
+		displayName = "[MORALE] Flap-Flap";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\MORALE_FlapFlap.paa";
+		textureVehicle = "";
+	};
+	class TFP_MORALE_PumaSAR
+	{
+		displayName = "[MORALE] Puma SAR";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\MORALE_PumaSAR.paa";
+		textureVehicle = "";
+	};
+	class TFP_ONG_PC
+	{
+		displayName = "[ONG] Protection Civile";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PC.paa";
+		textureVehicle = "";
+	};
+	class TFP_ONG_PCblason
+	{
+		displayName = "[ONG] Federation Nationale de Protection Civile";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PC_Blason.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCdeminage
+	{
+		displayName = "[FR] Securite Civile - Deminage";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_Deminage.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCdeminageBV
+	{
+		displayName = "[FR] Securite Civile - Deminage (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_DeminageBV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCForMiSC
+	{
+		displayName = "[FR] Securite Civile - Formations Militaires";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_ForMiSC.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCOPEX
+	{
+		displayName = "[FR] Securite Civile - OPEX";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_OPEX.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gend2eLGM
+	{
+		displayName = "[FR] Region de Gendarmerie (2eme Legion de Gendarmerie Mobile)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\2eLGM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gend3eLGM
+	{
+		displayName = "[FR] Region de Gendarmerie (3eme Legion de Gendarmerie Mobile)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\3eLGM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gend5eLGM
+	{
+		displayName = "[FR] Region de Gendarmerie (5eme Legion de Gendarmerie Mobile)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\5eLGM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gend6eLGM
+	{
+		displayName = "[FR] Region de Gendarmerie (6eme Legion de Gendarmerie Mobile)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\6eLGM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gend7eLGM
+	{
+		displayName = "[FR] Region de Gendarmerie (7eme Legion de Gendarmerie Mobile)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\7eLGM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gend9eLGM
+	{
+		displayName = "[FR] Region de Gendarmerie (9eme Legion de Gendarmerie Mobile)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\9eLGM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendAlsace
+	{
+		displayName = "[FR] Region de Gendarmerie (Alsace)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\Alsace.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendAquitaine
+	{
+		displayName = "[FR] Region de Gendarmerie (Aquitaine)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\Aquitaine.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendAuvergne
+	{
+		displayName = "[FR] Region de Gendarmerie (Auvergne)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\Auvergne.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendBasseNormandie
+	{
+		displayName = "[FR] Region de Gendarmerie (Basse-Normandie)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\Basse-Normandie.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendBourgogne
+	{
+		displayName = "[FR] Region de Gendarmerie (Bourgogne)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\Bourgogne.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendBretagne
+	{
+		displayName = "[FR] Region de Gendarmerie (Bretagne)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\Bretagne.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendCentre
+	{
+		displayName = "[FR] Region de Gendarmerie (Centre)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\Centre.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendChampagneArdennes
+	{
+		displayName = "[FR] Region de Gendarmerie (Champagne-Ardennes)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\ChampagneArdennes.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendCorse
+	{
+		displayName = "[FR] Region de Gendarmerie (Corse)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\Corse.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendDGGN
+	{
+		displayName = "[FR] Region de Gendarmerie (Direction Generale de la Gendarmerie Nationale)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\DGGN.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendFormationsAeriennes
+	{
+		displayName = "[FR] Region de Gendarmerie (Formations Aeriennes de Gendarmerie)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\FormationsAeriennesGendarmerie.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendFrancheComte
+	{
+		displayName = "[FR] Region de Gendarmerie (Franche-Comte)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\FrancheComte.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendGBGM
+	{
+		displayName = "[FR] Region de Gendarmerie (Groupement Blinde de Gendarmerie Mobile)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\GBGM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendGendarmerie
+	{
+		displayName = "[FR] Region de Gendarmerie (Gendarmerie)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\Gendarmerie.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendGendarmerieAir
+	{
+		displayName = "[FR] Region de Gendarmerie (Gendarmerie de l'Air)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\GendarmerieAir.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendGendarmerieArmement
+	{
+		displayName = "[FR] Region de Gendarmerie (Gendarmerie de l'Armement)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\GendarmerieArmement.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendGendarmerieMaritime
+	{
+		displayName = "[FR] Region de Gendarmerie (Gendarmerie Maritime)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\GendarmerieMaritime.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendGendarmerieSecuriteArmementsNucleaires
+	{
+		displayName = "[FR] Region de Gendarmerie (Gendarmerie de la Securite des Armements Nucleaires)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\GendarmerieSecuriteArmementsNucleaires.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendGendarmerieTransportsAeriens
+	{
+		displayName = "[FR] Region de Gendarmerie (Gendarmerie des Transports Aeriens)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\GendarmerieTransportsAeriens.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendGuadeloupe
+	{
+		displayName = "[FR] Region de Gendarmerie (Guadeloupe)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\Guadeloupe.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendGuyane
+	{
+		displayName = "[FR] Region de Gendarmerie (Guyane)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\Guyane.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendHauteNormandie
+	{
+		displayName = "[FR] Region de Gendarmerie (Haute-Normandie)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\HauteNormandie.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendIleDeFrance
+	{
+		displayName = "[FR] Region de Gendarmerie (Ile-de-France)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\IleDeFrance.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendLanguedocRoussillon
+	{
+		displayName = "[FR] Region de Gendarmerie (Languedoc-Roussillon)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\LanguedocRoussillon.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendLaReunion
+	{
+		displayName = "[FR] Region de Gendarmerie (La Reunion)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\LaReunion.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendLimousin
+	{
+		displayName = "[FR] Region de Gendarmerie (Limousin)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\Limousin.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendLorraine
+	{
+		displayName = "[FR] Region de Gendarmerie (Lorraine)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\Lorraine.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendMartinique
+	{
+		displayName = "[FR] Region de Gendarmerie (Martinique)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\Martinique.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendMayotte
+	{
+		displayName = "[FR] Region de Gendarmerie (Mayotte)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\Mayotte.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendMidiPyrenees
+	{
+		displayName = "[FR] Region de Gendarmerie (Midi-Pyrenees)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\MidiPyrenees.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendNordPasDeCalais
+	{
+		displayName = "[FR] Region de Gendarmerie (Nord-Pas-de-Calais)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\7eLGM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendNouvelleCaledonieWallisEtFutuna
+	{
+		displayName = "[FR] Region de Gendarmerie (Nouvelle-Caledonie - Wallis et Futuna)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\NouvelleCaledonie-WallisEtFutuna.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendOPEX
+	{
+		displayName = "[FR] Region de Gendarmerie (Operations Exterieures)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\OPEX.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendPACA
+	{
+		displayName = "[FR] Region de Gendarmerie (Provence-Alpes-Cote d'Azur)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\PACA.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendPaysDeLaLoire
+	{
+		displayName = "[FR] Region de Gendarmerie (Pays de la Loire)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\PaysDeLaLoire.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendPicardie
+	{
+		displayName = "[FR] Region de Gendarmerie (Picardie)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\Picardie.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendPoitouCharente
+	{
+		displayName = "[FR] Region de Gendarmerie (Poitou-Charentes)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\PoitouCharente.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendPolynesieFrancaise
+	{
+		displayName = "[FR] Region de Gendarmerie (Polynesie Francaise)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\PolynesieFrancaise.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendPrevotesAfriqueDetachementAssistanceTechnique
+	{
+		displayName = "[FR] Region de Gendarmerie (Prevotes d'Afrique et Detachement d'Assistance Technique)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\PrevotesAfrique-DetachementAssistanceTechnique.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendRhoneAlpes
+	{
+		displayName = "[FR] Region de Gendarmerie (Rhone-Alpes)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\RhoneAlpes.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendSaintPierreEtMiquelon
+	{
+		displayName = "[FR] Region de Gendarmerie (Saint-Pierre-et-Miquelon)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Regions\7eLGM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendAGIGN
+	{
+		displayName = "[FR] Antenne du GIGN";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\AGIGN.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendArmurier
+	{
+		displayName = "[FR] Armurier Pyrotechnicien - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\Armurier.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendBRI
+	{
+		displayName = "[FR] Brigade Rapide d'Intervention - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\BRI.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendCentreOperationsRenseignement
+	{
+		displayName = "[FR] Centre d'Operations et de Renseignement - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\CentreOperationsRenseignement.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendConducteurAutorite
+	{
+		displayName = "[FR] Conducteur d'Autorite - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\ConducteurAutorite.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendFluvial
+	{
+		displayName = "[FR] Brigade Fluviale - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\Fluvial.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendHauteMontagne
+	{
+		displayName = "[FR] Peloton de Gendarmerie de Haute Montagne";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\HauteMontagne.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendNRBC
+	{
+		displayName = "[FR] Escadron NRBC - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\NRBC.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendOPJ
+	{
+		displayName = "[FR] Officier de Police Judiciaire - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\OPJ.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendpibv
+	{
+		displayName = "[FR] Peloton d'Intervention de la Gendarmerie Mobile (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\PI_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendPlongeursAutonomes
+	{
+		displayName = "[FR] Plongeurs Autonomes - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\PlongeursAutonomes.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendPSIG
+	{
+		displayName = "[FR] Peloton de Securite et d'Intervention de la Gendarmerie Departementale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\PSIG.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendPSIGbv
+	{
+		displayName = "[FR] Peloton de Securite et d'Intervention de la Gendarmerie Departementale (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\PSIG_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendPSP
+	{
+		displayName = "[FR] Peloton Specialise Protection de la Gendarmerie Departementale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\PSP.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendPSPbv
+	{
+		displayName = "[FR] Peloton Specialise Protection de la Gendarmerie Departementale (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\PSP_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendSIC
+	{
+		displayName = "[FR] Systemes d'Information et de Communication - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\SIC.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendTIC
+	{
+		displayName = "[FR] Technicien d'Identification Criminelle - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\TIC.paa";
 		textureVehicle = "";
 	};
 };
