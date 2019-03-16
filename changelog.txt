@@ -1,3 +1,166 @@
+/ / / R5.0 "Vigipirate"\ \ \
+
+AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des VL du SDIS 44
+AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des véhicules Police Nationale
+AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des véhicules Police Municipale
+AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des véhicules de l'Administration Pénitentiaire
+AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des véhicules La Poste
+AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des véhicules SNCF
+AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des véhicules Police Rurale
+AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des véhicules Securitas
+AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des Renault Kangoo de la Mission Vigipirate
+AJOUTÉ : Retexture de la "Voiture à hayon de sport" civile Vanilla dans le style des véhicules des ERI de la Gendarmerie Nationale
+AJOUTÉ : Retexture de la "Voiture à hayon de sport" civile Vanilla dans le style des véhicules des Douanes Françaises
+AJOUTÉ : Retexture du "Hellcat" de l'AAF Vanilla dans un style Gendarmerie Nationale
+AJOUTÉ : Retexture du "Hellcat" de l'AAF Vanilla dans un style de Dragon de la Sécurité Civile
+AJOUTÉ : Retexture du "Hellcat" de l'AAF Vanilla dans un style Douanes Françaises
+AJOUTÉ : Retexture du "SUV" civil Vanilla dans le style des SMUR
+AJOUTÉ : Retexture de "l'Offroad" civil Vanilla dans le style des véhicules Gendarmerie Nationale
+AJOUTÉ : Retexture de "l'Offroad" civil Vanilla dans le style des véhicules UIISC
+AJOUTÉ : Retexture de "l'Offroad" civil Vanilla dans le style des véhicules Protection Civile
+AJOUTÉ : Retexture de "l'Offroad" civil Vanilla dans le style de VLHR ou autre du SDIS 44
+AJOUTÉ : Retexture de "l'Offroad" civil Vanilla dans le style des véhicules de la CRF
+AJOUTÉ : Retexture de "l'Offroad" civil Vanilla dans le style des véhicules de la Police Rurale
+AJOUTÉ : Retexture de la "Vedette Armée" de l'OTAN Vanilla avec sérigraphie Marine Nationale (AEM)
+AJOUTÉ : Retexture du "Hors-Bord" civil Vanilla avec sérigraphie Douanes Françaises
+AJOUTÉ : Retexture du "Hors-Bord" civil Vanilla avec sérigraphie Gendarmerie Maritime
+AJOUTÉ : Retexture du "Hors-Bord" civil Vanilla dans le style des "Vedette de Transport d'Autorité" de la Marine Nationale
+AJOUTÉ : Retexture du "Orca" de la CSAT Vanilla en HELISMUR44
+AJOUTÉ : Retexture du "Zamak (Eau)" de l'IDAP Vanilla en CCGC du SDIS 44
+AJOUTÉ : Retexture du véhicule de l'AAF en VBRG
+AJOUTÉ : Retexture du drone BLUFOR Vanilla dans le style des Reaper employés par l'Armée de l'Air
+AJOUTÉ : Drapeau de la France
+AJOUTÉ : Drapeau de la Belgique
+AJOUTÉ : Drapeau de l'UE
+AJOUTÉ : Drapeau de la TFP
+AJOUTÉ : Drapeau du 24eBAC
+AJOUTÉ : Drapeau des TFD
+AJOUTÉ : Drapeau de l'OPEX au Koto
+AJOUTÉ : Drapeau de l'URSS
+AJOUTÉ : Drapeau de l'empire du Japon
+AJOUTÉ : Étendard de la JSDF
+AJOUTÉ : Drapeau du Maroc
+AJOUTÉ : Drapeau du Gabon
+AJOUTÉ : Drapeau du Niger
+AJOUTÉ : Drapeau de la République Populaire de Chine
+AJOUTÉ : Etendard de l'Armée Populaire de Libération de la République Populaire de Chine
+AJOUTÉ : Panneau Vigipirate (et une variante Vigipirate Alerte Attentat)
+AJOUTÉ : Panneaux d'entrées des bases de la campagne Golden Shield
+AJOUTÉ : Panneaux à l'entrée des bases militaires française (posture de protection, consignes...)
+AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Gendarmerie Nationale
+AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Sécurité Privée
+AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Pompiers de l'Air
+AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Sapeurs Pompiers
+AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Formateur
+AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo CICR
+AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo UIISC
+AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Protection Civile
+AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Police Municipale
+AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo ASVP
+AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Police Rurale
+AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Douanes Françaises
+AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo CRF
+AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Administration Pénitentiaire
+AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Police Nationale 2016
+AJOUTÉ : Retexture de la tenue de "Scientifique" civile Vanilla en TPB Marine Nationale
+AJOUTÉ : Retexture de la tenue de "Scientifique" civile Vanilla en TPB Feu Marine Nationale
+AJOUTÉ : Retexture de la tenue de "Scientifique" civile Vanilla en Tenue du SAMU
+AJOUTÉ : Retexture de la tenue de "Scientifique" civile Vanilla en Tenue de médecin CICR (Version saine et ensanglantée)
+AJOUTÉ : Retexture de la tenue "d'Ouvrier" civile Vanilla en Tenue de la DIR
+AJOUTÉ : Retexture de la tenue "d'Ouvrier" civile Vanilla en Tenue de Pistard de l'Armée de l'Air
+AJOUTÉ : Retexture de la tenue de "Plongeur de combat" de l'OTAN Vanilla en tenue de Plongeur Pedro (orange haute visibilité)
+AJOUTÉ : Retexture du "Recycleur (OTAN)" en Jaune Haute visibilité (ceci plus la tenue du dessus fait un plongeur SP)
+AJOUTÉ : Retexture du "Képi" en version Gendarmerie Nationale
+AJOUTÉ : Retexture de la "Casquette" en version Police
+AJOUTÉ : Retexture du "Képi" en version Police Municipale
+AJOUTÉ : Retexture de la "Casquette" en version Cadet (de la République)
+AJOUTÉ : Retexture de la "Casquette" en version Protection Civile
+AJOUTÉ : Retexture du "Képi" en version Police Rurale
+AJOUTÉ : Retexture du "Képi" en version ASVP
+AJOUTÉ : Retexture du "Képi" en version Administration Pénitentiaire
+AJOUTÉ : Retexture du "Képi" en version Sapeur-Pompier
+AJOUTÉ : Retexture de la "Casquette" en version Sécurité Privée
+AJOUTÉ : Retexture de la "Casquette" en version Douanes
+AJOUTÉ : Retexture du "Gilet (Presse)" en pseudo Gilet S3 Centre Europe
+AJOUTÉ : Retexture du "Gilet (Presse)" en pseudo Gilet S3 Police Nationale
+AJOUTÉ : Retexture du "Gilet (Presse)" en pseudo Gilet S3 Gendarmerie Nationale
+AJOUTÉ : Retexture du "Gilet Tactique" en gilet Police Nationale
+AJOUTÉ : Retexture du "Gilet Tactique" en gilet Gendarmerie Nationale
+AJOUTÉ : Retexture du "Gilet Tactique" en gilet Négociateur
+AJOUTÉ : Retexture du "Gilet Tactique" en gilet Déminage Sécurité Civile
+AJOUTÉ : Retexture du "Gilet Tactique" en gilet ERIS
+AJOUTÉ : Retexture du "Gilet Tactique" en gilet Centre Europe
+AJOUTÉ : Retexture du "Gilet Tactique" en gilet haute visibilité Formateur
+AJOUTÉ : Retexture du "Gilet Tactique" en gilet haute visibilité Médecin
+AJOUTÉ : Retexture du "Gilet Tactique" en gilet haute visibilité Infirmier
+AJOUTÉ : Retexture du gilet de l'AAF en gilet Gendarmerie Nationale
+AJOUTÉ : Retexture du gilet de l'AAF en gilet GIPN
+AJOUTÉ : Retexture du gilet de l'AAF en gilet Douanes Françaises
+AJOUTÉ : Retexture du gilet de l'AAF lourd en gilet d'assaut lourd Gendarmerie Nationale
+AJOUTÉ : Retexture du gilet de l'AAF lourd en gilet d'assaut lourd GIPN
+AJOUTÉ : Retexture du gilet de l'AAF lourd en gilet d'assaut lourd Douanes Françaises
+AJOUTÉ : Retexture d'un casque en casque style F2 Protection Civile
+AJOUTÉ : Retexture d'un casque en casque style F2 Sapeurs-Pompiers (basique, chef d'agrès, chef de colonne)
+AJOUTÉ : Retexture de l'uniforme d'officier de l'AAF en pseudo parka Gendarmerie Nationale
+AJOUTÉ : Retexture de l'uniforme d'officier de l'AAF en pseudo parka Police Nationale
+AJOUTÉ : Retexture de l'uniforme d'officier de l'AAF en pseudo Tenue Feu Sapeurs Pompiers
+AJOUTÉ : Retexture d'une tenue de combat en pseudo tenue d'intervention foncée Gendarmerie Mobile
+AJOUTÉ : Retexture d'une tenue de combat en pseudo tenue d'intervention foncée Police Nationale
+AJOUTÉ : Retexture d'une tenue de combat en pseudo tenue d'intervention foncée Douanes Françaises
+AJOUTÉ : Retexture de la "Casquette (Sheriff)" civile Vanilla en version Formateur
+AJOUTÉ : Retexture du "Treillis de Survie" en Tenue de Plouf Armée de l'Air
+AJOUTÉ : Retexture d'un casque de Karting en pseudo casque de motard Gendarmerie Nationale
+AJOUTÉ : Retexture du "Sac d'assaut" en sac d'intervention SP / SAMU
+AJOUTÉ : Retexture de la tenue de pilote d'hélicoptère Vanilla BLUFOR en tenue de pilote de la Sécurité Civile
+AJOUTÉ : Retexture de la tenue de pilote d'hélicoptère Vanilla BLUFOR en tenue de pilote de la Gendarmerie Nationale
+AJOUTÉ : Retexture du casque de pilote d'hélicoptère Vanilla BLUFOR en casque de pilote de la Sécurité Civile
+AJOUTÉ : Retexture du casque de pilote d'hélicoptère Vanilla BLUFOR en casque de pilote de la Gendarmerie Nationale
+AJOUTÉ : Retexture de la tenue de Guerilla (pullover) Vanilla en tenue de travail de l'Armée de Terre (Recrutement CIRFA)
+AJOUTÉ : Retexture de la tenue de Guerilla (pullover) Vanilla en tenue de travail de l'Armée de l'Air (Recrutement CIRFA)
+AJOUTÉ : Retexture de la tenue de Guerilla (pullover) Vanilla en tenue polaire Gendarmerie Départementale
+AJOUTÉ : Thème principal de Space : Above and Beyond
+AJOUTÉ : L'instrumentale de Rains of Castamere
+AJOUTÉ : Space Truckin'
+AJOUTÉ : Patch Sapeurs Pompiers
+AJOUTÉ : Patch ASVP
+AJOUTÉ : Patch Police Nationale
+AJOUTÉ : Patch Police Municipale
+AJOUTÉ : Patches Gendarmerie Nationale (brigades départementales, BGA, armement, prévôtale, négociateur...)
+AJOUTÉ : Patch CRS
+AJOUTÉ : Patch Protection Civile
+AJOUTÉ : Patch CRF
+AJOUTÉ : Patches Sécurité Civile et/ou UIISC
+AJOUTÉ : Deux patches Police Rurale
+AJOUTÉ : Patch Douanes Françaises
+AJOUTÉ : Patch TFP
+AJOUTÉ : Patch La Poste
+AJOUTÉ : Patch de la flottille 35F
+AJOUTÉ : Patch SAR
+AJOUTÉ : Patch Puma SAR
+AJOUTÉ : Patch DGSI
+AJOUTÉ : Patch ANSSI
+AJOUTÉ : Patch de la 2eBB
+AJOUTÉ : Patch 24eBAC
+AJOUTÉ : Patch TFD
+AJOUTÉ : Patch Cadet de la République
+AJOUTÉ : Patch de l'Administration Pénitentiaire
+AJOUTÉ : Patch de l'ERIS
+AJOUTÉ : Patch de la DCPJ
+AJOUTÉ : Patch du 6eRG
+AJOUTÉ : Patch du 2eREP
+AJOUTÉ : Patch du Détachement de la Légion Étrangère à Mayotte
+AJOUTÉ : Patch de la 9eBIMa
+AJOUTÉ : Patch de la DGA
+AJOUTÉ : Patches du Commandement Opérationnel de Cyberdéfense 
+AJOUTÉ : Factions "Armée de Terre", "Marine Nationale", "Armée de l'Air", "Gendarmerie Nationale". Les autres unités y compris de police iront en "Civils"
+AJOUTÉ : Licence d'utilisation dans un fichier LICENCE
+AJOUTÉ : Remerciements
+
+RÉPARÉ : Capacité de réparations de l'Offroad du Train, de la DGAC et de la DIR
+RÉPARÉ : Capacité de soin des PSM, véhicules CICR, MSF, Croissant Rouge, CRF, Zamak EVASAN, PC
+RÉPARÉ : Logs d'erreur sur serveur dédiés
+RÉPARÉ : Correction de la variable author dans les config.cpp
+
 / / / R4.3.1 \ \ \
 
 RÉPARÉ : Les musiques de Girls und Panzer marchent correctement
