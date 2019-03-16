@@ -6,7 +6,7 @@ class 24eBAC_Hatchback_Vigipirate:C_Hatchback_01_F
 	faction = "TFD_AT";
 	displayName="Voiture a hayon (Vigipirate)";
 	author = "Heartbroken";
-	crew = B"_soldier_F";
+	crew = "B_soldier_F";
 	hiddenSelections[]= {"Camo1"};
 	hiddenSelectionsTextures[]= {"\24eBAC_Vehicles\Data\Hatchback_Mil\Hatchback_Vigipirate.paa"};
 	typicalCargo[] = {"B_soldier_F"};
