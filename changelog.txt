@@ -1,3 +1,7 @@
+/ / / Hotfix R5.0.1 \ \ \
+
+RÉPARÉ : Les morceaux de musique qui ne fonctionnaient plus fonctionnent de nouveau
+
 / / / R5.0 "Vigipirate"\ \ \
 
 AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des VL du SDIS 44
