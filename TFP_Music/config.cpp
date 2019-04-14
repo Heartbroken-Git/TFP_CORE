@@ -29,7 +29,7 @@ class CfgMusic
 	class AEGIS_01
 		{
 		name="(TFP) 01 Operation GRIEVING PROMETHEUS";
-		sound[]={"\TFP_Music\01_Op�ration_GRIEVING_PROMETHEUS.ogg",1,1};
+		sound[]={"\TFP_Music\01_Operation_GRIEVING_PROMETHEUS.ogg",1,1};
 		duration = 63;
 		theme = "safe";
 		musicClass = "OP_GRIEVING_PROMETHEUS";
@@ -38,7 +38,7 @@ class CfgMusic
 	class AEGIS_02
 		{
 		name="(TFP) 02 Theme du 1st AEGIS";
-		sound[]={"\TFP_Music\02_Th�me_du_1st_AEGIS.ogg",1,1};
+		sound[]={"\TFP_Music\02_Theme_du_1st_AEGIS.ogg",1,1};
 		duration = 260;
 		theme = "safe";
 		musicClass = "OP_GRIEVING_PROMETHEUS";
@@ -47,7 +47,7 @@ class CfgMusic
 	class AEGIS_03
 		{
 		name="(TFP) 03 Theme du 2nd AEGIS";
-		sound[]={"\TFP_Music\03_Th�me_du_2nd_AEGIS.ogg",1,1};
+		sound[]={"\TFP_Music\03_Theme_du_2nd_AEGIS.ogg",1,1};
 		duration = 200;
 		theme = "safe";
 		musicClass = "OP_GRIEVING_PROMETHEUS";
@@ -65,7 +65,7 @@ class CfgMusic
 	class AEGIS_05
 		{
 		name="(TFP) 05 Fiers Liberateurs, Freles Envahisseurs (Theme de l'OTAN)";
-		sound[]={"\TFP_Music\05_Fiers_Lib�rateurs_Fr�les_Envahisseurs_Th�me_de_l'OTAN.ogg",1,1};
+		sound[]={"\TFP_Music\05_Fiers_Liberateurs_Freles_Envahisseurs_Theme_de_l'OTAN.ogg",1,1};
 		duration = 163;
 		theme = "safe";
 		musicClass = "OP_GRIEVING_PROMETHEUS";
@@ -74,7 +74,7 @@ class CfgMusic
 	class AEGIS_06
 		{
 		name="(TFP) 06 Occupation Militaire (Theme de la CSAT)";
-		sound[]={"\TFP_Music\06_Occupation_Militaire_Th�me_de_la_CSAT.ogg",1,1};
+		sound[]={"\TFP_Music\06_Occupation_Militaire_Theme_de_la_CSAT.ogg",1,1};
 		duration = 90;
 		theme = "safe";
 		musicClass = "OP_GRIEVING_PROMETHEUS";
@@ -83,7 +83,7 @@ class CfgMusic
 	class AEGIS_07
 		{
 		name="(TFP) 07 Cavalerie Blindee a l'Avant";
-		sound[]={"\TFP_Music\07_Cavalerie_Blind�e_�_l'Avant.ogg",1,1};
+		sound[]={"\TFP_Music\07_Cavalerie_Blindee_a_l'Avant.ogg",1,1};
 		duration = 79;
 		theme = "safe";
 		musicClass = "OP_GRIEVING_PROMETHEUS";
@@ -110,7 +110,7 @@ class CfgMusic
 	class AEGIS_10
 		{
 		name="(TFP) 10 Civils en Detresse";
-		sound[]={"\TFP_Music\10_Civils_en_D�tresse.ogg",1,1};
+		sound[]={"\TFP_Music\10_Civils_en_Detresse.ogg",1,1};
 		duration = 104;
 		theme = "safe";
 		musicClass = "OP_GRIEVING_PROMETHEUS";
@@ -119,7 +119,7 @@ class CfgMusic
 	class AEGIS_11
 		{
 		name="(TFP) 11 Reveil en Terres Desolees";
-		sound[]={"\TFP_Music\11_R�veil_en_Terres_D�sol�es.ogg",1,1};
+		sound[]={"\TFP_Music\11_Reveil_en_Terres_Desolees.ogg",1,1};
 		duration = 193;
 		theme = "safe";
 		musicClass = "OP_GRIEVING_PROMETHEUS";
@@ -128,7 +128,7 @@ class CfgMusic
 	class AEGIS_12
 		{
 		name="(TFP) 12 Vengeance Populaire (Theme de la FIA)";
-		sound[]={"\TFP_Music\12_Vengeance_Populaire_Th�me_de_la_FIA.ogg",1,1};
+		sound[]={"\TFP_Music\12_Vengeance_Populaire_Theme_de_la_FIA.ogg",1,1};
 		duration = 156;
 		theme = "safe";
 		musicClass = "OP_GRIEVING_PROMETHEUS";
@@ -137,7 +137,7 @@ class CfgMusic
 	class AEGIS_13
 		{
 		name="(TFP) 13 Derriere les Lignes Ennemies";
-		sound[]={"\TFP_Music\13_Derri�re_les_Lignes_Ennemies.ogg",1,1};
+		sound[]={"\TFP_Music\13_Derriere_les_Lignes_Ennemies.ogg",1,1};
 		duration = 88;
 		theme = "safe";
 		musicClass = "OP_GRIEVING_PROMETHEUS";
@@ -191,7 +191,7 @@ class CfgMusic
 	class AEGIS_19
 		{
 		name="(TFP) 19 Intervention Desesperee";
-		sound[]={"\TFP_Music\19_Intervention_D�sesp�r�e.ogg",1,1};
+		sound[]={"\TFP_Music\19_Intervention_Desesperee.ogg",1,1};
 		duration = 137;
 		theme = "safe";
 		musicClass = "OP_GRIEVING_PROMETHEUS";
@@ -200,7 +200,7 @@ class CfgMusic
 	class AEGIS_20
 		{
 		name="(TFP) 20 Heros Malgre Eux";
-		sound[]={"\TFP_Music\20_H�ros_Malgr�_Eux.ogg",1,1};
+		sound[]={"\TFP_Music\20_Heros_Malgre_Eux.ogg",1,1};
 		duration = 134;
 		theme = "safe";
 		musicClass = "OP_GRIEVING_PROMETHEUS";
@@ -218,13 +218,13 @@ class CfgMusic
 	class AEGIS_22
 		{
 		name="(TFP) 22 Retraite Precipitee (Defaite)";
-		sound[]={"\TFP_Music\22_Retraite_Pr�cipit�e_D�faite.ogg",1,1};
+		sound[]={"\TFP_Music\22_Retraite_Precipitee_Defaite.ogg",1,1};
 		duration = 187;
 		theme = "safe";
 		musicClass = "OP_GRIEVING_PROMETHEUS";
 		};
 
-	class TFP_Music_01 //D�but des modifs/doublons li�s � V2.0
+	class TFP_Music_01 //Debut des modifs/doublons lies a V2.0
 		{
 		name="(TFP) Band of Brothers Theme";
 		sound[]={"\TFP_Music\Band_Of_Brothers_Theme.ogg",1,1};
@@ -267,7 +267,7 @@ class CfgMusic
 	class TFP_Music_06
 		{
 		name="(TFP) RUS - Hymne de la Federation de Russie";
-		sound[]={"\TFP_Music\Hymne_de_la_F�d�ration_de_Russie.ogg",1,1};
+		sound[]={"\TFP_Music\Hymne_de_la_Federation_de_Russie.ogg",1,1};
 		duration = 94;
 		theme = "safe";
 		musicClass = "TFP_Music";
@@ -283,7 +283,7 @@ class CfgMusic
 	class TFP_Music_08
 		{
 		name="(TFP) La Grande Evasion";
-		sound[]={"\TFP_Music\La_Grande_�vasion.ogg",1,1};
+		sound[]={"\TFP_Music\La_Grande_Evasion.ogg",1,1};
 		duration = 122;
 		theme = "safe";
 		musicClass = "TFP_Music";
@@ -531,7 +531,7 @@ class CfgMusic
 	class TFP_Music_39
 		{
 		name="(TFP) Garde a vous";
-		sound[]={"\TFP_Music\Garde-�-vous.ogg",1,1};
+		sound[]={"\TFP_Music\Garde-a-vous.ogg",1,1};
 		duration = 12;
 		theme = "safe";
 		musicClass = "TFP_Music";
@@ -539,7 +539,7 @@ class CfgMusic
 	class TFP_Music_40
 		{
 		name="(TFP) Hymne Europeen";
-		sound[]={"\TFP_Music\Hymne_Europ�en.ogg",1,1};
+		sound[]={"\TFP_Music\Hymne_Europeen.ogg",1,1};
 		duration = 79;
 		theme = "safe";
 		musicClass = "TFP_Music";
