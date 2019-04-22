@@ -4,7 +4,7 @@ class CfgPatches {
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
-		version = 4.0;
+		version = 5.1;
 		author = "Heartbroken";
 	};
 };
@@ -1344,6 +1344,28 @@ class CfgUnitInsignia
 		displayName = "[FR] Technicien d'Identification Criminelle - Gendarmerie Nationale";
 		author = "Heartbroken";
 		texture = "TFP_Patches\data\GN\Specialites\TIC.paa";
+		textureVehicle = "";
+	};
+	// Release 5.1 "Personnalisation"
+	class TFP_FR_ciiraaBA120
+	{
+		displayName = "[FR] Centre d'Instruction et d'Information des Reserves de l'Armee de l'Air - Base Aerienne 120";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\CIIRAA_BA120.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_ciiraaBA120
+	{
+		displayName = "[FR] Escadron de Soutien Technique Aeronautique 2E.064 - Adopte un Mecano";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\ESTA2E.064_adopteMecano.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendRO
+	{
+		displayName = "[FR] Reserviste Operationnel - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\RO.paa";
 		textureVehicle = "";
 	};
 };
