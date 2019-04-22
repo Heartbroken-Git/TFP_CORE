@@ -1354,7 +1354,7 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\CIIRAA_BA120.paa";
 		textureVehicle = "";
 	};
-	class TFP_FR_ciiraaBA120
+	class TFP_FR_esta2e064_adopteMecano
 	{
 		displayName = "[FR] Escadron de Soutien Technique Aeronautique 2E.064 - Adopte un Mecano";
 		author = "Heartbroken";
@@ -1366,6 +1366,27 @@ class CfgUnitInsignia
 		displayName = "[FR] Reserviste Operationnel - Gendarmerie Nationale";
 		author = "Heartbroken";
 		texture = "TFP_Patches\data\GN\Specialites\RO.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendSAGcazaux
+	{
+		displayName = "[FR] Section Aerienne de la Gendarmerie de Cazaux";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\SAGcazaux.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendSAGmerignac
+	{
+		displayName = "[FR] Section Aerienne de la Gendarmerie de Merignac";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\SAGmerignac.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendSAGnoumea
+	{
+		displayName = "[FR] Section Aerienne de la Gendarmerie de Noumea";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\SAGnoumea.paa";
 		textureVehicle = "";
 	};
 };
