@@ -1400,28 +1400,42 @@ class CfgUnitInsignia
 	{
 		displayName = "[BE] Special Forces Belgium";
 		author = "Heartbroken";
-		texture = "TFP_Patches\data\GN\BE_SpecialForces.paa";
+		texture = "TFP_Patches\data\BE_SpecialForces.paa";
 		textureVehicle = "";
 	};
 	class TFP_BE_Police
 	{
 		displayName = "[BE] Police Belgium";
 		author = "Heartbroken";
-		texture = "TFP_Patches\data\GN\BE_Police.paa";
+		texture = "TFP_Patches\data\BE_Police.paa";
 		textureVehicle = "";
 	};
 	class TFP_BE_UnitedWeStand_HV
 	{
 		displayName = "[BE] United We Stand (Haute Visibilite)";
 		author = "Heartbroken";
-		texture = "TFP_Patches\data\GN\BE_UnitedWeStand_HV.paa";
+		texture = "TFP_Patches\data\BE_UnitedWeStand_HV.paa";
 		textureVehicle = "";
 	};
 	class TFP_BE_UnitedWeStand_BV
 	{
 		displayName = "[BE] United we Stand (Basse Visibilite)";
 		author = "Heartbroken";
-		texture = "TFP_Patches\data\GN\UnitedWeStand_BV.paa";
+		texture = "TFP_Patches\data\BE_UnitedWeStand_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_GoT_Baratheon
+	{
+		displayName = "[GoT] Baratheon";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GOT_Baratheon.paa";
+		textureVehicle = "";
+	};
+	class TFP_BE_UnitedWeStand_BV
+	{
+		displayName = "[GoT] Stark";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GOT_Stark.paa";
 		textureVehicle = "";
 	};
 };
