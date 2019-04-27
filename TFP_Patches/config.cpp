@@ -1459,4 +1459,39 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\DRSD_BV.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_SCdeminageNantes
+	{
+		displayName = "[FR] Securite Civile - Deminage de Nantes";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_DeminageNantes.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCghsc
+	{
+		displayName = "[FR] Securite Civile - Groupement d'Helicopteres de la Securite Civile";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_GHSC.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCghscDragon
+	{
+		displayName = "[FR] Securite Civile - Groupement d'Helicopteres de la Securite Civile (Dragon)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_GHSCdragon.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCgrimp
+	{
+		displayName = "[FR] Securite Civile - Groupement de Reconnaissance et d'Intervention en Milieu Perillieux";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_GRIMP.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCmedical
+	{
+		displayName = "[FR] Securite Civile - Equipe medicale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_Medical.paa";
+		textureVehicle = "";
+	};
 };
