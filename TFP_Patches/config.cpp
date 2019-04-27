@@ -1396,4 +1396,32 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\GN\SAGrennes.paa";
 		textureVehicle = "";
 	};
+	class TFP_BE_SpecialForces
+	{
+		displayName = "[BE] Special Forces Belgium";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\BE_SpecialForces.paa";
+		textureVehicle = "";
+	};
+	class TFP_BE_Police
+	{
+		displayName = "[BE] Police Belgium";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\BE_Police.paa";
+		textureVehicle = "";
+	};
+	class TFP_BE_UnitedWeStand_HV
+	{
+		displayName = "[BE] United We Stand (Haute Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\BE_UnitedWeStand_HV.paa";
+		textureVehicle = "";
+	};
+	class TFP_BE_UnitedWeStand_BV
+	{
+		displayName = "[BE] United we Stand (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\UnitedWeStand_BV.paa";
+		textureVehicle = "";
+	};
 };
