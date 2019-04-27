@@ -1389,4 +1389,11 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\GN\SAGnoumea.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_gendSAGrennes
+	{
+		displayName = "[FR] Section Aerienne de la Gendarmerie de Rennes";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\SAGrennes.paa";
+		textureVehicle = "";
+	};
 };
