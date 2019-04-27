@@ -1438,4 +1438,25 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\GOT_Stark.paa";
 		textureVehicle = "";
 	};
+	class TFP_MISC_connacht
+	{
+		displayName = "[IE] Drapeau du Connacht";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\Connacht.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_cocardeMN_BV
+	{
+		displayName = "[FR] Cocarde de l'Aeronavale (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\CocardeMN_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DRSD_BV
+	{
+		displayName = "[FR] Direction du Renseignement et de la Securite de la Defense (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\DRSD_BV.paa";
+		textureVehicle = "";
+	};
 };
