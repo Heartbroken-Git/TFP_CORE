@@ -1431,7 +1431,7 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\GOT_Baratheon.paa";
 		textureVehicle = "";
 	};
-	class TFP_BE_UnitedWeStand_BV
+	class TFP_GoT_Stark
 	{
 		displayName = "[GoT] Stark";
 		author = "Heartbroken";
