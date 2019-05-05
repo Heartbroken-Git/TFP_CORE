@@ -1494,4 +1494,39 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\SC_Medical.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_DouanesAviateur
+	{
+		displayName = "[FR] Douanes - Aviateur";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\Douanes_Aviateur.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DouanesBSAM
+	{
+		displayName = "[FR] Douanes - Brigade de Surveillance AeroMaritime";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\Douanes_BSAM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DouanesGardeCotes
+	{
+		displayName = "[FR] Douanes - Garde-Cotes";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\Douanes_GardeCotes.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DouanesMarin
+	{
+		displayName = "[FR] Douanes - Marin";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\Douanes_Marin.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DouanesPCR
+	{
+		displayName = "[FR] Douanes - Personne Compétente en Radioprotection";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\Douanes_PCR.paa";
+		textureVehicle = "";
+	};
 };
