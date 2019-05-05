@@ -1557,4 +1557,18 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\AA_SAR.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_SEA
+	{
+		displayName = "[FR] Service des Essences des Armees";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SEA.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SEAbv
+	{
+		displayName = "[FR] Service des Essences des Armees - Basse Visibilite";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SEA_BV.paa";
+		textureVehicle = "";
+	};
 };
