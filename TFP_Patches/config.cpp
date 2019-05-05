@@ -1529,4 +1529,32 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\Douanes_PCR.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_AAcfaa
+	{
+		displayName = "[FR] Centre de Formation a l'Appui Aerien - Armee de l'Air";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\AA_CFAA.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_AAcfaaFac
+	{
+		displayName = "[FR] Forward Air Controller - Armee de l'Air";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\AA_CFAAfac.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_AAchiensGuerre
+	{
+		displayName = "[FR] Chiens de Guerre - Armee de l'Air";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\AA_ChiensGuerre.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_AAsar
+	{
+		displayName = "[FR] Sauveteur-Plongeur - Armee de l'Air";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\AA_SAR.paa";
+		textureVehicle = "";
+	};
 };
