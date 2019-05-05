@@ -1571,4 +1571,32 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\SEA_BV.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_cosforfuscoIleLongue
+	{
+		displayName = "[FR] Compagnie de Fusilliers Marins de l'Ile Longue";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\COS_FORFUSCO_IleLongue.paa";
+		textureVehicle = "";
+	};
+	class TFP_MORALE_GBU49
+	{
+		displayName = "[MORALE] GBU-49 No Capture, No Problem";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\MORALE_GBU49.paa";
+		textureVehicle = "";
+	};
+	class TFP_MISC_OIRcjtf
+	{
+		displayName = "[US] Combined Joint Task Force - Operation Inherent Resolve";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\OIR_CJTF.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PNbrigadeAero
+	{
+		displayName = "[FR] Brigade Aeronautique - Police Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_BrigadeAero.paa";
+		textureVehicle = "";
+	};
 };
