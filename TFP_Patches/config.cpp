@@ -4,7 +4,7 @@ class CfgPatches {
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
-		version = 4.0;
+		version = 5.1;
 		author = "Heartbroken";
 	};
 };
@@ -1344,6 +1344,259 @@ class CfgUnitInsignia
 		displayName = "[FR] Technicien d'Identification Criminelle - Gendarmerie Nationale";
 		author = "Heartbroken";
 		texture = "TFP_Patches\data\GN\Specialites\TIC.paa";
+		textureVehicle = "";
+	};
+	// Release 5.1 "Personnalisation"
+	class TFP_FR_ciiraaBA120
+	{
+		displayName = "[FR] Centre d'Instruction et d'Information des Reserves de l'Armee de l'Air - Base Aerienne 120";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\CIIRAA_BA120.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_esta2e064_adopteMecano
+	{
+		displayName = "[FR] Escadron de Soutien Technique Aeronautique 2E.064 - Adopte un Mecano";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\ESTA2E.064_adopteMecano.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendRO
+	{
+		displayName = "[FR] Reserviste Operationnel - Gendarmerie Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\RO.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendSAGcazaux
+	{
+		displayName = "[FR] Section Aerienne de la Gendarmerie de Cazaux";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\SAGcazaux.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendSAGmerignac
+	{
+		displayName = "[FR] Section Aerienne de la Gendarmerie de Merignac";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\SAGmerignac.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendSAGnoumea
+	{
+		displayName = "[FR] Section Aerienne de la Gendarmerie de Noumea";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\SAGnoumea.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_gendSAGrennes
+	{
+		displayName = "[FR] Section Aerienne de la Gendarmerie de Rennes";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\SAGrennes.paa";
+		textureVehicle = "";
+	};
+	class TFP_BE_SpecialForces
+	{
+		displayName = "[BE] Special Forces Belgium";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\BE_SpecialForces.paa";
+		textureVehicle = "";
+	};
+	class TFP_BE_Police
+	{
+		displayName = "[BE] Police Belgium";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\BE_Police.paa";
+		textureVehicle = "";
+	};
+	class TFP_BE_UnitedWeStand_HV
+	{
+		displayName = "[BE] United We Stand (Haute Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\BE_UnitedWeStand_HV.paa";
+		textureVehicle = "";
+	};
+	class TFP_BE_UnitedWeStand_BV
+	{
+		displayName = "[BE] United we Stand (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\BE_UnitedWeStand_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_GoT_Baratheon
+	{
+		displayName = "[GoT] Baratheon";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GOT_Baratheon.paa";
+		textureVehicle = "";
+	};
+	class TFP_GoT_Stark
+	{
+		displayName = "[GoT] Stark";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GOT_Stark.paa";
+		textureVehicle = "";
+	};
+	class TFP_MISC_connacht
+	{
+		displayName = "[IE] Drapeau du Connacht";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\Connacht.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_cocardeMN_BV
+	{
+		displayName = "[FR] Cocarde de l'Aeronavale (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\CocardeMN_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DRSD_BV
+	{
+		displayName = "[FR] Direction du Renseignement et de la Securite de la Defense (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\DRSD_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCdeminageNantes
+	{
+		displayName = "[FR] Securite Civile - Deminage de Nantes";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_DeminageNantes.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCghsc
+	{
+		displayName = "[FR] Securite Civile - Groupement d'Helicopteres de la Securite Civile";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_GHSC.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCghscDragon
+	{
+		displayName = "[FR] Securite Civile - Groupement d'Helicopteres de la Securite Civile (Dragon)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_GHSCdragon.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCgrimp
+	{
+		displayName = "[FR] Securite Civile - Groupement de Reconnaissance et d'Intervention en Milieu Perillieux";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_GRIMP.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SCmedical
+	{
+		displayName = "[FR] Securite Civile - Equipe medicale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SC_Medical.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DouanesAviateur
+	{
+		displayName = "[FR] Douanes - Aviateur";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\Douanes_Aviateur.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DouanesBSAM
+	{
+		displayName = "[FR] Douanes - Brigade de Surveillance AeroMaritime";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\Douanes_BSAM.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DouanesGardeCotes
+	{
+		displayName = "[FR] Douanes - Garde-Cotes";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\Douanes_GardeCotes.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DouanesMarin
+	{
+		displayName = "[FR] Douanes - Marin";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\Douanes_Marin.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DouanesPCR
+	{
+		displayName = "[FR] Douanes - Personne Compétente en Radioprotection";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\Douanes_PCR.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_AAcfaa
+	{
+		displayName = "[FR] Centre de Formation a l'Appui Aerien - Armee de l'Air";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\AA_CFAA.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_AAcfaaFac
+	{
+		displayName = "[FR] Forward Air Controller - Armee de l'Air";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\AA_CFAAfac.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_AAchiensGuerre
+	{
+		displayName = "[FR] Chiens de Guerre - Armee de l'Air";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\AA_ChiensGuerre.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_AAsar
+	{
+		displayName = "[FR] Sauveteur-Plongeur - Armee de l'Air";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\AA_SAR.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SEA
+	{
+		displayName = "[FR] Service des Essences des Armees";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SEA.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_SEAbv
+	{
+		displayName = "[FR] Service des Essences des Armees - Basse Visibilite";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\SEA_BV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_cosforfuscoIleLongue
+	{
+		displayName = "[FR] Compagnie de Fusilliers Marins de l'Ile Longue";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\COS_FORFUSCO_IleLongue.paa";
+		textureVehicle = "";
+	};
+	class TFP_MORALE_GBU49
+	{
+		displayName = "[MORALE] GBU-49 No Capture, No Problem";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\MORALE_GBU49.paa";
+		textureVehicle = "";
+	};
+	class TFP_MISC_OIRcjtf
+	{
+		displayName = "[US] Combined Joint Task Force - Operation Inherent Resolve";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\OIR_CJTF.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PNbrigadeAero
+	{
+		displayName = "[FR] Brigade Aeronautique - Police Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_BrigadeAero.paa";
 		textureVehicle = "";
 	};
 };
