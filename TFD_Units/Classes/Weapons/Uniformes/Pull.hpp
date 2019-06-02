@@ -7,7 +7,7 @@ class TFD_PullCE_AT : U_BG_Guerrilla_6_1 {
 	scopeArsenal = 2;
 	displayName="Pull-over (Armee de Terre)";
 	author = "Heartbroken";
-	hiddenSelections[]= {"camo"};
+	hiddenSelections[]= {"camo","insignia"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PullCE_AT.paa"};
 	class ItemInfo: UniformItem{
 		uniformModel = "-";
@@ -24,7 +24,7 @@ class TFD_PullMarine_AA : U_BG_Guerrilla_6_1 {
 	scopeArsenal = 2;
     displayName="Pull-over (Armee de l'Air)";
 	author = "Heartbroken";
-	hiddenSelections[]= {"camo"};
+	hiddenSelections[]= {"camo","insignia"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PullMarine_AA.paa"};
 	class ItemInfo: UniformItem{
 		uniformModel = "-";
@@ -41,7 +41,7 @@ class TFD_PullMarine_GN : U_BG_Guerrilla_6_1 {
 	scopeArsenal = 2;
     displayName="Polaire (Gendarmerie Nationale)";
 	author = "Heartbroken";
-	hiddenSelections[]= {"camo"};
+	hiddenSelections[]= {"camo","insignia"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PullMarine_GN.paa"};
 	class ItemInfo: UniformItem{
 		uniformModel = "-";
