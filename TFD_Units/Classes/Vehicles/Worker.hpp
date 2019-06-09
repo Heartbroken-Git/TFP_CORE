@@ -8,7 +8,7 @@ class TFD_Pistard_AA: C_man_w_worker_F       // Define of a new class, which par
     scopeCurator = 2;                   // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
     scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
     uniformClass = "TFD_CombiPistard";                          // This links this soldier to a particular uniform. For the details, see below.
-	hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
+	hiddenSelections[] = {"Camo","insignia"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
     hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_pistardAA.paa"};
     weapons[] = {Throw, Put};               // Which weapons the character has.
     respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
@@ -34,7 +34,7 @@ class TFD_Patrouilleur_DIR: C_man_w_worker_F       // Define of a new class, whi
     scopeCurator = 2;                   // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
     scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
     uniformClass = "TFD_CombiDIR";                          // This links this soldier to a particular uniform. For the details, see below.
-	hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
+	hiddenSelections[] = {"Camo","insignia"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
     hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_patrouilleurDIR.paa"};
     weapons[] = {Throw, Put};               // Which weapons the character has.
     respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
@@ -60,7 +60,7 @@ class TFD_Marin_TPB: C_man_w_worker_F       // Define of a new class, which para
     scopeCurator = 2;                   // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
     scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
     uniformClass = "TFD_CombiTPB";                          // This links this soldier to a particular uniform. For the details, see below.
-	hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
+	hiddenSelections[] = {"Camo","insignia"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
     hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_TPB.paa"};
     weapons[] = {Throw, Put};               // Which weapons the character has.
     respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
@@ -86,7 +86,7 @@ class TFD_Marin_TPBfeu: C_man_w_worker_F       // Define of a new class, which p
     scopeCurator = 2;                   // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
     scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
     uniformClass = "TFD_CombiTPBfeu";                          // This links this soldier to a particular uniform. For the details, see below.
-	hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
+	hiddenSelections[] = {"Camo","insignia"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
     hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_TPBfeu.paa"};
     weapons[] = {Throw, Put};               // Which weapons the character has.
     respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
@@ -112,7 +112,7 @@ class TFD_Marin_TPBpc: C_man_w_worker_F       // Define of a new class, which pa
     scopeCurator = 2;                   // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
     scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
     uniformClass = "TFD_CombiTPB";                          // This links this soldier to a particular uniform. For the details, see below.
-    hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
+    hiddenSelections[] = {"Camo","insignia"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
     hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_TPB.paa"};
     weapons[] = {Throw, Put};               // Which weapons the character has.
     respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.

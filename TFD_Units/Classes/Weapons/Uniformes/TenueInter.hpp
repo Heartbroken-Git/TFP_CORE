@@ -7,7 +7,7 @@ class TFD_TenueInter_GN : U_B_CombatUniform_mcam {
 	scopeArsenal = 2;
 	displayName="Tenue d'intervention (Gendarmerie Mobile)";
 	author = "Heartbroken";
-	hiddenSelections[]= {"camo"};
+	hiddenSelections[]= {"camo","insignia"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\TenueInter_GN.paa"};
 	class ItemInfo: UniformItem{
 		uniformModel = "-";
@@ -24,7 +24,7 @@ class TFD_TenueInter_PN : U_B_CombatUniform_mcam {
 	scopeArsenal = 2;
 	displayName="Tenue d'intervention (Police Nationale)";
 	author = "Heartbroken";
-	hiddenSelections[]= {"camo"};
+	hiddenSelections[]= {"camo","insignia"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\TenueInter_PN.paa"};
 	class ItemInfo: UniformItem{
 		uniformModel = "-";
@@ -41,7 +41,7 @@ class TFD_TenueInter_Douanes : U_B_CombatUniform_mcam {
 	scopeArsenal = 2;
 	displayName="Tenue d'intervention (Douanes)";
 	author = "Heartbroken";
-	hiddenSelections[]= {"camo"};
+	hiddenSelections[]= {"camo","insignia"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\TenueInter_Douanes.paa"};
 	class ItemInfo: UniformItem{
 		uniformModel = "-";

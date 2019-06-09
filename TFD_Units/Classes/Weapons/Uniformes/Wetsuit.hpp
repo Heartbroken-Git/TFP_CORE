@@ -7,7 +7,7 @@ class TFD_WetsuitHV : U_B_Wetsuit {
 	scopeArsenal = 2;
 	displayName="Combinaison de plongee (Haute Visibilite)";
 	author = "Heartbroken";
-	hiddenSelections[]= {"camo"};
+	hiddenSelections[]= {"camo","insignia"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\WetsuitHV.paa"};
 	class ItemInfo: UniformItem{
 		uniformModel = "-";

@@ -8,7 +8,7 @@ class TFD_Pompier_PL: B_diver_F
     scopeCurator = 2;
     scopeArsenal = 2;
     uniformClass = "TFD_WetsuitHV";
-	hiddenSelections[] = {"Camo1","Camo2"};
+	hiddenSelections[] = {"Camo1","Camo2","insignia"};
     hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\WetsuitHV.paa","\TFD_Units\Data\Vest\RecycleurHV.paa"};
 	hiddenUnderwaterSelections[] = {"hide"};
 	shownUnderwaterSelections[] = {"unhide","unhide2"};

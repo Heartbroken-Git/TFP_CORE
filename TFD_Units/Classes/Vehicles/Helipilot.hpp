@@ -8,7 +8,7 @@ class TFD_Pilote_GN: B_Helipilot_F       // Define of a new class, which paramet
     scopeCurator = 2;                   // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
     scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
     uniformClass = "TFD_CombiPilote_GN";                          // This links this soldier to a particular uniform. For the details, see below.
-	hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
+	hiddenSelections[] = {"Camo","insignia"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
     hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_piloteGN.paa"};
     weapons[] = {hgun_Rook40_F, Throw, Put};               // Which weapons the character has.
     respawnWeapons[] = {hgun_Rook40_F, Throw, Put};        // Which weapons the character respawns with.
@@ -34,7 +34,7 @@ class TFD_Pilote_SC: B_Helipilot_F       // Define of a new class, which paramet
     scopeCurator = 2;                   // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
     scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
     uniformClass = "TFD_CombiPilote_SC";                          // This links this soldier to a particular uniform. For the details, see below.
-	hiddenSelections[] = {"Camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
+	hiddenSelections[] = {"Camo","insignia"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
     hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\Combi_piloteSC.paa"};
     weapons[] = {Throw, Put};               // Which weapons the character has.
     respawnWeapons[] = {Throw, Put};        // Which weapons the character respawns with.
