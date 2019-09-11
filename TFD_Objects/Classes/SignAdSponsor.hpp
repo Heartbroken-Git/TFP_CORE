@@ -181,3 +181,13 @@ class TFD_PanneauZP : SignAd_SponsorS_F {
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_ZP.paa"};
 };
+
+class TFD_PanneauZR : SignAd_SponsorS_F {
+	_generalMacro = "SignAd_SponsorS_F";
+	scope = 2;
+	scopeCurator = 2;
+	displayName="Panneau (ZR)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_ZR.paa"};
+};
