@@ -28,14 +28,14 @@ class TFD_PanneauVigipirateUA : SignAd_SponsorS_F {
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_VigipirateUA.paa"};
 };
 
-class TFD_PanneauTerMil : SignAd_SponsorS_F {
+class TFD_PanneauZDC : SignAd_SponsorS_F {
 	_generalMacro = "SignAd_SponsorS_F";
 	scope = 2;
 	scopeCurator = 2;
-	displayName="Panneau (Terrain Militaire)";
+	displayName="Panneau (ZDC)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
-	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_TerMil.paa"};
+	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_ZDC.paa"};
 };
 
 class TFD_PanneauFOBYork : SignAd_SponsorS_F {
