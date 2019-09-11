@@ -191,3 +191,13 @@ class TFD_PanneauZR : SignAd_SponsorS_F {
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_ZR.paa"};
 };
+
+class TFD_PanneauVideoSurv : SignAd_SponsorS_F {
+	_generalMacro = "SignAd_SponsorS_F";
+	scope = 2;
+	scopeCurator = 2;
+	displayName="Panneau (Video surveillance)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_VideoSurv.paa"};
+};
