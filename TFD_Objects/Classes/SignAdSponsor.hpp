@@ -169,3 +169,15 @@ class TFD_PanneauEntreeBase : SignAd_Sponsor_F {
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_EntreeBase.paa"};
 };
+
+// R5.1 "Personnalisation"
+
+class TFD_PanneauZP : SignAd_SponsorS_F {
+	_generalMacro = "SignAd_SponsorS_F";
+	scope = 2;
+	scopeCurator = 2;
+	displayName="Panneau (ZP)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_ZP.paa"};
+};
