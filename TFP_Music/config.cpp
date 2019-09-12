@@ -24,7 +24,7 @@ class CfgMusicClasses
 
 class CfgMusic
 {
-	tracks[]={AEGIS_01,AEGIS_02,AEGIS_03,AEGIS_04,AEGIS_05,AEGIS_06,AEGIS_07,AEGIS_08,AEGIS_09,AEGIS_10,AEGIS_11,AEGIS_12,AEGIS_13,AEGIS_14,AEGIS_15,AEGIS_16,AEGIS_17,AEGIS_18,AEGIS_19,AEGIS_20,AEGIS_21,AEGIS_22,TFP_Music_01,TFP_Music_02,TFP_Music_03,TFP_Music_04,TFP_Music_05,TFP_Music_06,TFP_Music_07,TFP_Music_08,TFP_Music_09,TFP_Music_10,TFP_Music_11,TFP_Music_12,TFP_Music_13,TFP_Music_14,TFP_Music_15,TFP_Music_16,TFP_Music_17,TFP_Music_18,TFP_Music_19,TFP_Music_20,TFP_Music_21,TFP_Music_22,TFP_Music_23,TFP_Music_24,TFP_Music_25,TFP_Music_26,TFP_Music_27,TFP_Music_28,TFP_Music_29,TFP_Music_30,TFP_Music_31,TFP_Music_32,TFP_Music_33,TFP_Music_34,TFP_Music_35,TFP_Music_36,TFP_Music_37,TFP_Music_38,TFP_Music_39,TFP_Music_40,TFP_Music_41,TFP_Music_42,TFP_Music_43,TFP_Music_44,TFP_Music_45,TFP_Music_46,TFP_Music_47,TFP_Music_48,TFP_Music_49,TFP_Music_50,TFP_Music_51,TFP_Music_52,TFP_Music_53,TFP_Music_54,TFP_Music_55,TFP_Music_56,TFP_Music_57,TFP_Music_58,TFP_Music_59,TFP_Music_60,TFP_Music_61,TFP_Music_62,TFP_Music_63,TFP_Music_64,TFP_Music_65,TFP_Music_66};
+	tracks[]={AEGIS_01,AEGIS_02,AEGIS_03,AEGIS_04,AEGIS_05,AEGIS_06,AEGIS_07,AEGIS_08,AEGIS_09,AEGIS_10,AEGIS_11,AEGIS_12,AEGIS_13,AEGIS_14,AEGIS_15,AEGIS_16,AEGIS_17,AEGIS_18,AEGIS_19,AEGIS_20,AEGIS_21,AEGIS_22,TFP_Music_01,TFP_Music_02,TFP_Music_03,TFP_Music_04,TFP_Music_05,TFP_Music_06,TFP_Music_07,TFP_Music_08,TFP_Music_09,TFP_Music_10,TFP_Music_11,TFP_Music_12,TFP_Music_13,TFP_Music_14,TFP_Music_15,TFP_Music_16,TFP_Music_17,TFP_Music_18,TFP_Music_19,TFP_Music_20,TFP_Music_21,TFP_Music_22,TFP_Music_23,TFP_Music_24,TFP_Music_25,TFP_Music_26,TFP_Music_27,TFP_Music_28,TFP_Music_29,TFP_Music_30,TFP_Music_31,TFP_Music_32,TFP_Music_33,TFP_Music_34,TFP_Music_35,TFP_Music_36,TFP_Music_37,TFP_Music_38,TFP_Music_39,TFP_Music_40,TFP_Music_41,TFP_Music_42,TFP_Music_43,TFP_Music_44,TFP_Music_45,TFP_Music_46,TFP_Music_47,TFP_Music_48,TFP_Music_49,TFP_Music_50,TFP_Music_51,TFP_Music_52,TFP_Music_53,TFP_Music_54,TFP_Music_55,TFP_Music_56,TFP_Music_57,TFP_Music_58,TFP_Music_59,TFP_Music_60,TFP_Music_61,TFP_Music_62,TFP_Music_63,TFP_Music_64,TFP_Music_65,TFP_Music_66,TFP_Music_67};
 
 	class AEGIS_01
 		{
@@ -749,6 +749,14 @@ class CfgMusic
 		name="(TFP) Medicopter 117 - Suspense";
 		sound[]={"\TFP_Music\Medicopter117Suspense.ogg",1,1};
 		duration = 244;
+		theme = "safe";
+		musicClass = "TFP_Music";
+		};
+	class TFP_Music_67
+		{
+		name="(TFP) John Wick Chapter 2 - Suit, Maps And Guns";
+		sound[]={"\TFP_Music\JohnWick2OST_SuitMapsAndGuns.ogg",1,1};
+		duration = 302;
 		theme = "safe";
 		musicClass = "TFP_Music";
 		};
