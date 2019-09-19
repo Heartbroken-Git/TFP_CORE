@@ -1599,4 +1599,11 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\PN_BrigadeAero.paa";
 		textureVehicle = "";
 	};
+	class TFP_Teams_TFD_PersoTerethor
+	{
+		displayName = "[Teams] The French Devils - Terethor";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\TFD_PersoTerethor.paa";
+		textureVehicle = "";
+	};
 };
