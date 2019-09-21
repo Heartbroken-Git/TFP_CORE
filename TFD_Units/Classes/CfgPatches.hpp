@@ -45,7 +45,7 @@ class CfgPatches {
 			"TFD_CasqueMoto_GN",
 			"TFD_RecycleurHV",
 			"TFD_GHV_Infirmier","TFD_GHV_Medecin","TFD_GHV_Formateur",
-			"TFD_GiletTac_GN","TFD_GiletTac_PN","TFD_GiletTac_PNma","TFD_GiletTac_ERIS","TFD_GiletTac_Nego",,"TFD_GiletTac_Inf","TFD_GiletTac_Med","TFD_GiletTac_SC","TFD_GiletTac_CE",
+			"TFD_GiletTac_GN","TFD_GiletTac_PN","TFD_GiletTac_PNma","TFD_GiletTac_ERIS","TFD_GiletTac_Nego",,"TFD_GiletTac_Inf","TFD_GiletTac_Med","TFD_GiletTac_SC","TFD_GiletTac_SP","TFD_GiletTac_CE",
 			"TFD_GiletS3_GN","TFD_GiletS3_PN","TFD_GiletS3_CE",
 			"TFD_GiletAssaut_GIPN","TFD_GiletAssaut_Douane","TFD_GiletAssaut_GN",
 			"TFD_GiletAssautLourd_GIPN","TFD_GiletAssautLourd_Douane","TFD_GiletAssautLourd_GN",
