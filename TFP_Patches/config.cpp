@@ -1599,4 +1599,18 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\PN_BrigadeAero.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_PNraid
+	{
+		displayName = "[FR] RAID";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_RAID.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PNraidBv
+	{
+		displayName = "[FR] RAID (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_RAIDBV.paa";
+		textureVehicle = "";
+	};
 };
