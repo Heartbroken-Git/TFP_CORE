@@ -1613,6 +1613,13 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\PN_RAIDBV.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_PNraidMed
+	{
+		displayName = "[FR] RAID - Groupe Medical d'Intervention";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_RAIDmed.paa";
+		textureVehicle = "";
+	};
 	class TFP_FR_PNfipn
 	{
 		displayName = "[FR] Force d'Intervention de la Police Nationale";
