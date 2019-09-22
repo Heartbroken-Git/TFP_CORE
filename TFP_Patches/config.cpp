@@ -1613,4 +1613,18 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\PN_RAIDBV.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_PNfipn
+	{
+		displayName = "[FR] Force d'Intervention de la Police Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_FIPN.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PNfipnBv
+	{
+		displayName = "[FR] Force d'Intervention de la Police Nationale (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_FIPNBV.paa";
+		textureVehicle = "";
+	};
 };
