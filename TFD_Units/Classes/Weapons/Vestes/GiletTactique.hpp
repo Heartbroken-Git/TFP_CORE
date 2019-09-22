@@ -1,36 +1,36 @@
 // GILET TACTIQUE
 class V_TacVest_blk;
-class TFD_GHV_Infirmier : V_TacVest_blk {
+class TFD_GiletTac_InfHV : V_TacVest_blk {
 	_generalMacro = "V_TacVest_blk";
 	scope = 2;
 	scopeCurator = 2;
 	scopeArsenal = 2;
-	displayName="Gilet Haute Visibilite (Infirmier)";
+	displayName="Gilet pare-balles (Infirmier - Haute Visibilite)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
-	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_Infirmier.paa"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_InfHV.paa"};
 };
 
-class TFD_GHV_Medecin : V_TacVest_blk {
+class TFD_GiletTac_MedHV : V_TacVest_blk {
 	_generalMacro = "V_TacVest_blk";
 	scope = 2;
 	scopeCurator = 2;
 	scopeArsenal = 2;
-	displayName="Gilet Haute Visibilite (Medecin)";
+	displayName="Gilet pare-balles (Medecin - Haute Visibilite)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
-	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_Medecin.paa"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_MedHV.paa"};
 };
 
-class TFD_GHV_Formateur : V_TacVest_blk {
+class TFD_GiletTac_FormHV : V_TacVest_blk {
 	_generalMacro = "V_TacVest_blk";
 	scope = 2;
 	scopeCurator = 2;
 	scopeArsenal = 2;
-	displayName="Gilet Haute Visibilite (Formateur)";
+	displayName="Gilet pare-balles (Formateur - Haute Visibilite)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
-	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_Formateur.paa"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_FormHV.paa"};
 };
 
 class TFD_GiletTac_GN : V_TacVest_blk {
