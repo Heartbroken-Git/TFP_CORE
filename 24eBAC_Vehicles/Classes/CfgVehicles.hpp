@@ -78,4 +78,8 @@ class cfgVehicles
 	// Hors-bord
 	class C_Boat_Civil_01_police_F;
 	#include "Vehicles\Hors-Bord.hpp"
+
+	// RHIB
+	class B_G_Boat_Transport_02_F;
+	#include "Vehicles\RHIB.hpp"
 };
