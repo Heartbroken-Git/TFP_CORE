@@ -88,8 +88,9 @@ class CfgPatches
 			"24eBAC_HorsBordDouanes",
 			"24eBAC_HorsBordGN",
 			"24eBAC_HorsBordMN",
-			"24eBAC_RhibGN",
-			"24eBAC_RhibMN"
+			"24eBAC_RhibGN","24eBAC_RhibGN_HV",
+			"24eBAC_RhibMN",
+			"24eBAC_RhibAA"
 		};
 		weapons[] = {};
 		requiredVersion = 0.1;
