@@ -49,6 +49,7 @@ class CfgPatches {
 			"TFD_GiletAssaut_GIPN","TFD_GiletAssaut_Douane","TFD_GiletAssaut_GN","TFD_GiletAssaut_RAID",
 			"TFD_GiletAssautLourd_GIPN","TFD_GiletAssautLourd_Douane","TFD_GiletAssautLourd_GN","TFD_GiletAssautLourd_RAID",
 			"TFD_GHV_COS","TFD_GHV_COSadj",
+			"TFD_GHV_NOVIdsi","TFD_GHV_NOVIdsm",
 			"TFD_PoloGend",
 			"TFD_PoloSP","TFD_PoloSP_air",
 			"TFD_PoloSecurite",
