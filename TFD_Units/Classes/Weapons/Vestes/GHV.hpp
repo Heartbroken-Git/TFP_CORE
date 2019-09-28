@@ -47,3 +47,39 @@ class TFD_GHV_NOVIdsm : V_Safety_yellow_F {
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_NOVIdsm_CO.paa"};
 	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIdsm.rvmat"};
 };
+
+class TFD_GHV_NOVIcdg : V_Safety_yellow_F {
+	_generalMacro = "V_Safety_yellow_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Chef de Groupe)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_NOVIcdg_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIcdg.rvmat"};
+};
+
+class TFD_GHV_NOVIcdc : V_Safety_yellow_F {
+	_generalMacro = "V_Safety_yellow_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Chef de Colonne)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_NOVIcdc_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIcdc.rvmat"};
+};
+
+class TFD_GHV_NOVIcds : V_Safety_yellow_F {
+	_generalMacro = "V_Safety_yellow_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Chef de Secteur)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_NOVIcds_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIcds.rvmat"};
+};
