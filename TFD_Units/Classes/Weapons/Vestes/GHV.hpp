@@ -99,3 +99,19 @@ class TFD_GHV_NOVIoffEva : V_Safety_blue_F {
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_NOVIoffEva_CO.paa"};
 	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIoffEva.rvmat"};
 };
+
+// Orange fluo
+class V_Safety_orange_F;
+
+// Rouge NOVI
+class TFD_GHV_NOVIoffRam : V_Safety_orange_F {
+	_generalMacro = "V_Safety_orange_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Officier Ramassage)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_NOVIoffRam_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIoffRam.rvmat"};
+};
