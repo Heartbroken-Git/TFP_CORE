@@ -1,4 +1,6 @@
 // GILET HAUTE VISIBILITE
+
+// Jaune fluo
 class V_Safety_yellow_F;
 class TFD_GHV_COS : V_Safety_yellow_F {
 	_generalMacro = "V_Safety_yellow_F";
@@ -82,4 +84,18 @@ class TFD_GHV_NOVIcds : V_Safety_yellow_F {
 	hiddenSelections[]= {"Camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_NOVIcds_CO.paa"};
 	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIcds.rvmat"};
+};
+
+// BLeu fluo
+class V_Safety_blue_F;
+class TFD_GHV_NOVIoffEva : V_Safety_blue_F {
+	_generalMacro = "V_Safety_blue_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Officier Evacuation)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_NOVIoffEva_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIoffEva.rvmat"};
 };

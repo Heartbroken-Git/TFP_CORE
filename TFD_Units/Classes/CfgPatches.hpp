@@ -49,7 +49,7 @@ class CfgPatches {
 			"TFD_GiletAssaut_GIPN","TFD_GiletAssaut_Douane","TFD_GiletAssaut_GN","TFD_GiletAssaut_RAID",
 			"TFD_GiletAssautLourd_GIPN","TFD_GiletAssautLourd_Douane","TFD_GiletAssautLourd_GN","TFD_GiletAssautLourd_RAID",
 			"TFD_GHV_COS","TFD_GHV_COSadj",
-			"TFD_GHV_NOVIdsi","TFD_GHV_NOVIdsm","TFD_GHV_NOVIcdg","TFD_GHV_NOVIcdc","TFD_GHV_NOVIcds",
+			"TFD_GHV_NOVIdsi","TFD_GHV_NOVIdsm","TFD_GHV_NOVIcdg","TFD_GHV_NOVIcdc","TFD_GHV_NOVIcds","TFD_GHV_NOVIoffEva",
 			"TFD_PoloGend",
 			"TFD_PoloSP","TFD_PoloSP_air",
 			"TFD_PoloSecurite",
@@ -77,7 +77,8 @@ class CfgPatches {
 			"TFD_TenueInter_PN",
 			"TFD_TenueInter_Douanes",
 			"TFD_ParkaFeuSP",
-			"TFD_ParkaGN"
+			"TFD_ParkaGN",
+			"TFD_ParkaPNmoto"
 		};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
