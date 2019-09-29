@@ -100,6 +100,31 @@ class TFD_GHV_NOVIoffEva : V_Safety_blue_F {
 	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIoffEva.rvmat"};
 };
 
+// Blanc NOVI
+class TFD_GHV_NOVIoffPma : V_Safety_blue_F {
+	_generalMacro = "V_Safety_blue_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Officier Poste Medical Avance)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_NOVIoffPma_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIoffPma.rvmat"};
+};
+
+class TFD_GHV_NOVItriPma : V_Safety_blue_F {
+	_generalMacro = "V_Safety_blue_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Triage Poste Medical Avance)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_NOVItriPma_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVItriPma.rvmat"};
+};
+
 // Orange fluo
 class V_Safety_orange_F;
 
