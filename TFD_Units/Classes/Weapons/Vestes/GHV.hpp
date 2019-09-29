@@ -86,6 +86,18 @@ class TFD_GHV_NOVIcds : V_Safety_yellow_F {
 	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIcds.rvmat"};
 };
 
+class TFD_GHV_FORM : V_Safety_yellow_F {
+	_generalMacro = "V_Safety_yellow_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Formateur)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_FORM_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_FORM.rvmat"};
+};
+
 // BLeu fluo
 class V_Safety_blue_F;
 class TFD_GHV_NOVIoffEva : V_Safety_blue_F {
@@ -127,6 +139,17 @@ class TFD_GHV_NOVItriPma : V_Safety_blue_F {
 
 // Orange fluo
 class V_Safety_orange_F;
+class TFD_GHV_SP : V_Safety_orange_F {
+	_generalMacro = "V_Safety_orange_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Sapeurs-Pompiers)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_SP_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_SP.rvmat"};
+};
 
 // Rouge NOVI
 class TFD_GHV_NOVIoffRam : V_Safety_orange_F {
