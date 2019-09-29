@@ -51,6 +51,7 @@ class CfgPatches {
 			"TFD_GHV_COS","TFD_GHV_COSadj",
 			"TFD_GHV_FORM",
 			"TFD_GHV_SP",
+			"TFD_GHV_AAinstr",
 			"TFD_GHV_NOVIdsi","TFD_GHV_NOVIdsm","TFD_GHV_NOVIcdg","TFD_GHV_NOVIcdc","TFD_GHV_NOVIcds","TFD_GHV_NOVIoffEva","TFD_GHV_NOVIoffRam","TFD_GHV_NOVIoffPma","TFD_GHV_NOVItriPma",
 			"TFD_PoloGend",
 			"TFD_PoloSP","TFD_PoloSP_air",

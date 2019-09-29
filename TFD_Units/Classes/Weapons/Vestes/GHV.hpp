@@ -151,6 +151,18 @@ class TFD_GHV_SP : V_Safety_orange_F {
 	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_SP.rvmat"};
 };
 
+class TFD_GHV_AAinstr : V_Safety_orange_F {
+	_generalMacro = "V_Safety_orange_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Armee de l'Air - Instructeur)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_AAinstr_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_AAinstr.rvmat"};
+};
+
 // Rouge NOVI
 class TFD_GHV_NOVIoffRam : V_Safety_orange_F {
 	_generalMacro = "V_Safety_orange_F";
