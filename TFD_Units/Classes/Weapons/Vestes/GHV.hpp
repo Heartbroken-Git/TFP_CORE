@@ -98,6 +98,18 @@ class TFD_GHV_FORM : V_Safety_yellow_F {
 	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_FORM.rvmat"};
 };
 
+class TFD_GHV_GCEj : V_Safety_yellow_F {
+	_generalMacro = "V_Safety_yellow_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Circulation - Jaune)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_GCEj_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_GCEj.rvmat"};
+};
+
 // BLeu fluo
 class V_Safety_blue_F;
 class TFD_GHV_NOVIoffEva : V_Safety_blue_F {
@@ -173,6 +185,18 @@ class TFD_GHV_AAesis : V_Safety_orange_F {
 	hiddenSelections[]= {"Camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_AAesis_CO.paa"};
 	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_AAesis.rvmat"};
+};
+
+class TFD_GHV_GCEo : V_Safety_orange_F {
+	_generalMacro = "V_Safety_orange_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Circulation - Orange)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_GCEo_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_GCEo.rvmat"};
 };
 
 // Rouge NOVI
