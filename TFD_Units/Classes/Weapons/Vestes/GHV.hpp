@@ -163,6 +163,18 @@ class TFD_GHV_AAinstr : V_Safety_orange_F {
 	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_AAinstr.rvmat"};
 };
 
+class TFD_GHV_AAesis : V_Safety_orange_F {
+	_generalMacro = "V_Safety_orange_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Pompier de l'Air)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_AAesis_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_AAesis.rvmat"};
+};
+
 // Rouge NOVI
 class TFD_GHV_NOVIoffRam : V_Safety_orange_F {
 	_generalMacro = "V_Safety_orange_F";
