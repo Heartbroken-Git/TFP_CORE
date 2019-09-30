@@ -26,6 +26,8 @@ class CfgWeapons {
 
 	#include "Weapons\Vestes\GiletAssautLourd.hpp"
 
+	#include "Weapons\Vestes\GHV.hpp"
+
 	// UNIFORME
 	class UniformItem;
 

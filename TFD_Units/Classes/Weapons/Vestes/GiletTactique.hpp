@@ -38,7 +38,7 @@ class TFD_GiletTac_GN : V_TacVest_blk {
 	scope = 2;
 	scopeCurator = 2;
 	scopeArsenal = 2;
-	displayName="Gilet pare-balles (Gendarmerie)";
+	displayName="Gilet pare-balles (Gendarmerie Nationale)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_GN.paa"};
