@@ -110,6 +110,18 @@ class TFD_GHV_GCEj : V_Safety_yellow_F {
 	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_GCEj.rvmat"};
 };
 
+class TFD_GHV_PN : V_Safety_yellow_F {
+	_generalMacro = "V_Safety_yellow_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Police Nationale)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_PN_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_PN.rvmat"};
+};
+
 // BLeu fluo
 class V_Safety_blue_F;
 class TFD_GHV_NOVIoffEva : V_Safety_blue_F {
