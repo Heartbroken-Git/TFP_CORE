@@ -1234,6 +1234,13 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\GN\Specialites\AGIGN.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_gendAGIGNnouveau
+	{
+		displayName = "[FR] Antenne du GIGN (Nouveau)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\AGIGN_nouveau.paa";
+		textureVehicle = "";
+	};
 	class TFP_FR_gendArmurier
 	{
 		displayName = "[FR] Armurier Pyrotechnicien - Gendarmerie Nationale";
