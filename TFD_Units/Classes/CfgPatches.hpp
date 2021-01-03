@@ -23,6 +23,7 @@ class CfgPatches {
 			"TFD_Medecin_CICR","TFD_Chirurgien_CICR",
 			"TFD_Pilote_GN",
 			"TFD_Pilote_SC",
+			"TFD_Operateur_GIGN",
 			"TFD_Soldat_Pull",
 			"TFD_Aviateur_Pull",
 			"TFD_Plouf_UBACS"
@@ -78,6 +79,7 @@ class CfgPatches {
 			"TFD_CombiCICR","TFD_CombiCICR_sang",
 			"TFD_CombiPilote_GN",
 			"TFD_CombiPilote_SC",
+			"TFD_CombiInter_marine",
 			"TFD_PullCE_AT","TFD_PullMarine_AA","TFD_PullMarine_GN",
 			"TFD_UBACSCE_Palmes",
 			"TFD_TenueInter_GN",

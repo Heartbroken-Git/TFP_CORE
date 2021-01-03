@@ -36,6 +36,9 @@ class CfgVehicles {
 
     #include "Vehicles\Helipilot.hpp"
 
+    class I_Story_Crew_F;
+
+    #include "Vehicles\StoryCrew.hpp"
 
 	class B_G_Soldier_LAT_F;                     // For inheritance to work, the base class has to be defined.
 
