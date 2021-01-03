@@ -154,3 +154,21 @@ class TFD_CombiPilote_SC : U_B_HeliPilotCoveralls {
 		mass = 30;
 	};
 };
+
+class U_Tank_green_F;
+class TFD_CombiInter_marine : U_Tank_green_F {
+	_generalMacro = "U_Tank_green_F";
+    scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+    displayName="Combinaison (bleu marine)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"camo","insignia"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\CombiTank_marine.paa"};
+	class ItemInfo: UniformItem{
+		uniformModel = "-";
+		uniformClass = TFD_Operateur_GIGN;
+		containerClass = Supply30;
+		mass = 30;
+	};
+};
