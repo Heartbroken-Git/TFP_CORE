@@ -48,6 +48,7 @@ class CfgPatches {
 			"TFD_GiletS3_GN","TFD_GiletS3_PN","TFD_GiletS3_CE",
 			"TFD_GiletAssaut_GIPN","TFD_GiletAssaut_Douane","TFD_GiletAssaut_GN","TFD_GiletAssaut_GIGN","TFD_GiletAssaut_AGIGN","TFD_GiletAssaut_RAID",
 			"TFD_GiletAssautLourd_GIPN","TFD_GiletAssautLourd_Douane","TFD_GiletAssautLourd_GN","TFD_GiletAssautLourd_GIGN","TFD_GiletAssautLourd_AGIGN","TFD_GiletAssautLourd_RAID",
+			"TFD_GiletModulableSpecial_GIGN","TFD_GiletModulaireGrenadier_GIGN",
 			"TFD_GHV_COS","TFD_GHV_COSadj",
 			"TFD_GHV_FORM",
 			"TFD_GHV_SP",
