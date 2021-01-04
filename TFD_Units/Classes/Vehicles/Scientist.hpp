@@ -16,8 +16,8 @@ class TFD_Ambulancier_SAMU: C_scientist_F       // Define of a new class, which 
     RespawnItems[] = {FirstAidKit, FirstAidKit, FirstAidKit, FirstAidKit};         // Which items the character respawns with.
     magazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};               // What ammunition the character has.
     respawnMagazines[] = {Chemlight_green, Chemlight_green, Chemlight_red, Chemlight_red};        // What ammunition the character respawns with.
-    linkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
-    respawnLinkedItems[] = {ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
+    linkedItems[] = {TFD_GiletMultiPoches_SAMU, ItemMap, ItemCompass, ItemWatch, ItemRadio};               // Which items the character has.
+    respawnLinkedItems[] = {TFD_GiletMultiPoches_SAMU, ItemMap, ItemCompass, ItemWatch, ItemRadio};        // Which items the character respawns with.
 	class EventHandlers
 		{
 			init = "(_this select 0) execVM ""\TFD_Units\Script\stopRandom.sqf"""

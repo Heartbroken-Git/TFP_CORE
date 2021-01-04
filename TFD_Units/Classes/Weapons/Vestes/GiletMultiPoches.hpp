@@ -36,3 +36,39 @@ class TFD_GiletMultiPoches_SAMUmed : V_Pocketed_black_F {
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_SAMUmed.paa"};
 	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
 };
+
+class TFD_GiletMultiPoches_SSAauxsan : V_Pocketed_black_F {
+	_generalMacro = "V_Pocketed_black_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet multipoches (SSA - AUXSAN)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_SSAauxsan.paa"};
+	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+};
+
+class TFD_GiletMultiPoches_SSAinf : V_Pocketed_black_F {
+	_generalMacro = "V_Pocketed_black_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet multipoches (SSA - Infirmier)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_SSAinf.paa"};
+	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+};
+
+class TFD_GiletMultiPoches_SSAmed : V_Pocketed_black_F {
+	_generalMacro = "V_Pocketed_black_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet multipoches (SSA - Medecin)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_SSAmed.paa"};
+	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+};
