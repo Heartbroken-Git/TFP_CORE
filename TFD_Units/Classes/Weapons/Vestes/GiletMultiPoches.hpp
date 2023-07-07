@@ -72,3 +72,27 @@ class TFD_GiletMultiPoches_SSAmed : V_Pocketed_black_F {
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_SSAmed.paa"};
 	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
 };
+
+class TFD_GiletMultiPoches_PNpts : V_Pocketed_black_F {
+	_generalMacro = "V_Pocketed_black_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet multipoches (Police Technique et Scientifique)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_PNpts.paa"};
+	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+};
+
+class TFD_GiletMultiPoches_PNpj : V_Pocketed_black_F {
+	_generalMacro = "V_Pocketed_black_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet multipoches (Police Judiciaire)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_PNpj.paa"};
+	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+};
