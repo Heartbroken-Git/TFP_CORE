@@ -96,3 +96,75 @@ class TFD_GiletMultiPoches_PNpj : V_Pocketed_black_F {
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_PNpj.paa"};
 	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
 };
+
+class TFD_GiletMultiPoches_GNbr : V_Pocketed_black_F {
+	_generalMacro = "V_Pocketed_black_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet multipoches (Brigade de Recherches)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_GNbr.paa"};
+	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+};
+
+class TFD_GiletMultiPoches_GNsr : V_Pocketed_black_F {
+	_generalMacro = "V_Pocketed_black_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet multipoches (Section de Recherches)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_GNsr.paa"};
+	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+};
+
+class TFD_GiletMultiPoches_GNtic : V_Pocketed_black_F {
+	_generalMacro = "V_Pocketed_black_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet multipoches (Technicien d'Identification Criminelle)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_GNtic.paa"};
+	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+};
+
+class TFD_GiletMultiPoches_GNticp : V_Pocketed_black_F {
+	_generalMacro = "V_Pocketed_black_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet multipoches (Technicien d'Identification Criminelle de Proximite)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_GNticp.paa"};
+	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+};
+
+class TFD_GiletMultiPoches_GNsic : V_Pocketed_black_F {
+	_generalMacro = "V_Pocketed_black_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet multipoches (Gendarmerie - SIC)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_GNsic.paa"};
+	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+};
+
+class TFD_GiletMultiPoches_GNpse : V_Pocketed_black_F {
+	_generalMacro = "V_Pocketed_black_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet multipoches (Gendarmerie - Secouriste)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_GNpse.paa"};
+	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+};

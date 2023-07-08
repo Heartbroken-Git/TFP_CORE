@@ -61,6 +61,7 @@ class CfgPatches {
 			"TFD_GiletMultiPoches_SAMU","TFD_GiletMultiPoches_SAMUinf","TFD_GiletMultiPoches_SAMUmed",
 			"TFD_GiletMultiPoches_SSAauxsan","TFD_GiletMultiPoches_SSAinf","TFD_GiletMultiPoches_SSAmed",
 			"TFD_GiletMultiPoches_PNpts","TFD_GiletMultiPoches_PNpj",
+			"TFD_GiletMultiPoches_GNbr","TFD_GiletMultiPoches_GNsr","TFD_GiletMultiPoches_GNtic","TFD_GiletMultiPoches_GNticp","TFD_GiletMultiPoches_GNsic","TFD_GiletMultiPoches_GNpse",
 			"TFD_PoloGend",
 			"TFD_PoloSP","TFD_PoloSP_air",
 			"TFD_PoloSecurite",
