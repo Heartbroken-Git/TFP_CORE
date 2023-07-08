@@ -168,3 +168,41 @@ class TFD_GiletMultiPoches_GNpse : V_Pocketed_black_F {
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_GNpse.paa"};
 	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
 };
+
+// GILETS NOVI MEDECIN
+class V_Pocketed_coyote_F;
+class TFD_GiletMultiPoches_NOVImedPma : V_Pocketed_coyote_F {
+	_generalMacro = "V_Pocketed_coyote_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet multipoches (Medecin Poste Medical Avance)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_NOVImedPma.paa"};
+	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+};
+
+class TFD_GiletMultiPoches_NOVImedRam : V_Pocketed_coyote_F {
+	_generalMacro = "V_Pocketed_coyote_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet multipoches (Medecin Ramassage)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_NOVImedRam.paa"};
+	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+};
+
+class TFD_GiletMultiPoches_NOVImedEva : V_Pocketed_coyote_F {
+	_generalMacro = "V_Pocketed_coyote_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet multipoches (Medecin Evacuation)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_NOVImedEva.paa"};
+	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+};
