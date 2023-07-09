@@ -16,8 +16,27 @@ class TFD_GiletAssaut_GIPN : Vest_Camo_Base {
 		uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		containerClass = "Supply120";
 		mass = 60;
-		armor = 20;
-		passThrough = 0.3;
+		class HitpointsProtectionInfo  {
+			class Abdomen {
+				armor = 16;
+				hitpointName = "HitAbdomen";
+				passThrough = 0.3;
+			};
+			class Body {
+				hitpointName = "HitBody";
+				passThrough = 0.3;
+			};
+			class Chest {
+				armor = 16;
+				hitpointName = "HitChest";
+				passThrough = 0.3;
+			};
+			class Diaphragm {
+				armor = 16;
+				hitpointName = "HitDiaphragm";
+				passThrough = 0.3;
+			};
+		};
 		hiddenSelections[]= {"camo"};
 	}
 };
@@ -37,8 +56,27 @@ class TFD_GiletAssaut_Douane : Vest_Camo_Base {
 		uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		containerClass = "Supply120";
 		mass = 60;
-		armor = 20;
-		passThrough = 0.3;
+		class HitpointsProtectionInfo  {
+			class Abdomen {
+				armor = 16;
+				hitpointName = "HitAbdomen";
+				passThrough = 0.3;
+			};
+			class Body {
+				hitpointName = "HitBody";
+				passThrough = 0.3;
+			};
+			class Chest {
+				armor = 16;
+				hitpointName = "HitChest";
+				passThrough = 0.3;
+			};
+			class Diaphragm {
+				armor = 16;
+				hitpointName = "HitDiaphragm";
+				passThrough = 0.3;
+			};
+		};
 		hiddenSelections[]= {"camo"};
 	}
 };
@@ -58,8 +96,27 @@ class TFD_GiletAssaut_GN : Vest_Camo_Base {
 		uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		containerClass = "Supply120";
 		mass = 60;
-		armor = 20;
-		passThrough = 0.3;
+		class HitpointsProtectionInfo  {
+			class Abdomen {
+				armor = 16;
+				hitpointName = "HitAbdomen";
+				passThrough = 0.3;
+			};
+			class Body {
+				hitpointName = "HitBody";
+				passThrough = 0.3;
+			};
+			class Chest {
+				armor = 16;
+				hitpointName = "HitChest";
+				passThrough = 0.3;
+			};
+			class Diaphragm {
+				armor = 16;
+				hitpointName = "HitDiaphragm";
+				passThrough = 0.3;
+			};
+		};
 		hiddenSelections[]= {"camo"};
 	}
 };
@@ -79,8 +136,27 @@ class TFD_GiletAssaut_GIGN : Vest_Camo_Base {
 		uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		containerClass = "Supply120";
 		mass = 60;
-		armor = 20;
-		passThrough = 0.3;
+		class HitpointsProtectionInfo  {
+			class Abdomen {
+				armor = 16;
+				hitpointName = "HitAbdomen";
+				passThrough = 0.3;
+			};
+			class Body {
+				hitpointName = "HitBody";
+				passThrough = 0.3;
+			};
+			class Chest {
+				armor = 16;
+				hitpointName = "HitChest";
+				passThrough = 0.3;
+			};
+			class Diaphragm {
+				armor = 16;
+				hitpointName = "HitDiaphragm";
+				passThrough = 0.3;
+			};
+		};
 		hiddenSelections[]= {"camo"};
 	}
 };
@@ -100,8 +176,27 @@ class TFD_GiletAssaut_AGIGN : Vest_Camo_Base {
 		uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		containerClass = "Supply120";
 		mass = 60;
-		armor = 20;
-		passThrough = 0.3;
+		class HitpointsProtectionInfo  {
+			class Abdomen {
+				armor = 16;
+				hitpointName = "HitAbdomen";
+				passThrough = 0.3;
+			};
+			class Body {
+				hitpointName = "HitBody";
+				passThrough = 0.3;
+			};
+			class Chest {
+				armor = 16;
+				hitpointName = "HitChest";
+				passThrough = 0.3;
+			};
+			class Diaphragm {
+				armor = 16;
+				hitpointName = "HitDiaphragm";
+				passThrough = 0.3;
+			};
+		};
 		hiddenSelections[]= {"camo"};
 	}
 };
@@ -121,8 +216,27 @@ class TFD_GiletAssaut_RAID : Vest_Camo_Base {
 		uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		containerClass = "Supply120";
 		mass = 60;
-		armor = 20;
-		passThrough = 0.3;
+		class HitpointsProtectionInfo  {
+			class Abdomen {
+				armor = 16;
+				hitpointName = "HitAbdomen";
+				passThrough = 0.3;
+			};
+			class Body {
+				hitpointName = "HitBody";
+				passThrough = 0.3;
+			};
+			class Chest {
+				armor = 16;
+				hitpointName = "HitChest";
+				passThrough = 0.3;
+			};
+			class Diaphragm {
+				armor = 16;
+				hitpointName = "HitDiaphragm";
+				passThrough = 0.3;
+			};
+		};
 		hiddenSelections[]= {"camo"};
 	}
 };

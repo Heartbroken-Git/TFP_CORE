@@ -95,6 +95,36 @@ class TFD_GiletMultiPoches_PNpj : V_Pocketed_black_F {
 	hiddenSelections[]= {"Camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_PNpj.paa"};
 	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+
+	descriptionShort = "Porte par dessus le gilet pare-balles a port discret de dotation"
+	class ItemInfo : VestItem {
+		containerClass = "Supply70";
+		hiddenSelections[] = {"Camo"};
+		mass = 15;
+		uniformModel = "\A3\Characters_F_Orange\Vests\V_Pocketed_cloth_F.p3d";
+		class HitpointsProtectionInfo  {
+			class Abdomen {
+				armor = 12;
+				hitpointName = "HitAbdomen";
+				passThrough = 0.4;
+			};
+			class Body {
+				hitpointName = "HitBody";
+				passThrough = 0.4;
+			};
+			class Chest {
+				armor = 12;
+				hitpointName = "HitChest";
+				passThrough = 0.4;
+			};
+			class Diaphragm {
+				armor = 12;
+				hitpointName = "HitDiaphragm";
+				passThrough = 0.4;
+			};
+		};
+	}
+
 };
 
 class TFD_GiletMultiPoches_GNbr : V_Pocketed_black_F {
@@ -107,6 +137,36 @@ class TFD_GiletMultiPoches_GNbr : V_Pocketed_black_F {
 	hiddenSelections[]= {"Camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_GNbr.paa"};
 	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+
+	descriptionShort = "Porte par dessus le gilet pare-balles a port discret de dotation"
+	class ItemInfo : VestItem {
+		containerClass = "Supply70";
+		hiddenSelections[] = {"Camo"};
+		mass = 15;
+		uniformModel = "\A3\Characters_F_Orange\Vests\V_Pocketed_cloth_F.p3d";
+		class HitpointsProtectionInfo  {
+			class Abdomen {
+				armor = 12;
+				hitpointName = "HitAbdomen";
+				passThrough = 0.4;
+			};
+			class Body {
+				hitpointName = "HitBody";
+				passThrough = 0.4;
+			};
+			class Chest {
+				armor = 12;
+				hitpointName = "HitChest";
+				passThrough = 0.4;
+			};
+			class Diaphragm {
+				armor = 12;
+				hitpointName = "HitDiaphragm";
+				passThrough = 0.4;
+			};
+		};
+	}
+
 };
 
 class TFD_GiletMultiPoches_GNsr : V_Pocketed_black_F {
@@ -119,6 +179,36 @@ class TFD_GiletMultiPoches_GNsr : V_Pocketed_black_F {
 	hiddenSelections[]= {"Camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_GNsr.paa"};
 	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+
+	descriptionShort = "Porte par dessus le gilet pare-balles a port discret de dotation"
+	class ItemInfo : VestItem {
+		containerClass = "Supply70";
+		hiddenSelections[] = {"Camo"};
+		mass = 15;
+		uniformModel = "\A3\Characters_F_Orange\Vests\V_Pocketed_cloth_F.p3d";
+		class HitpointsProtectionInfo  {
+			class Abdomen {
+				armor = 12;
+				hitpointName = "HitAbdomen";
+				passThrough = 0.4;
+			};
+			class Body {
+				hitpointName = "HitBody";
+				passThrough = 0.4;
+			};
+			class Chest {
+				armor = 12;
+				hitpointName = "HitChest";
+				passThrough = 0.4;
+			};
+			class Diaphragm {
+				armor = 12;
+				hitpointName = "HitDiaphragm";
+				passThrough = 0.4;
+			};
+		};
+	}
+
 };
 
 class TFD_GiletMultiPoches_GNtic : V_Pocketed_black_F {
@@ -131,6 +221,36 @@ class TFD_GiletMultiPoches_GNtic : V_Pocketed_black_F {
 	hiddenSelections[]= {"Camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_GNtic.paa"};
 	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+
+	descriptionShort = "Porte par dessus le gilet pare-balles a port discret de dotation"
+	class ItemInfo : VestItem {
+		containerClass = "Supply70";
+		hiddenSelections[] = {"Camo"};
+		mass = 15;
+		uniformModel = "\A3\Characters_F_Orange\Vests\V_Pocketed_cloth_F.p3d";
+		class HitpointsProtectionInfo  {
+			class Abdomen {
+				armor = 12;
+				hitpointName = "HitAbdomen";
+				passThrough = 0.4;
+			};
+			class Body {
+				hitpointName = "HitBody";
+				passThrough = 0.4;
+			};
+			class Chest {
+				armor = 12;
+				hitpointName = "HitChest";
+				passThrough = 0.4;
+			};
+			class Diaphragm {
+				armor = 12;
+				hitpointName = "HitDiaphragm";
+				passThrough = 0.4;
+			};
+		};
+	}
+
 };
 
 class TFD_GiletMultiPoches_GNticp : V_Pocketed_black_F {
@@ -143,6 +263,36 @@ class TFD_GiletMultiPoches_GNticp : V_Pocketed_black_F {
 	hiddenSelections[]= {"Camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_GNticp.paa"};
 	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+
+	descriptionShort = "Porte par dessus le gilet pare-balles a port discret de dotation"
+	class ItemInfo : VestItem {
+		containerClass = "Supply70";
+		hiddenSelections[] = {"Camo"};
+		mass = 15;
+		uniformModel = "\A3\Characters_F_Orange\Vests\V_Pocketed_cloth_F.p3d";
+		class HitpointsProtectionInfo  {
+			class Abdomen {
+				armor = 12;
+				hitpointName = "HitAbdomen";
+				passThrough = 0.4;
+			};
+			class Body {
+				hitpointName = "HitBody";
+				passThrough = 0.4;
+			};
+			class Chest {
+				armor = 12;
+				hitpointName = "HitChest";
+				passThrough = 0.4;
+			};
+			class Diaphragm {
+				armor = 12;
+				hitpointName = "HitDiaphragm";
+				passThrough = 0.4;
+			};
+		};
+	}
+
 };
 
 class TFD_GiletMultiPoches_GNsic : V_Pocketed_black_F {
@@ -155,6 +305,36 @@ class TFD_GiletMultiPoches_GNsic : V_Pocketed_black_F {
 	hiddenSelections[]= {"Camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_GNsic.paa"};
 	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+
+	descriptionShort = "Porte par dessus le gilet pare-balles a port discret de dotation"
+	class ItemInfo : VestItem {
+		containerClass = "Supply70";
+		hiddenSelections[] = {"Camo"};
+		mass = 15;
+		uniformModel = "\A3\Characters_F_Orange\Vests\V_Pocketed_cloth_F.p3d";
+		class HitpointsProtectionInfo  {
+			class Abdomen {
+				armor = 12;
+				hitpointName = "HitAbdomen";
+				passThrough = 0.4;
+			};
+			class Body {
+				hitpointName = "HitBody";
+				passThrough = 0.4;
+			};
+			class Chest {
+				armor = 12;
+				hitpointName = "HitChest";
+				passThrough = 0.4;
+			};
+			class Diaphragm {
+				armor = 12;
+				hitpointName = "HitDiaphragm";
+				passThrough = 0.4;
+			};
+		};
+	}
+
 };
 
 class TFD_GiletMultiPoches_GNpse : V_Pocketed_black_F {
@@ -167,6 +347,36 @@ class TFD_GiletMultiPoches_GNpse : V_Pocketed_black_F {
 	hiddenSelections[]= {"Camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletMultiPoches_GNpse.paa"};
 	//hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COS.rvmat"};
+
+	descriptionShort = "Porte par dessus le gilet pare-balles a port discret de dotation"
+	class ItemInfo : VestItem {
+		containerClass = "Supply70";
+		hiddenSelections[] = {"Camo"};
+		mass = 15;
+		uniformModel = "\A3\Characters_F_Orange\Vests\V_Pocketed_cloth_F.p3d";
+		class HitpointsProtectionInfo  {
+			class Abdomen {
+				armor = 12;
+				hitpointName = "HitAbdomen";
+				passThrough = 0.4;
+			};
+			class Body {
+				hitpointName = "HitBody";
+				passThrough = 0.4;
+			};
+			class Chest {
+				armor = 12;
+				hitpointName = "HitChest";
+				passThrough = 0.4;
+			};
+			class Diaphragm {
+				armor = 12;
+				hitpointName = "HitDiaphragm";
+				passThrough = 0.4;
+			};
+		};
+	}
+
 };
 
 // GILETS NOVI MEDECIN
