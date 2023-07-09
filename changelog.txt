@@ -1,283 +1,330 @@
+/ / / R5.1 "Personnalisation"\ \ \
+
+AJOUTÃ‰ : Retexture du gilet multipoches du DLC Laws of War en 3 versions blanches portÃ©es par le Service de SantÃ© des ArmÃ©es
+AJOUTÃ‰ : Retexture du gilet multipoches du DLC Laws of War en 3 versions blanches portÃ©es par le SAMU
+AJOUTÃ‰ : Retexture du gilet multipoches du DLC Laws of War en 6 versions noires portÃ©es par diverses unitÃ©s de la Gendarmerie Nationale
+AJOUTÃ‰ : Retexture du gilet multipoches du DLC Laws of War en 2 versions portÃ©es par la Police Nationale (une pour la PJ, une pour la PTS)
+AJOUTÃ‰ : Retexture du gilet multipoches du DLC Laws of War en 3 versions portÃ©es les mÃ©decins pendant un plan ORSEC-NOVI
+AJOUTÃ‰ : 4 gilets retexturÃ©s en gilets noirs du GIGN
+AJOUTÃ‰ : 2 gilets retexturÃ©s en gilets noirs des AGIGN
+AJOUTÃ‰ : Ã‰cusson des AGIGN
+AJOUTÃ‰ : Retexture de la combinaison de tankiste de l'AAF en combinaison d'intervention bleue
+AJOUTÃ‰ : Retextures du gilet haute visibilitÃ© du DLC Laws of War en trois versions Sapeurs-Pompiers
+AJOUTÃ‰ : Retextures du gilet haute visibilitÃ© du DLC Laws of War en deux versions Pompiers de l'Air
+AJOUTÃ‰ : Retextures du gilet haute visibilitÃ© du DLC Laws of War pour les formateurs de clans
+AJOUTÃ‰ : Retextures du gilet haute visibilitÃ© du DLC Laws of War en deux versions des Groupes de Circulation et d'Escorte de l'ArmÃ©e de Terre
+AJOUTÃ‰ : Retexture du gilet haute visibilitÃ© du DLC Laws of War en une version utilisÃ©e par la Gendarmerie Nationale
+AJOUTÃ‰ : Retexture du gilet haute visibilitÃ© du DLC Laws of War en une version utilisÃ©e par la Police Nationale
+AJOUTÃ‰ : Retextures du gilet haute visibilitÃ© du DLC Laws of War en neuf versions reprÃ©sentant les diffÃ©rents rÃ´les du plan ORSEC-NOVI
+AJOUTÃ‰ : Retextures du semi-rigide du DLC Apex en deux versions pour la Gendarmerie (BN et GMAR)
+AJOUTÃ‰ : Retexture du semi-rigide du DLC Apex en une version ArmÃ©e de l'Air
+AJOUTÃ‰ : Retexture du semi-rigide du DLC Apex en une version Marine Nationale
+AJOUTÃ‰ : Drapeau de la Bretagne
+AJOUTÃ‰ : 2 Ã©cussons du RAID
+AJOUTÃ‰ : 2 Ã©cussons des FIPN
+AJOUTÃ‰ : Ã‰cusson de l'Ã©quipe mÃ©dicale du RAID
+AJOUTÃ‰ : Retextures des gilets faits pour le GIPN en version RAID
+AJOUTÃ‰ : Retextures du gilet tactique noir en 4 version (Moyens AÃ©riens de la PN, Infirmier, MÃ©decin, Sapeurs-Pompiers)
+AJOUTÃ‰ : Retexture du polo en une version d'agent de l'ONF
+AJOUTÃ‰ : Le morceau New York Tango (GÃ©nÃ©rique de PJ)
+AJOUTÃ‰ : Le morceau Boogie Body (GÃ©nÃ©rique C'est pas sorcier)
+AJOUTÃ‰ : Le GÃ©nÃ©rique Medicopter 117
+AJOUTÃ‰ : Le Morceau Suspense Medicopter 117
+AJOUTÃ‰ : Le morceau Suit, Maps and Guns de John Wick Chapter 2 OST
+AJOUTÃ‰ : Le ThÃ¨me principal Alerte Cobra
+AJOUTÃ‰ : Le GÃ©nÃ©rique des "TÃªtes BrulÃ©es"
+AJOUTÃ‰ : Le ThÃ¨me principal de Die Rettungsflieger
+AJOUTÃ‰ : L'instrumentale de Hurricane de 30STM
+AJOUTÃ‰ : Deux panneaux reprÃ©sentant les Zones ProtÃ©gÃ©es et Zones RÃ©servÃ©es, un panneau rÃ©glementaire de signalisation de moyen de vidÃ©oprotection
+AJOUTÃ‰ : 35 nouveaux Ã©cussons comportant notamment des Ã©cussons pour les Douanes, la SÃ©curitÃ© Civile et des Sections AÃ©riennes de Gendarmerie
+
+MODIFIÃ‰ : Mise Ã  jour des panneaux Vigipirate du mod au systÃ¨me actuel Ã  3 niveaux
+
+REPARÃ‰ : Les valeurs de protection pare-balles de certains gilets Ã©taient incorrectes et les gilets n'offraient aucune protection.
+RÃ‰PARÃ‰ : Des morceaux de musiques ne se lanÃ§aient pas.
+RÃ‰PARÃ‰ : Le panneau reprÃ©sentant les zones dites "de droit commun" ne portait pas le bon nom dans Zeus
+RÃ‰PARÃ‰ : Certaines tenues qui devraient normalement permettre le port d'Ã©cusson personnalisÃ©s ne le permettaient pas
+
 / / / Hotfix R5.0.1 \ \ \
 
-RÉPARÉ : Les morceaux de musique qui ne fonctionnaient plus fonctionnent de nouveau
+Rï¿½PARï¿½ : Les morceaux de musique qui ne fonctionnaient plus fonctionnent de nouveau
 
 / / / R5.0 "Vigipirate"\ \ \
 
-AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des VL du SDIS 44
-AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des véhicules Police Nationale
-AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des véhicules Police Municipale
-AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des véhicules de l'Administration Pénitentiaire
-AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des véhicules La Poste
-AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des véhicules SNCF
-AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des véhicules Police Rurale
-AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des véhicules Securitas
-AJOUTÉ : Retexture de la "Voiture à hayon" civile Vanilla dans le style des Renault Kangoo de la Mission Vigipirate
-AJOUTÉ : Retexture de la "Voiture à hayon de sport" civile Vanilla dans le style des véhicules des ERI de la Gendarmerie Nationale
-AJOUTÉ : Retexture de la "Voiture à hayon de sport" civile Vanilla dans le style des véhicules des Douanes Françaises
-AJOUTÉ : Retexture du "Hellcat" de l'AAF Vanilla dans un style Gendarmerie Nationale
-AJOUTÉ : Retexture du "Hellcat" de l'AAF Vanilla dans un style de Dragon de la Sécurité Civile
-AJOUTÉ : Retexture du "Hellcat" de l'AAF Vanilla dans un style Douanes Françaises
-AJOUTÉ : Retexture du "SUV" civil Vanilla dans le style des SMUR
-AJOUTÉ : Retexture de "l'Offroad" civil Vanilla dans le style des véhicules Gendarmerie Nationale
-AJOUTÉ : Retexture de "l'Offroad" civil Vanilla dans le style des véhicules UIISC
-AJOUTÉ : Retexture de "l'Offroad" civil Vanilla dans le style des véhicules Protection Civile
-AJOUTÉ : Retexture de "l'Offroad" civil Vanilla dans le style de VLHR ou autre du SDIS 44
-AJOUTÉ : Retexture de "l'Offroad" civil Vanilla dans le style des véhicules de la CRF
-AJOUTÉ : Retexture de "l'Offroad" civil Vanilla dans le style des véhicules de la Police Rurale
-AJOUTÉ : Retexture de la "Vedette Armée" de l'OTAN Vanilla avec sérigraphie Marine Nationale (AEM)
-AJOUTÉ : Retexture du "Hors-Bord" civil Vanilla avec sérigraphie Douanes Françaises
-AJOUTÉ : Retexture du "Hors-Bord" civil Vanilla avec sérigraphie Gendarmerie Maritime
-AJOUTÉ : Retexture du "Hors-Bord" civil Vanilla dans le style des "Vedette de Transport d'Autorité" de la Marine Nationale
-AJOUTÉ : Retexture du "Orca" de la CSAT Vanilla en HELISMUR44
-AJOUTÉ : Retexture du "Zamak (Eau)" de l'IDAP Vanilla en CCGC du SDIS 44
-AJOUTÉ : Retexture du véhicule de l'AAF en VBRG
-AJOUTÉ : Retexture du drone BLUFOR Vanilla dans le style des Reaper employés par l'Armée de l'Air
-AJOUTÉ : Drapeau de la France
-AJOUTÉ : Drapeau de la Belgique
-AJOUTÉ : Drapeau de l'UE
-AJOUTÉ : Drapeau de la TFP
-AJOUTÉ : Drapeau du 24eBAC
-AJOUTÉ : Drapeau des TFD
-AJOUTÉ : Drapeau de l'OPEX au Koto
-AJOUTÉ : Drapeau de l'URSS
-AJOUTÉ : Drapeau de l'empire du Japon
-AJOUTÉ : Étendard de la JSDF
-AJOUTÉ : Drapeau du Maroc
-AJOUTÉ : Drapeau du Gabon
-AJOUTÉ : Drapeau du Niger
-AJOUTÉ : Drapeau de la République Populaire de Chine
-AJOUTÉ : Etendard de l'Armée Populaire de Libération de la République Populaire de Chine
-AJOUTÉ : Panneau Vigipirate (et une variante Vigipirate Alerte Attentat)
-AJOUTÉ : Panneaux d'entrées des bases de la campagne Golden Shield
-AJOUTÉ : Panneaux à l'entrée des bases militaires française (posture de protection, consignes...)
-AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Gendarmerie Nationale
-AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Sécurité Privée
-AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Pompiers de l'Air
-AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Sapeurs Pompiers
-AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Formateur
-AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo CICR
-AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo UIISC
-AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Protection Civile
-AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Police Municipale
-AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo ASVP
-AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Police Rurale
-AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Douanes Françaises
-AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo CRF
-AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Administration Pénitentiaire
-AJOUTÉ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Police Nationale 2016
-AJOUTÉ : Retexture de la tenue de "Scientifique" civile Vanilla en TPB Marine Nationale
-AJOUTÉ : Retexture de la tenue de "Scientifique" civile Vanilla en TPB Feu Marine Nationale
-AJOUTÉ : Retexture de la tenue de "Scientifique" civile Vanilla en Tenue du SAMU
-AJOUTÉ : Retexture de la tenue de "Scientifique" civile Vanilla en Tenue de médecin CICR (Version saine et ensanglantée)
-AJOUTÉ : Retexture de la tenue "d'Ouvrier" civile Vanilla en Tenue de la DIR
-AJOUTÉ : Retexture de la tenue "d'Ouvrier" civile Vanilla en Tenue de Pistard de l'Armée de l'Air
-AJOUTÉ : Retexture de la tenue de "Plongeur de combat" de l'OTAN Vanilla en tenue de Plongeur Pedro (orange haute visibilité)
-AJOUTÉ : Retexture du "Recycleur (OTAN)" en Jaune Haute visibilité (ceci plus la tenue du dessus fait un plongeur SP)
-AJOUTÉ : Retexture du "Képi" en version Gendarmerie Nationale
-AJOUTÉ : Retexture de la "Casquette" en version Police
-AJOUTÉ : Retexture du "Képi" en version Police Municipale
-AJOUTÉ : Retexture de la "Casquette" en version Cadet (de la République)
-AJOUTÉ : Retexture de la "Casquette" en version Protection Civile
-AJOUTÉ : Retexture du "Képi" en version Police Rurale
-AJOUTÉ : Retexture du "Képi" en version ASVP
-AJOUTÉ : Retexture du "Képi" en version Administration Pénitentiaire
-AJOUTÉ : Retexture du "Képi" en version Sapeur-Pompier
-AJOUTÉ : Retexture de la "Casquette" en version Sécurité Privée
-AJOUTÉ : Retexture de la "Casquette" en version Douanes
-AJOUTÉ : Retexture du "Gilet (Presse)" en pseudo Gilet S3 Centre Europe
-AJOUTÉ : Retexture du "Gilet (Presse)" en pseudo Gilet S3 Police Nationale
-AJOUTÉ : Retexture du "Gilet (Presse)" en pseudo Gilet S3 Gendarmerie Nationale
-AJOUTÉ : Retexture du "Gilet Tactique" en gilet Police Nationale
-AJOUTÉ : Retexture du "Gilet Tactique" en gilet Gendarmerie Nationale
-AJOUTÉ : Retexture du "Gilet Tactique" en gilet Négociateur
-AJOUTÉ : Retexture du "Gilet Tactique" en gilet Déminage Sécurité Civile
-AJOUTÉ : Retexture du "Gilet Tactique" en gilet ERIS
-AJOUTÉ : Retexture du "Gilet Tactique" en gilet Centre Europe
-AJOUTÉ : Retexture du "Gilet Tactique" en gilet haute visibilité Formateur
-AJOUTÉ : Retexture du "Gilet Tactique" en gilet haute visibilité Médecin
-AJOUTÉ : Retexture du "Gilet Tactique" en gilet haute visibilité Infirmier
-AJOUTÉ : Retexture du gilet de l'AAF en gilet Gendarmerie Nationale
-AJOUTÉ : Retexture du gilet de l'AAF en gilet GIPN
-AJOUTÉ : Retexture du gilet de l'AAF en gilet Douanes Françaises
-AJOUTÉ : Retexture du gilet de l'AAF lourd en gilet d'assaut lourd Gendarmerie Nationale
-AJOUTÉ : Retexture du gilet de l'AAF lourd en gilet d'assaut lourd GIPN
-AJOUTÉ : Retexture du gilet de l'AAF lourd en gilet d'assaut lourd Douanes Françaises
-AJOUTÉ : Retexture d'un casque en casque style F2 Protection Civile
-AJOUTÉ : Retexture d'un casque en casque style F2 Sapeurs-Pompiers (basique, chef d'agrès, chef de colonne)
-AJOUTÉ : Retexture de l'uniforme d'officier de l'AAF en pseudo parka Gendarmerie Nationale
-AJOUTÉ : Retexture de l'uniforme d'officier de l'AAF en pseudo parka Police Nationale
-AJOUTÉ : Retexture de l'uniforme d'officier de l'AAF en pseudo Tenue Feu Sapeurs Pompiers
-AJOUTÉ : Retexture d'une tenue de combat en pseudo tenue d'intervention foncée Gendarmerie Mobile
-AJOUTÉ : Retexture d'une tenue de combat en pseudo tenue d'intervention foncée Police Nationale
-AJOUTÉ : Retexture d'une tenue de combat en pseudo tenue d'intervention foncée Douanes Françaises
-AJOUTÉ : Retexture de la "Casquette (Sheriff)" civile Vanilla en version Formateur
-AJOUTÉ : Retexture du "Treillis de Survie" en Tenue de Plouf Armée de l'Air
-AJOUTÉ : Retexture d'un casque de Karting en pseudo casque de motard Gendarmerie Nationale
-AJOUTÉ : Retexture du "Sac d'assaut" en sac d'intervention SP / SAMU
-AJOUTÉ : Retexture de la tenue de pilote d'hélicoptère Vanilla BLUFOR en tenue de pilote de la Sécurité Civile
-AJOUTÉ : Retexture de la tenue de pilote d'hélicoptère Vanilla BLUFOR en tenue de pilote de la Gendarmerie Nationale
-AJOUTÉ : Retexture du casque de pilote d'hélicoptère Vanilla BLUFOR en casque de pilote de la Sécurité Civile
-AJOUTÉ : Retexture du casque de pilote d'hélicoptère Vanilla BLUFOR en casque de pilote de la Gendarmerie Nationale
-AJOUTÉ : Retexture de la tenue de Guerilla (pullover) Vanilla en tenue de travail de l'Armée de Terre (Recrutement CIRFA)
-AJOUTÉ : Retexture de la tenue de Guerilla (pullover) Vanilla en tenue de travail de l'Armée de l'Air (Recrutement CIRFA)
-AJOUTÉ : Retexture de la tenue de Guerilla (pullover) Vanilla en tenue polaire Gendarmerie Départementale
-AJOUTÉ : Thème principal de Space : Above and Beyond
-AJOUTÉ : L'instrumentale de Rains of Castamere
-AJOUTÉ : Space Truckin'
-AJOUTÉ : Patch Sapeurs Pompiers
-AJOUTÉ : Patch ASVP
-AJOUTÉ : Patch Police Nationale
-AJOUTÉ : Patch Police Municipale
-AJOUTÉ : Patches Gendarmerie Nationale (brigades départementales, BGA, armement, prévôtale, négociateur...)
-AJOUTÉ : Patch CRS
-AJOUTÉ : Patch Protection Civile
-AJOUTÉ : Patch CRF
-AJOUTÉ : Patches Sécurité Civile et/ou UIISC
-AJOUTÉ : Deux patches Police Rurale
-AJOUTÉ : Patch Douanes Françaises
-AJOUTÉ : Patch TFP
-AJOUTÉ : Patch La Poste
-AJOUTÉ : Patch de la flottille 35F
-AJOUTÉ : Patch SAR
-AJOUTÉ : Patch Puma SAR
-AJOUTÉ : Patch DGSI
-AJOUTÉ : Patch ANSSI
-AJOUTÉ : Patch de la 2eBB
-AJOUTÉ : Patch 24eBAC
-AJOUTÉ : Patch TFD
-AJOUTÉ : Patch Cadet de la République
-AJOUTÉ : Patch de l'Administration Pénitentiaire
-AJOUTÉ : Patch de l'ERIS
-AJOUTÉ : Patch de la DCPJ
-AJOUTÉ : Patch du 6eRG
-AJOUTÉ : Patch du 2eREP
-AJOUTÉ : Patch du Détachement de la Légion Étrangère à Mayotte
-AJOUTÉ : Patch de la 9eBIMa
-AJOUTÉ : Patch de la DGA
-AJOUTÉ : Patches du Commandement Opérationnel de Cyberdéfense 
-AJOUTÉ : Factions "Armée de Terre", "Marine Nationale", "Armée de l'Air", "Gendarmerie Nationale". Les autres unités y compris de police iront en "Civils"
-AJOUTÉ : Licence d'utilisation dans un fichier LICENCE
-AJOUTÉ : Remerciements
+AJOUTï¿½ : Retexture de la "Voiture ï¿½ hayon" civile Vanilla dans le style des VL du SDIS 44
+AJOUTï¿½ : Retexture de la "Voiture ï¿½ hayon" civile Vanilla dans le style des vï¿½hicules Police Nationale
+AJOUTï¿½ : Retexture de la "Voiture ï¿½ hayon" civile Vanilla dans le style des vï¿½hicules Police Municipale
+AJOUTï¿½ : Retexture de la "Voiture ï¿½ hayon" civile Vanilla dans le style des vï¿½hicules de l'Administration Pï¿½nitentiaire
+AJOUTï¿½ : Retexture de la "Voiture ï¿½ hayon" civile Vanilla dans le style des vï¿½hicules La Poste
+AJOUTï¿½ : Retexture de la "Voiture ï¿½ hayon" civile Vanilla dans le style des vï¿½hicules SNCF
+AJOUTï¿½ : Retexture de la "Voiture ï¿½ hayon" civile Vanilla dans le style des vï¿½hicules Police Rurale
+AJOUTï¿½ : Retexture de la "Voiture ï¿½ hayon" civile Vanilla dans le style des vï¿½hicules Securitas
+AJOUTï¿½ : Retexture de la "Voiture ï¿½ hayon" civile Vanilla dans le style des Renault Kangoo de la Mission Vigipirate
+AJOUTï¿½ : Retexture de la "Voiture ï¿½ hayon de sport" civile Vanilla dans le style des vï¿½hicules des ERI de la Gendarmerie Nationale
+AJOUTï¿½ : Retexture de la "Voiture ï¿½ hayon de sport" civile Vanilla dans le style des vï¿½hicules des Douanes Franï¿½aises
+AJOUTï¿½ : Retexture du "Hellcat" de l'AAF Vanilla dans un style Gendarmerie Nationale
+AJOUTï¿½ : Retexture du "Hellcat" de l'AAF Vanilla dans un style de Dragon de la Sï¿½curitï¿½ Civile
+AJOUTï¿½ : Retexture du "Hellcat" de l'AAF Vanilla dans un style Douanes Franï¿½aises
+AJOUTï¿½ : Retexture du "SUV" civil Vanilla dans le style des SMUR
+AJOUTï¿½ : Retexture de "l'Offroad" civil Vanilla dans le style des vï¿½hicules Gendarmerie Nationale
+AJOUTï¿½ : Retexture de "l'Offroad" civil Vanilla dans le style des vï¿½hicules UIISC
+AJOUTï¿½ : Retexture de "l'Offroad" civil Vanilla dans le style des vï¿½hicules Protection Civile
+AJOUTï¿½ : Retexture de "l'Offroad" civil Vanilla dans le style de VLHR ou autre du SDIS 44
+AJOUTï¿½ : Retexture de "l'Offroad" civil Vanilla dans le style des vï¿½hicules de la CRF
+AJOUTï¿½ : Retexture de "l'Offroad" civil Vanilla dans le style des vï¿½hicules de la Police Rurale
+AJOUTï¿½ : Retexture de la "Vedette Armï¿½e" de l'OTAN Vanilla avec sï¿½rigraphie Marine Nationale (AEM)
+AJOUTï¿½ : Retexture du "Hors-Bord" civil Vanilla avec sï¿½rigraphie Douanes Franï¿½aises
+AJOUTï¿½ : Retexture du "Hors-Bord" civil Vanilla avec sï¿½rigraphie Gendarmerie Maritime
+AJOUTï¿½ : Retexture du "Hors-Bord" civil Vanilla dans le style des "Vedette de Transport d'Autoritï¿½" de la Marine Nationale
+AJOUTï¿½ : Retexture du "Orca" de la CSAT Vanilla en HELISMUR44
+AJOUTï¿½ : Retexture du "Zamak (Eau)" de l'IDAP Vanilla en CCGC du SDIS 44
+AJOUTï¿½ : Retexture du vï¿½hicule de l'AAF en VBRG
+AJOUTï¿½ : Retexture du drone BLUFOR Vanilla dans le style des Reaper employï¿½s par l'Armï¿½e de l'Air
+AJOUTï¿½ : Drapeau de la France
+AJOUTï¿½ : Drapeau de la Belgique
+AJOUTï¿½ : Drapeau de l'UE
+AJOUTï¿½ : Drapeau de la TFP
+AJOUTï¿½ : Drapeau du 24eBAC
+AJOUTï¿½ : Drapeau des TFD
+AJOUTï¿½ : Drapeau de l'OPEX au Koto
+AJOUTï¿½ : Drapeau de l'URSS
+AJOUTï¿½ : Drapeau de l'empire du Japon
+AJOUTï¿½ : ï¿½tendard de la JSDF
+AJOUTï¿½ : Drapeau du Maroc
+AJOUTï¿½ : Drapeau du Gabon
+AJOUTï¿½ : Drapeau du Niger
+AJOUTï¿½ : Drapeau de la Rï¿½publique Populaire de Chine
+AJOUTï¿½ : Etendard de l'Armï¿½e Populaire de Libï¿½ration de la Rï¿½publique Populaire de Chine
+AJOUTï¿½ : Panneau Vigipirate (et une variante Vigipirate Alerte Attentat)
+AJOUTï¿½ : Panneaux d'entrï¿½es des bases de la campagne Golden Shield
+AJOUTï¿½ : Panneaux ï¿½ l'entrï¿½e des bases militaires franï¿½aise (posture de protection, consignes...)
+AJOUTï¿½ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Gendarmerie Nationale
+AJOUTï¿½ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Sï¿½curitï¿½ Privï¿½e
+AJOUTï¿½ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Pompiers de l'Air
+AJOUTï¿½ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Sapeurs Pompiers
+AJOUTï¿½ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Formateur
+AJOUTï¿½ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo CICR
+AJOUTï¿½ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo UIISC
+AJOUTï¿½ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Protection Civile
+AJOUTï¿½ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Police Municipale
+AJOUTï¿½ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo ASVP
+AJOUTï¿½ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Police Rurale
+AJOUTï¿½ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Douanes Franï¿½aises
+AJOUTï¿½ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo CRF
+AJOUTï¿½ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Administration Pï¿½nitentiaire
+AJOUTï¿½ : Retexture de la tenue de "Sheriff" civile Vanilla en Polo Police Nationale 2016
+AJOUTï¿½ : Retexture de la tenue de "Scientifique" civile Vanilla en TPB Marine Nationale
+AJOUTï¿½ : Retexture de la tenue de "Scientifique" civile Vanilla en TPB Feu Marine Nationale
+AJOUTï¿½ : Retexture de la tenue de "Scientifique" civile Vanilla en Tenue du SAMU
+AJOUTï¿½ : Retexture de la tenue de "Scientifique" civile Vanilla en Tenue de mï¿½decin CICR (Version saine et ensanglantï¿½e)
+AJOUTï¿½ : Retexture de la tenue "d'Ouvrier" civile Vanilla en Tenue de la DIR
+AJOUTï¿½ : Retexture de la tenue "d'Ouvrier" civile Vanilla en Tenue de Pistard de l'Armï¿½e de l'Air
+AJOUTï¿½ : Retexture de la tenue de "Plongeur de combat" de l'OTAN Vanilla en tenue de Plongeur Pedro (orange haute visibilitï¿½)
+AJOUTï¿½ : Retexture du "Recycleur (OTAN)" en Jaune Haute visibilitï¿½ (ceci plus la tenue du dessus fait un plongeur SP)
+AJOUTï¿½ : Retexture du "Kï¿½pi" en version Gendarmerie Nationale
+AJOUTï¿½ : Retexture de la "Casquette" en version Police
+AJOUTï¿½ : Retexture du "Kï¿½pi" en version Police Municipale
+AJOUTï¿½ : Retexture de la "Casquette" en version Cadet (de la Rï¿½publique)
+AJOUTï¿½ : Retexture de la "Casquette" en version Protection Civile
+AJOUTï¿½ : Retexture du "Kï¿½pi" en version Police Rurale
+AJOUTï¿½ : Retexture du "Kï¿½pi" en version ASVP
+AJOUTï¿½ : Retexture du "Kï¿½pi" en version Administration Pï¿½nitentiaire
+AJOUTï¿½ : Retexture du "Kï¿½pi" en version Sapeur-Pompier
+AJOUTï¿½ : Retexture de la "Casquette" en version Sï¿½curitï¿½ Privï¿½e
+AJOUTï¿½ : Retexture de la "Casquette" en version Douanes
+AJOUTï¿½ : Retexture du "Gilet (Presse)" en pseudo Gilet S3 Centre Europe
+AJOUTï¿½ : Retexture du "Gilet (Presse)" en pseudo Gilet S3 Police Nationale
+AJOUTï¿½ : Retexture du "Gilet (Presse)" en pseudo Gilet S3 Gendarmerie Nationale
+AJOUTï¿½ : Retexture du "Gilet Tactique" en gilet Police Nationale
+AJOUTï¿½ : Retexture du "Gilet Tactique" en gilet Gendarmerie Nationale
+AJOUTï¿½ : Retexture du "Gilet Tactique" en gilet Nï¿½gociateur
+AJOUTï¿½ : Retexture du "Gilet Tactique" en gilet Dï¿½minage Sï¿½curitï¿½ Civile
+AJOUTï¿½ : Retexture du "Gilet Tactique" en gilet ERIS
+AJOUTï¿½ : Retexture du "Gilet Tactique" en gilet Centre Europe
+AJOUTï¿½ : Retexture du "Gilet Tactique" en gilet haute visibilitï¿½ Formateur
+AJOUTï¿½ : Retexture du "Gilet Tactique" en gilet haute visibilitï¿½ Mï¿½decin
+AJOUTï¿½ : Retexture du "Gilet Tactique" en gilet haute visibilitï¿½ Infirmier
+AJOUTï¿½ : Retexture du gilet de l'AAF en gilet Gendarmerie Nationale
+AJOUTï¿½ : Retexture du gilet de l'AAF en gilet GIPN
+AJOUTï¿½ : Retexture du gilet de l'AAF en gilet Douanes Franï¿½aises
+AJOUTï¿½ : Retexture du gilet de l'AAF lourd en gilet d'assaut lourd Gendarmerie Nationale
+AJOUTï¿½ : Retexture du gilet de l'AAF lourd en gilet d'assaut lourd GIPN
+AJOUTï¿½ : Retexture du gilet de l'AAF lourd en gilet d'assaut lourd Douanes Franï¿½aises
+AJOUTï¿½ : Retexture d'un casque en casque style F2 Protection Civile
+AJOUTï¿½ : Retexture d'un casque en casque style F2 Sapeurs-Pompiers (basique, chef d'agrï¿½s, chef de colonne)
+AJOUTï¿½ : Retexture de l'uniforme d'officier de l'AAF en pseudo parka Gendarmerie Nationale
+AJOUTï¿½ : Retexture de l'uniforme d'officier de l'AAF en pseudo parka Police Nationale
+AJOUTï¿½ : Retexture de l'uniforme d'officier de l'AAF en pseudo Tenue Feu Sapeurs Pompiers
+AJOUTï¿½ : Retexture d'une tenue de combat en pseudo tenue d'intervention foncï¿½e Gendarmerie Mobile
+AJOUTï¿½ : Retexture d'une tenue de combat en pseudo tenue d'intervention foncï¿½e Police Nationale
+AJOUTï¿½ : Retexture d'une tenue de combat en pseudo tenue d'intervention foncï¿½e Douanes Franï¿½aises
+AJOUTï¿½ : Retexture de la "Casquette (Sheriff)" civile Vanilla en version Formateur
+AJOUTï¿½ : Retexture du "Treillis de Survie" en Tenue de Plouf Armï¿½e de l'Air
+AJOUTï¿½ : Retexture d'un casque de Karting en pseudo casque de motard Gendarmerie Nationale
+AJOUTï¿½ : Retexture du "Sac d'assaut" en sac d'intervention SP / SAMU
+AJOUTï¿½ : Retexture de la tenue de pilote d'hï¿½licoptï¿½re Vanilla BLUFOR en tenue de pilote de la Sï¿½curitï¿½ Civile
+AJOUTï¿½ : Retexture de la tenue de pilote d'hï¿½licoptï¿½re Vanilla BLUFOR en tenue de pilote de la Gendarmerie Nationale
+AJOUTï¿½ : Retexture du casque de pilote d'hï¿½licoptï¿½re Vanilla BLUFOR en casque de pilote de la Sï¿½curitï¿½ Civile
+AJOUTï¿½ : Retexture du casque de pilote d'hï¿½licoptï¿½re Vanilla BLUFOR en casque de pilote de la Gendarmerie Nationale
+AJOUTï¿½ : Retexture de la tenue de Guerilla (pullover) Vanilla en tenue de travail de l'Armï¿½e de Terre (Recrutement CIRFA)
+AJOUTï¿½ : Retexture de la tenue de Guerilla (pullover) Vanilla en tenue de travail de l'Armï¿½e de l'Air (Recrutement CIRFA)
+AJOUTï¿½ : Retexture de la tenue de Guerilla (pullover) Vanilla en tenue polaire Gendarmerie Dï¿½partementale
+AJOUTï¿½ : Thï¿½me principal de Space : Above and Beyond
+AJOUTï¿½ : L'instrumentale de Rains of Castamere
+AJOUTï¿½ : Space Truckin'
+AJOUTï¿½ : Patch Sapeurs Pompiers
+AJOUTï¿½ : Patch ASVP
+AJOUTï¿½ : Patch Police Nationale
+AJOUTï¿½ : Patch Police Municipale
+AJOUTï¿½ : Patches Gendarmerie Nationale (brigades dï¿½partementales, BGA, armement, prï¿½vï¿½tale, nï¿½gociateur...)
+AJOUTï¿½ : Patch CRS
+AJOUTï¿½ : Patch Protection Civile
+AJOUTï¿½ : Patch CRF
+AJOUTï¿½ : Patches Sï¿½curitï¿½ Civile et/ou UIISC
+AJOUTï¿½ : Deux patches Police Rurale
+AJOUTï¿½ : Patch Douanes Franï¿½aises
+AJOUTï¿½ : Patch TFP
+AJOUTï¿½ : Patch La Poste
+AJOUTï¿½ : Patch de la flottille 35F
+AJOUTï¿½ : Patch SAR
+AJOUTï¿½ : Patch Puma SAR
+AJOUTï¿½ : Patch DGSI
+AJOUTï¿½ : Patch ANSSI
+AJOUTï¿½ : Patch de la 2eBB
+AJOUTï¿½ : Patch 24eBAC
+AJOUTï¿½ : Patch TFD
+AJOUTï¿½ : Patch Cadet de la Rï¿½publique
+AJOUTï¿½ : Patch de l'Administration Pï¿½nitentiaire
+AJOUTï¿½ : Patch de l'ERIS
+AJOUTï¿½ : Patch de la DCPJ
+AJOUTï¿½ : Patch du 6eRG
+AJOUTï¿½ : Patch du 2eREP
+AJOUTï¿½ : Patch du Dï¿½tachement de la Lï¿½gion ï¿½trangï¿½re ï¿½ Mayotte
+AJOUTï¿½ : Patch de la 9eBIMa
+AJOUTï¿½ : Patch de la DGA
+AJOUTï¿½ : Patches du Commandement Opï¿½rationnel de Cyberdï¿½fense
+AJOUTï¿½ : Factions "Armï¿½e de Terre", "Marine Nationale", "Armï¿½e de l'Air", "Gendarmerie Nationale". Les autres unitï¿½s y compris de police iront en "Civils"
+AJOUTï¿½ : Licence d'utilisation dans un fichier LICENCE
+AJOUTï¿½ : Remerciements
 
-RÉPARÉ : Capacité de réparations de l'Offroad du Train, de la DGAC et de la DIR
-RÉPARÉ : Capacité de soin des PSM, véhicules CICR, MSF, Croissant Rouge, CRF, Zamak EVASAN, PC
-RÉPARÉ : Logs d'erreur sur serveur dédiés
-RÉPARÉ : Correction de la variable author dans les config.cpp
+Rï¿½PARï¿½ : Capacitï¿½ de rï¿½parations de l'Offroad du Train, de la DGAC et de la DIR
+Rï¿½PARï¿½ : Capacitï¿½ de soin des PSM, vï¿½hicules CICR, MSF, Croissant Rouge, CRF, Zamak EVASAN, PC
+Rï¿½PARï¿½ : Logs d'erreur sur serveur dï¿½diï¿½s
+Rï¿½PARï¿½ : Correction de la variable author dans les config.cpp
 
 / / / R4.3.1 \ \ \
 
-RÉPARÉ : Les musiques de Girls und Panzer marchent correctement
-RÉPARÉ : Correction du Readme
+Rï¿½PARï¿½ : Les musiques de Girls und Panzer marchent correctement
+Rï¿½PARï¿½ : Correction du Readme
 
-/ / / R4.3 "Opération Daguet" \ \ \
+/ / / R4.3 "Opï¿½ration Daguet" \ \ \
 
-AJOUTÉ : Intégration des musiques du TFP_Music.pbo dans l'interface Zeus
-AJOUTÉ : Retextures de l'AMV Patria BLUFOR Vanilla en VBCI Daguet
-AJOUTÉ : Retextures du "Fourgon Caisse" civil Vanilla en version sable (dont le PSM)
-AJOUTÉ : Retextures du Kamaz civil Vanilla dans le style des camion Renault en Daguet (toutes versions)
-AJOUTÉ : Retexture du "Hunter" Vanilla en pseudo-PVP Daguet avec les variantes non-armée, 12.7mm et 40mm
-AJOUTÉ : Retextures du "Tout-Terrain" Vanilla de la FIA dans le style des VLRA et P4 utilisés par les commandos en Daguet
-AJOUTÉ : Retextures du CRV Bobcat Vanilla de l'OTAN dans le style des EBG Daguet
-AJOUTÉ : Morceaux provenant de XCOM2
-AJOUTÉ : Theme for Kjell (Battlefield 4)
-AJOUTÉ : Un morceau BONUS
-AJOUTÉ : Battle Hymn of the Republic (Girls Und Panzer)
-AJOUTÉ : Panzerlied (Girls Und Panzer)
-AJOUTÉ : Ember du Eevee EP
-AJOUTÉ : Battle Mirai de Zipang
-AJOUTÉ : Ecussons France basse visibilité (sable et forêt)
-AJOUTÉ : Patch de la DRM
-AJOUTÉ : Patch de la compagnie de Gendarmerie de Saint-Pierre et Miquelon 
-AJOUTÉ : 6 patches d'OPEX françaises
+AJOUTï¿½ : Intï¿½gration des musiques du TFP_Music.pbo dans l'interface Zeus
+AJOUTï¿½ : Retextures de l'AMV Patria BLUFOR Vanilla en VBCI Daguet
+AJOUTï¿½ : Retextures du "Fourgon Caisse" civil Vanilla en version sable (dont le PSM)
+AJOUTï¿½ : Retextures du Kamaz civil Vanilla dans le style des camion Renault en Daguet (toutes versions)
+AJOUTï¿½ : Retexture du "Hunter" Vanilla en pseudo-PVP Daguet avec les variantes non-armï¿½e, 12.7mm et 40mm
+AJOUTï¿½ : Retextures du "Tout-Terrain" Vanilla de la FIA dans le style des VLRA et P4 utilisï¿½s par les commandos en Daguet
+AJOUTï¿½ : Retextures du CRV Bobcat Vanilla de l'OTAN dans le style des EBG Daguet
+AJOUTï¿½ : Morceaux provenant de XCOM2
+AJOUTï¿½ : Theme for Kjell (Battlefield 4)
+AJOUTï¿½ : Un morceau BONUS
+AJOUTï¿½ : Battle Hymn of the Republic (Girls Und Panzer)
+AJOUTï¿½ : Panzerlied (Girls Und Panzer)
+AJOUTï¿½ : Ember du Eevee EP
+AJOUTï¿½ : Battle Mirai de Zipang
+AJOUTï¿½ : Ecussons France basse visibilitï¿½ (sable et forï¿½t)
+AJOUTï¿½ : Patch de la DRM
+AJOUTï¿½ : Patch de la compagnie de Gendarmerie de Saint-Pierre et Miquelon
+AJOUTï¿½ : 6 patches d'OPEX franï¿½aises
 
-RÉPARÉ : Les Zamaks des ONG sont désormais dans la bonne faction
-RÉPARÉ : Les Zamaks en variante EVASAN sont désormais bien dans la catégorie "Appui"
-RÉPARÉ : Orthographe incorrecte du patch MEC Trooper
-RÉPARÉ : Les deux types de Tout-terrains n'ont plus le même numéro de wagonnage
-RÉPARÉ : Les trois types de Hunter n'ont plus le même numéro de wagonnage
+Rï¿½PARï¿½ : Les Zamaks des ONG sont dï¿½sormais dans la bonne faction
+Rï¿½PARï¿½ : Les Zamaks en variante EVASAN sont dï¿½sormais bien dans la catï¿½gorie "Appui"
+Rï¿½PARï¿½ : Orthographe incorrecte du patch MEC Trooper
+Rï¿½PARï¿½ : Les deux types de Tout-terrains n'ont plus le mï¿½me numï¿½ro de wagonnage
+Rï¿½PARï¿½ : Les trois types de Hunter n'ont plus le mï¿½me numï¿½ro de wagonnage
 
 / / / R4.2 "Humanitaire" \ \ \
 
-AJOUTÉ : Retexture du Ka-60 Vanilla en un Panther du CICR
-AJOUTÉ : Retexture du "Tout-Terrain" Vanilla civil dans le style des tout-terrains employés par les ONG (CICR, MSF, Croissant Rouge)
-AJOUTÉ : Retexture du "SUV" Vanilla civil dans le style des berlines employées par les ONG (CICR et MSF de représentées)
-AJOUTÉ : Retexture de la "Voiture à hayon" Vanilla civile dans le style des ONG (CICR, MSF, Croissant Rouge)
-AJOUTÉ : Retexture du "Zamak" civil Vanilla dans le style des camions employés par les ONG (CICR)
-AJOUTÉ : Retexture du "Zamak" civil Vanilla dans le style des camions médicalisés employés par les ONG (CICR, MSF - pas de fonctionnalités médicales)
-AJOUTÉ : Retexture du "Zamak" civil Vanilla dans le style des camions médicalisés Renault en Centre Europe 
-AJOUTÉ : 6 patches dont la plupart en Haute Visibilité pour les ONG
-AJOUTÉ : 3 morceaux tirés de la bande originale du film "The Final Countdown"
-AJOUTÉ : 3 morceaux tirés de la bande originale du jeu "XCOM Enemy Unknown"
-AJOUTÉ : 2 morceaux tirés de la bande originale de l'anime "GATE"
+AJOUTï¿½ : Retexture du Ka-60 Vanilla en un Panther du CICR
+AJOUTï¿½ : Retexture du "Tout-Terrain" Vanilla civil dans le style des tout-terrains employï¿½s par les ONG (CICR, MSF, Croissant Rouge)
+AJOUTï¿½ : Retexture du "SUV" Vanilla civil dans le style des berlines employï¿½es par les ONG (CICR et MSF de reprï¿½sentï¿½es)
+AJOUTï¿½ : Retexture de la "Voiture ï¿½ hayon" Vanilla civile dans le style des ONG (CICR, MSF, Croissant Rouge)
+AJOUTï¿½ : Retexture du "Zamak" civil Vanilla dans le style des camions employï¿½s par les ONG (CICR)
+AJOUTï¿½ : Retexture du "Zamak" civil Vanilla dans le style des camions mï¿½dicalisï¿½s employï¿½s par les ONG (CICR, MSF - pas de fonctionnalitï¿½s mï¿½dicales)
+AJOUTï¿½ : Retexture du "Zamak" civil Vanilla dans le style des camions mï¿½dicalisï¿½s Renault en Centre Europe
+AJOUTï¿½ : 6 patches dont la plupart en Haute Visibilitï¿½ pour les ONG
+AJOUTï¿½ : 3 morceaux tirï¿½s de la bande originale du film "The Final Countdown"
+AJOUTï¿½ : 3 morceaux tirï¿½s de la bande originale du jeu "XCOM Enemy Unknown"
+AJOUTï¿½ : 2 morceaux tirï¿½s de la bande originale de l'anime "GATE"
 
-RÉPARÉ : Les cassures sur la texture du Zamak Centre Europe dues au mirroring devraient être résolues
+Rï¿½PARï¿½ : Les cassures sur la texture du Zamak Centre Europe dues au mirroring devraient ï¿½tre rï¿½solues
 
 / / / R4.1 \ \ \
 
-AJOUTÉ : 1ère version de compatibilité Zeus pour tous les véhicules ajoutés par le TFP_CORE
-AJOUTÉ : Retexture du "Hunter" Vanilla en pseudo-PVP Centre Europe avec les variantes non-armée, 12.7mm et 40mm
-AJOUTÉ : Retexture du "Tout-Terrain" Vanilla de la FIA dans le style des VLRA et P4 utilisés par les commandos en Centre Europe
-AJOUTÉ : Retexture du "Fourgon Caisse" civil Vanilla dans le style des PSM du SSA détachés dans l'Armée de Terre
-AJOUTÉ : Retexture du CRV Bobcat Vanilla de l'OTAN dans le style des EBG Centre Europe
-AJOUTÉ : 3 appels au clairon du cérémonial militaire français
-AJOUTÉ : Hymne Européen
-AJOUTÉ : Marseillaise
-AJOUTÉ : Aux Morts
-AJOUTÉ : Thème Principal de Fallout 4
+AJOUTï¿½ : 1ï¿½re version de compatibilitï¿½ Zeus pour tous les vï¿½hicules ajoutï¿½s par le TFP_CORE
+AJOUTï¿½ : Retexture du "Hunter" Vanilla en pseudo-PVP Centre Europe avec les variantes non-armï¿½e, 12.7mm et 40mm
+AJOUTï¿½ : Retexture du "Tout-Terrain" Vanilla de la FIA dans le style des VLRA et P4 utilisï¿½s par les commandos en Centre Europe
+AJOUTï¿½ : Retexture du "Fourgon Caisse" civil Vanilla dans le style des PSM du SSA dï¿½tachï¿½s dans l'Armï¿½e de Terre
+AJOUTï¿½ : Retexture du CRV Bobcat Vanilla de l'OTAN dans le style des EBG Centre Europe
+AJOUTï¿½ : 3 appels au clairon du cï¿½rï¿½monial militaire franï¿½ais
+AJOUTï¿½ : Hymne Europï¿½en
+AJOUTï¿½ : Marseillaise
+AJOUTï¿½ : Aux Morts
+AJOUTï¿½ : Thï¿½me Principal de Fallout 4
 
-RÉPARÉ : Les véhicules civils du mod occupés par des IA devraient désormais correctement apparaître dans l'éditeur
-RÉPARÉ : Le patch des Tireurs Hautes Précision affiche désormais le bon patch
-RÉPARÉ : Retrait des accents sur le nom du blason des forces armées Belges
-RÉPARÉ : Retrait des accents restants sur les titres des musiques 
+Rï¿½PARï¿½ : Les vï¿½hicules civils du mod occupï¿½s par des IA devraient dï¿½sormais correctement apparaï¿½tre dans l'ï¿½diteur
+Rï¿½PARï¿½ : Le patch des Tireurs Hautes Prï¿½cision affiche dï¿½sormais le bon patch
+Rï¿½PARï¿½ : Retrait des accents sur le nom du blason des forces armï¿½es Belges
+Rï¿½PARï¿½ : Retrait des accents restants sur les titres des musiques
 
 / / / R4.0.1 \ \ \
 
-RÉPARÉ : Erreur du config.cpp du TFP_Music.pbo qui causait un crash au lancement d'ArmA III
+Rï¿½PARï¿½ : Erreur du config.cpp du TFP_Music.pbo qui causait un crash au lancement d'ArmA III
 
 / / / R4 \ \ \
-Les changelogs à partir de cette release seront plus explicites afin d'aider les GM, si c'est trop explicite/trop long ou pas assez prévenez-moi.
+Les changelogs ï¿½ partir de cette release seront plus explicites afin d'aider les GM, si c'est trop explicite/trop long ou pas assez prï¿½venez-moi.
 
-AJOUTÉ : 2 musiques provenant de l'OST de Mad Max : Fury Road
-AJOUTÉ : 3 musiques provenant de l'OST de la saison 2 de Person of Interest
-AJOUTÉ : 3 chansons de Johnny Cash
-AJOUTÉ : Morceau "The Wasteland", morceau style post-apo
-AJOUTÉ : Cover de "The Sound of Silence" par Nouela
-AJOUTÉ : Cover de "Time to Say Goodbye" par Hope
-AJOUTÉ : 7 nouveaux patches ainsi chaque unité du COS devrait être couverte
-AJOUTÉ : 2 patches pour le 1er RCP (campagne en République du Koto)
-AJOUTÉ : 5 patches de divers Escadrons de Protection de l'Armée de l'Air
-AJOUTÉ : Patches pour l'ALAT, le stage Griffon et la DGSE
-AJOUTÉ : Retextures du Ka-60 Vanilla en Panther Marine (4 variantes)
-AJOUTÉ : Retextures du "Fourgon Caisse" civil Vanilla et de ces variantes en camionnettes militaires trouvables sur Base Aérienne
-AJOUTÉ : Retextures du "Fourgon Caisse" civil Vanilla en quelques équivalents civils français
-AJOUTÉ : Retextures du "Tout-terrain" civil Vanilla en quelques équivalents civils français
-AJOUTÉ : Retextures du "Tout-terrain" civil Vanilla dans le style des Kangoos Kakis employés par le Train en métropole
-AJOUTÉ : Retextures du Kamaz civil Vanilla dans le style des camion Renault en Centre Europe avec version SEA
-AJOUTÉ : Retextures de l'AMV Patria BLUFOR Vanilla en VBCI Centre Europe
+AJOUTï¿½ : 2 musiques provenant de l'OST de Mad Max : Fury Road
+AJOUTï¿½ : 3 musiques provenant de l'OST de la saison 2 de Person of Interest
+AJOUTï¿½ : 3 chansons de Johnny Cash
+AJOUTï¿½ : Morceau "The Wasteland", morceau style post-apo
+AJOUTï¿½ : Cover de "The Sound of Silence" par Nouela
+AJOUTï¿½ : Cover de "Time to Say Goodbye" par Hope
+AJOUTï¿½ : 7 nouveaux patches ainsi chaque unitï¿½ du COS devrait ï¿½tre couverte
+AJOUTï¿½ : 2 patches pour le 1er RCP (campagne en Rï¿½publique du Koto)
+AJOUTï¿½ : 5 patches de divers Escadrons de Protection de l'Armï¿½e de l'Air
+AJOUTï¿½ : Patches pour l'ALAT, le stage Griffon et la DGSE
+AJOUTï¿½ : Retextures du Ka-60 Vanilla en Panther Marine (4 variantes)
+AJOUTï¿½ : Retextures du "Fourgon Caisse" civil Vanilla et de ces variantes en camionnettes militaires trouvables sur Base Aï¿½rienne
+AJOUTï¿½ : Retextures du "Fourgon Caisse" civil Vanilla en quelques ï¿½quivalents civils franï¿½ais
+AJOUTï¿½ : Retextures du "Tout-terrain" civil Vanilla en quelques ï¿½quivalents civils franï¿½ais
+AJOUTï¿½ : Retextures du "Tout-terrain" civil Vanilla dans le style des Kangoos Kakis employï¿½s par le Train en mï¿½tropole
+AJOUTï¿½ : Retextures du Kamaz civil Vanilla dans le style des camion Renault en Centre Europe avec version SEA
+AJOUTï¿½ : Retextures de l'AMV Patria BLUFOR Vanilla en VBCI Centre Europe
 
-MODIFIÉ : TFP_Vehicles.pbo renommés en 24eBAC_Vehicles avec le début des travaux sur le VBCI pour ma propre campagne au 24e
+MODIFIï¿½ : TFP_Vehicles.pbo renommï¿½s en 24eBAC_Vehicles avec le dï¿½but des travaux sur le VBCI pour ma propre campagne au 24e
 
-RÉPARÉ : Les quelques patches qui apparaissaient invisibles marchent de nouveau
+Rï¿½PARï¿½ : Les quelques patches qui apparaissaient invisibles marchent de nouveau
 
-SUPPRIMÉ : Retextures Puma FR (le mod qui founissait les Puma n'est plus entretenu par son développeur)
-SUPPRIMÉ : fsf_patria.pbo, devenu redondant avec le 24eBAC_Vehicles, de plus une faction mal configurée gênait la navigation via VTS
+SUPPRIMï¿½ : Retextures Puma FR (le mod qui founissait les Puma n'est plus entretenu par son dï¿½veloppeur)
+SUPPRIMï¿½ : fsf_patria.pbo, devenu redondant avec le 24eBAC_Vehicles, de plus une faction mal configurï¿½e gï¿½nait la navigation via VTS
 
 / / / R3 \ \ \
 
-AJOUTÉ : 9 nouveaux patches pour le TFP_Patches dont 4 centrés sur la Belgique (ce n'est qu'un début :) )
-AJOUTÉ : Le fsf_patria.pbo du groupe FSF qui fournit une retexture de très grande qualité du Patria AMV en VBCI.
-AJOUTÉ : TFP_Vehicles.pbo, pack de retextures in house cette fois, contient actuellement des Lynx Marine et des Puma FR.
-AJOUTÉ : 9 nouveaux morceaux pour le TFP_Music dont la tant attendue "Chevauchée des Walkyries"
+AJOUTï¿½ : 9 nouveaux patches pour le TFP_Patches dont 4 centrï¿½s sur la Belgique (ce n'est qu'un dï¿½but :) )
+AJOUTï¿½ : Le fsf_patria.pbo du groupe FSF qui fournit une retexture de trï¿½s grande qualitï¿½ du Patria AMV en VBCI.
+AJOUTï¿½ : TFP_Vehicles.pbo, pack de retextures in house cette fois, contient actuellement des Lynx Marine et des Puma FR.
+AJOUTï¿½ : 9 nouveaux morceaux pour le TFP_Music dont la tant attendue "Chevauchï¿½e des Walkyries"
 
 / / / R2 \ \ \
 
-AJOUTÉ : TFP_Patches.pbo, un pack de 42 patches sur divers univers mais en particulier Stargate et les grades français.
-AJOUTÉ : 16 nouveaux morceaux inclus dans le TFP_Music, dont 4 Russes et une BONUS.
+AJOUTï¿½ : TFP_Patches.pbo, un pack de 42 patches sur divers univers mais en particulier Stargate et les grades franï¿½ais.
+AJOUTï¿½ : 16 nouveaux morceaux inclus dans le TFP_Music, dont 4 Russes et une BONUS.
 
-MODIFIÉ : Pour mieux refléter l'évolution de la Team le AEGISMusic a été renommé TFP_Music
+MODIFIï¿½ : Pour mieux reflï¿½ter l'ï¿½volution de la Team le AEGISMusic a ï¿½tï¿½ renommï¿½ TFP_Music
 
-RÉPARÉ : Le système de nom pour les musiques du TFP_Music devrait désormais marcher et afficher les noms des musiques, pas des classnames.
+Rï¿½PARï¿½ : Le systï¿½me de nom pour les musiques du TFP_Music devrait dï¿½sormais marcher et afficher les noms des musiques, pas des classnames.
 
 / / / R1 \ \ \
 

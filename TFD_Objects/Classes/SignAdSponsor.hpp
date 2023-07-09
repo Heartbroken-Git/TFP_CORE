@@ -1,37 +1,47 @@
 class TFD_PanneauVigipirate : SignAd_SponsorS_F {
 	_generalMacro = "SignAd_SponsorS_F";
-	scope = 2; 
-	scopeCurator = 2;	
+	scope = 2;
+	scopeCurator = 2;
 	displayName="Panneau (Vigipirate)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_Vigipirate.paa"};
 };
 
-class TFD_PanneauVigipirateAA : SignAd_SponsorS_F {
+class TFD_PanneauVigipirateSRRA : SignAd_SponsorS_F {
 	_generalMacro = "SignAd_SponsorS_F";
-	scope = 2; 
-	scopeCurator = 2;	
-	displayName="Panneau (Vigipirate Alerte Attentat)";
+	scope = 2;
+	scopeCurator = 2;
+	displayName="Panneau (Vigipirate Securite Renforcee)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
-	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_VigipirateAA.paa"};
+	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_VigipirateSRRA.paa"};
 };
 
-class TFD_PanneauTerMil : SignAd_SponsorS_F {
+class TFD_PanneauVigipirateUA : SignAd_SponsorS_F {
 	_generalMacro = "SignAd_SponsorS_F";
-	scope = 2; 
-	scopeCurator = 2;	
-	displayName="Panneau (Terrain Militaire)";
+	scope = 2;
+	scopeCurator = 2;
+	displayName="Panneau (Vigipirate Urgence Attentat)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
-	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_TerMil.paa"};
+	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_VigipirateUA.paa"};
+};
+
+class TFD_PanneauZDC : SignAd_SponsorS_F {
+	_generalMacro = "SignAd_SponsorS_F";
+	scope = 2;
+	scopeCurator = 2;
+	displayName="Panneau (ZDC)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_ZDC.paa"};
 };
 
 class TFD_PanneauFOBYork : SignAd_SponsorS_F {
 	_generalMacro = "SignAd_SponsorS_F";
-	scope = 2; 
-	scopeCurator = 2;	
+	scope = 2;
+	scopeCurator = 2;
 	displayName="Panneau (FOB York)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
@@ -40,8 +50,8 @@ class TFD_PanneauFOBYork : SignAd_SponsorS_F {
 
 class TFD_PanneauFOBMangomak : SignAd_SponsorS_F {
 	_generalMacro = "SignAd_SponsorS_F";
-	scope = 2; 
-	scopeCurator = 2;	
+	scope = 2;
+	scopeCurator = 2;
 	displayName="Panneau (FOB Mangomak)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
@@ -50,8 +60,8 @@ class TFD_PanneauFOBMangomak : SignAd_SponsorS_F {
 
 class TFD_PanneauCampNala : SignAd_SponsorS_F {
 	_generalMacro = "SignAd_SponsorS_F";
-	scope = 2; 
-	scopeCurator = 2;	
+	scope = 2;
+	scopeCurator = 2;
 	displayName="Panneau (Camp Nala)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
@@ -60,8 +70,8 @@ class TFD_PanneauCampNala : SignAd_SponsorS_F {
 
 class TFD_PanneauPPS : SignAd_SponsorS_F {
 	_generalMacro = "SignAd_SponsorS_F";
-	scope = 2; 
-	scopeCurator = 2;	
+	scope = 2;
+	scopeCurator = 2;
 	displayName="Panneau (PPS)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
@@ -70,8 +80,8 @@ class TFD_PanneauPPS : SignAd_SponsorS_F {
 
 class TFD_PanneauPPR : SignAd_SponsorS_F {
 	_generalMacro = "SignAd_SponsorS_F";
-	scope = 2; 
-	scopeCurator = 2;	
+	scope = 2;
+	scopeCurator = 2;
 	displayName="Panneau (PPR)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
@@ -80,8 +90,8 @@ class TFD_PanneauPPR : SignAd_SponsorS_F {
 
 class TFD_PanneauPPM : SignAd_SponsorS_F {
 	_generalMacro = "SignAd_SponsorS_F";
-	scope = 2; 
-	scopeCurator = 2;	
+	scope = 2;
+	scopeCurator = 2;
 	displayName="Panneau (PPM)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
@@ -90,8 +100,8 @@ class TFD_PanneauPPM : SignAd_SponsorS_F {
 
 class TFD_PanneauZDHS : SignAd_SponsorS_F {
 	_generalMacro = "SignAd_SponsorS_F";
-	scope = 2; 
-	scopeCurator = 2;	
+	scope = 2;
+	scopeCurator = 2;
 	displayName="Panneau (ZDHS)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
@@ -102,8 +112,8 @@ class SignAd_Sponsor_F;
 
 class TFD_PanneauCampTimon : SignAd_Sponsor_F {
 	_generalMacro = "SignAd_SponsorS_F";
-	scope = 2; 
-	scopeCurator = 2;	
+	scope = 2;
+	scopeCurator = 2;
 	displayName="Panneau (Camp Timon)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
@@ -112,8 +122,8 @@ class TFD_PanneauCampTimon : SignAd_Sponsor_F {
 
 class TFD_PanneauCampPumba : SignAd_Sponsor_F {
 	_generalMacro = "SignAd_SponsorS_F";
-	scope = 2; 
-	scopeCurator = 2;	
+	scope = 2;
+	scopeCurator = 2;
 	displayName="Panneau (Camp Pumba)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
@@ -122,8 +132,8 @@ class TFD_PanneauCampPumba : SignAd_Sponsor_F {
 
 class TFD_PanneauCampHanovre : SignAd_Sponsor_F {
 	_generalMacro = "SignAd_SponsorS_F";
-	scope = 2; 
-	scopeCurator = 2;	
+	scope = 2;
+	scopeCurator = 2;
 	displayName="Panneau (Camp Hanovre)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
@@ -132,8 +142,8 @@ class TFD_PanneauCampHanovre : SignAd_Sponsor_F {
 
 class TFD_PanneauEnglishStadium : SignAd_Sponsor_F {
 	_generalMacro = "SignAd_SponsorS_F";
-	scope = 2; 
-	scopeCurator = 2;	
+	scope = 2;
+	scopeCurator = 2;
 	displayName="Panneau (English's Stadium)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
@@ -142,8 +152,8 @@ class TFD_PanneauEnglishStadium : SignAd_Sponsor_F {
 
 class TFD_PanneauCheckpoint : SignAd_Sponsor_F {
 	_generalMacro = "SignAd_SponsorS_F";
-	scope = 2; 
-	scopeCurator = 2;	
+	scope = 2;
+	scopeCurator = 2;
 	displayName="Panneau (Checkpoint)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
@@ -152,10 +162,42 @@ class TFD_PanneauCheckpoint : SignAd_Sponsor_F {
 
 class TFD_PanneauEntreeBase : SignAd_Sponsor_F {
 	_generalMacro = "SignAd_SponsorS_F";
-	scope = 2; 
-	scopeCurator = 2;	
+	scope = 2;
+	scopeCurator = 2;
 	displayName="Panneau (Entree Base)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_EntreeBase.paa"};
+};
+
+// R5.1 "Personnalisation"
+
+class TFD_PanneauZP : SignAd_SponsorS_F {
+	_generalMacro = "SignAd_SponsorS_F";
+	scope = 2;
+	scopeCurator = 2;
+	displayName="Panneau (ZP)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_ZP.paa"};
+};
+
+class TFD_PanneauZR : SignAd_SponsorS_F {
+	_generalMacro = "SignAd_SponsorS_F";
+	scope = 2;
+	scopeCurator = 2;
+	displayName="Panneau (ZR)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_ZR.paa"};
+};
+
+class TFD_PanneauVideoSurv : SignAd_SponsorS_F {
+	_generalMacro = "SignAd_SponsorS_F";
+	scope = 2;
+	scopeCurator = 2;
+	displayName="Panneau (Video surveillance)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_VideoSurv.paa"};
 };

@@ -8,7 +8,7 @@ class TFD_Gendarme_MobileInter: B_Soldier_F       // Define of a new class, whic
     scopeCurator = 2;                   // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
     scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
     uniformClass = "TFD_TenueInter_GN";                          // This links this soldier to a particular uniform. For the details, see below.
-	hiddenSelections[] = {"camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
+	hiddenSelections[] = {"camo","insignia"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
     hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\TenueInter_GN.paa"};
 	backpack = "";
     weapons[] = {hgun_Rook40_F, Throw, Put};               // Which weapons the character has.
@@ -31,7 +31,7 @@ class TFD_PolicierNat_Inter: B_Soldier_F       // Define of a new class, which p
     scopeCurator = 2;                   // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
     scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
     uniformClass = "TFD_TenueInter_PN";                          // This links this soldier to a particular uniform. For the details, see below.
-	hiddenSelections[] = {"camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
+	hiddenSelections[] = {"camo","insignia"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
     hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\TenueInter_PN.paa"};
 	backpack = "";
     weapons[] = {hgun_Rook40_F, Throw, Put};               // Which weapons the character has.
@@ -54,7 +54,7 @@ class TFD_Douanier_Inter: B_Soldier_F       // Define of a new class, which para
     scopeCurator = 2;                   // 2 = class is available in Zeus; 0 = class is unavailable in Zeus.
     scopeArsenal = 2;                   // 2 = class is available in the Virtual Arsenal; 0 = class is unavailable in the Virtual Arsenal.
     uniformClass = "TFD_TenueInter_Douanes";                          // This links this soldier to a particular uniform. For the details, see below.
-	hiddenSelections[] = {"camo"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
+	hiddenSelections[] = {"camo","insignia"};                             // List of model selections which can be changed with hiddenSelectionTextures[] and hiddenSelectionMaterials[] properties. If empty, model textures are used.
     hiddenSelectionsTextures[] = {"\TFD_Units\Data\Uniform\TenueInter_Douanes.paa"};
 	backpack = "";
     weapons[] = {hgun_Rook40_F, Throw, Put};               // Which weapons the character has.

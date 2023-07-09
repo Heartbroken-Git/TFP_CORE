@@ -1234,6 +1234,13 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\GN\Specialites\AGIGN.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_gendAGIGNnouveau
+	{
+		displayName = "[FR] Antenne du GIGN (Nouveau)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\GN\Specialites\AGIGN_nouveau.paa";
+		textureVehicle = "";
+	};
 	class TFP_FR_gendArmurier
 	{
 		displayName = "[FR] Armurier Pyrotechnicien - Gendarmerie Nationale";
@@ -1597,6 +1604,41 @@ class CfgUnitInsignia
 		displayName = "[FR] Brigade Aeronautique - Police Nationale";
 		author = "Heartbroken";
 		texture = "TFP_Patches\data\PN_BrigadeAero.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PNraid
+	{
+		displayName = "[FR] RAID";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_RAID.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PNraidBv
+	{
+		displayName = "[FR] RAID (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_RAIDBV.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PNraidMed
+	{
+		displayName = "[FR] RAID - Groupe Medical d'Intervention";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_RAIDmed.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PNfipn
+	{
+		displayName = "[FR] Force d'Intervention de la Police Nationale";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_FIPN.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_PNfipnBv
+	{
+		displayName = "[FR] Force d'Intervention de la Police Nationale (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\PN_FIPNBV.paa";
 		textureVehicle = "";
 	};
 };

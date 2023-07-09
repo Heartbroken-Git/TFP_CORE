@@ -23,7 +23,7 @@ class TFD_ParkaGN : U_O_T_Officer_F {
 	scope = 2;
 	scopeCurator = 2;
 	scopeArsenal = 2;
-	displayName="Parka (Gendarmerie)";
+	displayName="Parka (Gendarmerie Nationale)";
 	author = "Heartbroken";
 	hiddenSelections[]= {"Camo", "insignia"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\ParkaGN.paa"};

@@ -26,6 +26,12 @@ class CfgWeapons {
 
 	#include "Weapons\Vestes\GiletAssautLourd.hpp"
 
+	#include "Weapons\Vestes\GiletModulable.hpp"
+
+	#include "Weapons\Vestes\GHV.hpp"
+
+	#include "Weapons\Vestes\GiletMultiPoches.hpp"
+
 	// UNIFORME
 	class UniformItem;
 

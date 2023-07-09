@@ -271,3 +271,20 @@ class TFD_PoloPC : U_Rangemaster {
 		mass = 40;
 	};
 };
+
+class TFD_PoloONF : U_Rangemaster {
+	_generalMacro = "U_Rangemaster";
+    scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+    displayName="Polo (Office National des Forets)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Uniform\PoloONF.paa"};
+	class ItemInfo: UniformItem{
+		uniformModel = "-";
+		uniformClass = TFD_ForestierONF_polo;
+		containerClass = Supply40;
+		mass = 40;
+	};
+};
