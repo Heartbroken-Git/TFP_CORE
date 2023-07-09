@@ -33,8 +33,9 @@ class TFD_GiletTac_FormHV : V_TacVest_blk {
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_FormHV.paa"};
 };
 
-class TFD_GiletTac_GN : V_TacVest_blk {
-	_generalMacro = "V_TacVest_blk";
+class V_TacVest_gen_F;
+class TFD_GiletTac_GN : V_TacVest_gen_F {
+	_generalMacro = "V_TacVest_gen_F";
 	scope = 2;
 	scopeCurator = 2;
 	scopeArsenal = 2;
@@ -44,8 +45,9 @@ class TFD_GiletTac_GN : V_TacVest_blk {
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_GN.paa"};
 };
 
-class TFD_GiletTac_PN : V_TacVest_blk {
-	_generalMacro = "V_TacVest_blk";
+class V_TacVest_blk_POLICE;
+class TFD_GiletTac_PN : V_TacVest_blk_POLICE {
+	_generalMacro = "V_TacVest_blk_POLICE";
 	scope = 2;
 	scopeCurator = 2;
 	scopeArsenal = 2;
@@ -55,8 +57,8 @@ class TFD_GiletTac_PN : V_TacVest_blk {
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_PN.paa"};
 };
 
-class TFD_GiletTac_ERIS : V_TacVest_blk {
-	_generalMacro = "V_TacVest_blk";
+class TFD_GiletTac_ERIS : V_TacVest_blk_POLICE {
+	_generalMacro = "V_TacVest_blk_POLICE";
 	scope = 2;
 	scopeCurator = 2;
 	scopeArsenal = 2;
@@ -66,8 +68,8 @@ class TFD_GiletTac_ERIS : V_TacVest_blk {
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_ERIS.paa"};
 };
 
-class TFD_GiletTac_Nego : V_TacVest_blk {
-	_generalMacro = "V_TacVest_blk";
+class TFD_GiletTac_Nego : V_TacVest_gen_F {
+	_generalMacro = "V_TacVest_gen_F";
 	scope = 2;
 	scopeCurator = 2;
 	scopeArsenal = 2;
@@ -77,8 +79,8 @@ class TFD_GiletTac_Nego : V_TacVest_blk {
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_Nego.paa"};
 };
 
-class TFD_GiletTac_SC : V_TacVest_blk {
-	_generalMacro = "V_TacVest_blk";
+class TFD_GiletTac_SC : V_TacVest_blk_POLICE {
+	_generalMacro = "V_TacVest_blk_POLICE";
 	scope = 2;
 	scopeCurator = 2;
 	scopeArsenal = 2;
@@ -88,8 +90,8 @@ class TFD_GiletTac_SC : V_TacVest_blk {
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_SC.paa"};
 };
 
-class TFD_GiletTac_PNma : V_TacVest_blk {
-	_generalMacro = "V_TacVest_blk";
+class TFD_GiletTac_PNma : V_TacVest_blk_POLICE {
+	_generalMacro = "V_TacVest_blk_POLICE";
 	scope = 2;
 	scopeCurator = 2;
 	scopeArsenal = 2;
@@ -99,8 +101,8 @@ class TFD_GiletTac_PNma : V_TacVest_blk {
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_PNma.paa"};
 };
 
-class TFD_GiletTac_Inf : V_TacVest_blk {
-	_generalMacro = "V_TacVest_blk";
+class TFD_GiletTac_Inf : V_TacVest_gen_F {
+	_generalMacro = "V_TacVest_gen_F";
 	scope = 2;
 	scopeCurator = 2;
 	scopeArsenal = 2;
@@ -110,8 +112,8 @@ class TFD_GiletTac_Inf : V_TacVest_blk {
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_Inf.paa"};
 };
 
-class TFD_GiletTac_Med : V_TacVest_blk {
-	_generalMacro = "V_TacVest_blk";
+class TFD_GiletTac_Med : V_TacVest_gen_F {
+	_generalMacro = "V_TacVest_gen_F";
 	scope = 2;
 	scopeCurator = 2;
 	scopeArsenal = 2;
