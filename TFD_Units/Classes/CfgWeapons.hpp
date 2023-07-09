@@ -30,6 +30,8 @@ class CfgWeapons {
 
 	#include "Weapons\Vestes\GHV.hpp"
 
+	#include "Weapons\Vestes\GiletMultiPoches.hpp"
+
 	// UNIFORME
 	class UniformItem;
 
