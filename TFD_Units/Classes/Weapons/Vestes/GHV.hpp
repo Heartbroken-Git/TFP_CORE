@@ -50,6 +50,18 @@ class TFD_GHV_NOVIdsm : V_Safety_yellow_F {
 	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIdsm.rvmat"};
 };
 
+class TFD_GHV_NOVIcopgGn : V_Safety_yellow_F {
+	_generalMacro = "V_Safety_yellow_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Gendarmerie Nationale - Commandant des Operations de Police et de Gendarmerie)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_NOVIcopgGn_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIcopgGn.rvmat"};
+};
+
 class TFD_GHV_NOVIcdg : V_Safety_yellow_F {
 	_generalMacro = "V_Safety_yellow_F";
 	scope = 2;
