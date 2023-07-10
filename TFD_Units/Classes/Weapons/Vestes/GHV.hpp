@@ -26,6 +26,18 @@ class TFD_GHV_COSadj : V_Safety_yellow_F {
 	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_COSadj.rvmat"};
 };
 
+class TFD_GHV_NOVIdos : V_Safety_yellow_F {
+	_generalMacro = "V_Safety_yellow_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Directeur des Opérations de Secours)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_NOVIdos_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIdos.rvmat"};
+};
+
 class TFD_GHV_NOVIdsi : V_Safety_yellow_F {
 	_generalMacro = "V_Safety_yellow_F";
 	scope = 2;
@@ -48,6 +60,18 @@ class TFD_GHV_NOVIdsm : V_Safety_yellow_F {
 	hiddenSelections[]= {"Camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_NOVIdsm_CO.paa"};
 	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIdsm.rvmat"};
+};
+
+class TFD_GHV_NOVIcopgGn : V_Safety_yellow_F {
+	_generalMacro = "V_Safety_yellow_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Gendarmerie Nationale - Commandant des Operations de Police et de Gendarmerie)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_NOVIcopgGn_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIcopgGn.rvmat"};
 };
 
 class TFD_GHV_NOVIcdg : V_Safety_yellow_F {
@@ -146,6 +170,18 @@ class TFD_GHV_NOVIoffEva : V_Safety_blue_F {
 	hiddenSelections[]= {"Camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_NOVIoffEva_CO.paa"};
 	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIoffEva.rvmat"};
+};
+
+class TFD_GHV_NOVIcopgPn : V_Safety_blue_F {
+	_generalMacro = "V_Safety_blue_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet Haute Visibilite (Police Nationale - Commandant des Operations de Police et de Gendarmerie)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"Camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GHV_NOVIcopgPn_CO.paa"};
+	hiddenSelectionsMaterials[]= {"\TFD_Units\Data\Vest\GHV_NOVIcopgPn.rvmat"};
 };
 
 // Blanc NOVI
