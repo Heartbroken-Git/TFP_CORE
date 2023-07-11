@@ -4,7 +4,7 @@ class CfgPatches {
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Characters_F_BLUFOR"};
-		version = 5.1;
+		version = 5.2;
 		author = "Heartbroken";
 	};
 };
@@ -1639,6 +1639,35 @@ class CfgUnitInsignia
 		displayName = "[FR] Force d'Intervention de la Police Nationale (Basse Visibilite)";
 		author = "Heartbroken";
 		texture = "TFP_Patches\data\PN_FIPNBV.paa";
+		textureVehicle = "";
+	};
+	// Release 5.2 "NRBC-E"
+	class TFP_FRcosGIH
+	{
+		displayName = "[FR] Groupe Interarmees d'Helicopteres (Haute Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\COS_GIH.paa";
+		textureVehicle = "";
+	};
+	class TFP_FRcosGIHbvBk
+	{
+		displayName = "[FR] Groupe Interarmees d'Helicopteres (Basse Visibilite - Noir)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\COS_GIH_BVbk.paa";
+		textureVehicle = "";
+	};
+	class TFP_FRcosGIHbvOd
+	{
+		displayName = "[FR] Groupe Interarmees d'Helicopteres (Basse Visibilite - Vert)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\COS_GIH_BVod.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_esta2e060_sectionPuma
+	{
+		displayName = "[FR] Escadron de Soutien Technique Aeronautique 2E.060 - Section Puma";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\ESTA2E.060_sectionPuma.paa";
 		textureVehicle = "";
 	};
 };
