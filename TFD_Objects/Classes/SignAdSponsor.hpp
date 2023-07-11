@@ -4,6 +4,7 @@ class TFD_PanneauVigipirate : SignAd_SponsorS_F {
 	scopeCurator = 2;
 	displayName="Panneau (Vigipirate)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_Vigipirate.paa"};
 };
@@ -14,6 +15,7 @@ class TFD_PanneauVigipirateSRRA : SignAd_SponsorS_F {
 	scopeCurator = 2;
 	displayName="Panneau (Vigipirate Securite Renforcee)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_VigipirateSRRA.paa"};
 };
@@ -24,6 +26,7 @@ class TFD_PanneauVigipirateUA : SignAd_SponsorS_F {
 	scopeCurator = 2;
 	displayName="Panneau (Vigipirate Urgence Attentat)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_VigipirateUA.paa"};
 };
@@ -34,6 +37,7 @@ class TFD_PanneauZDC : SignAd_SponsorS_F {
 	scopeCurator = 2;
 	displayName="Panneau (ZDC)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_ZDC.paa"};
 };
@@ -44,6 +48,7 @@ class TFD_PanneauFOBYork : SignAd_SponsorS_F {
 	scopeCurator = 2;
 	displayName="Panneau (FOB York)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_FOBYork.paa"};
 };
@@ -54,6 +59,7 @@ class TFD_PanneauFOBMangomak : SignAd_SponsorS_F {
 	scopeCurator = 2;
 	displayName="Panneau (FOB Mangomak)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_FOBMangomak.paa"};
 };
@@ -64,6 +70,7 @@ class TFD_PanneauCampNala : SignAd_SponsorS_F {
 	scopeCurator = 2;
 	displayName="Panneau (Camp Nala)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_CampNala.paa"};
 };
@@ -74,6 +81,7 @@ class TFD_PanneauPPS : SignAd_SponsorS_F {
 	scopeCurator = 2;
 	displayName="Panneau (PPS)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_PPS.paa"};
 };
@@ -84,6 +92,7 @@ class TFD_PanneauPPR : SignAd_SponsorS_F {
 	scopeCurator = 2;
 	displayName="Panneau (PPR)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_PPR.paa"};
 };
@@ -94,6 +103,7 @@ class TFD_PanneauPPM : SignAd_SponsorS_F {
 	scopeCurator = 2;
 	displayName="Panneau (PPM)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_PPM.paa"};
 };
@@ -104,6 +114,7 @@ class TFD_PanneauZDHS : SignAd_SponsorS_F {
 	scopeCurator = 2;
 	displayName="Panneau (ZDHS)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_ZDHS.paa"};
 };
@@ -116,6 +127,7 @@ class TFD_PanneauCampTimon : SignAd_Sponsor_F {
 	scopeCurator = 2;
 	displayName="Panneau (Camp Timon)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_CampTimon.paa"};
 };
@@ -126,6 +138,7 @@ class TFD_PanneauCampPumba : SignAd_Sponsor_F {
 	scopeCurator = 2;
 	displayName="Panneau (Camp Pumba)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_CampPumba.paa"};
 };
@@ -136,6 +149,7 @@ class TFD_PanneauCampHanovre : SignAd_Sponsor_F {
 	scopeCurator = 2;
 	displayName="Panneau (Camp Hanovre)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_CampHanovre.paa"};
 };
@@ -146,6 +160,7 @@ class TFD_PanneauEnglishStadium : SignAd_Sponsor_F {
 	scopeCurator = 2;
 	displayName="Panneau (English's Stadium)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_EnglishStadium.paa"};
 };
@@ -156,6 +171,7 @@ class TFD_PanneauCheckpoint : SignAd_Sponsor_F {
 	scopeCurator = 2;
 	displayName="Panneau (Checkpoint)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_Checkpoint.paa"};
 };
@@ -166,6 +182,7 @@ class TFD_PanneauEntreeBase : SignAd_Sponsor_F {
 	scopeCurator = 2;
 	displayName="Panneau (Entree Base)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_EntreeBase.paa"};
 };
@@ -178,6 +195,7 @@ class TFD_PanneauZP : SignAd_SponsorS_F {
 	scopeCurator = 2;
 	displayName="Panneau (ZP)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_ZP.paa"};
 };
@@ -188,6 +206,7 @@ class TFD_PanneauZR : SignAd_SponsorS_F {
 	scopeCurator = 2;
 	displayName="Panneau (ZR)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_ZR.paa"};
 };
@@ -198,6 +217,7 @@ class TFD_PanneauVideoSurv : SignAd_SponsorS_F {
 	scopeCurator = 2;
 	displayName="Panneau (Video surveillance)";
 	author = "Heartbroken";
+	editorSubcategory = "EdSubcat_WarningSigns";
 	hiddenSelections[]= {"camo"};
 	hiddenSelectionsTextures[]= {"\TFD_Objects\Data\Panneau_VideoSurv.paa"};
 };
