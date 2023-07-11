@@ -1670,4 +1670,18 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\ESTA2E.060_sectionPuma.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_DGSI_GAObv
+	{
+		displayName = "[FR] Direction Generale de la Securite Interieure - Groupe d'Appui Operationnel (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\DGSI_GAObv.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DGSI_GAOhv
+	{
+		displayName = "[FR] Direction Generale de la Securite Interieure - Groupe d'Appui Operationnel (Haute Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\DGSI_GAOhv.paa";
+		textureVehicle = "";
+	};
 };
