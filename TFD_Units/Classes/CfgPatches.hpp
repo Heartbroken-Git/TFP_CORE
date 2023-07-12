@@ -45,7 +45,7 @@ class CfgPatches {
 			"TFD_CasqueHeli_SC",
 			"TFD_CasqueMoto_GN",
 			"TFD_RecycleurHV",
-			"TFD_GiletTac_FormHV","TFD_GiletTac_GN","TFD_GiletTac_GNgta","TFD_GiletTac_PN","TFD_GiletTac_PNma","TFD_GiletTac_ERIS","TFD_GiletTac_Nego",,"TFD_GiletTac_Inf","TFD_GiletTac_InfHV","TFD_GiletTac_Med","TFD_GiletTac_MedHV","TFD_GiletTac_SC","TFD_GiletTac_SP","TFD_GiletTac_CE",
+			"TFD_GiletTac_FormHV","TFD_GiletTac_GN","TFD_GiletTac_GNgta","TFD_GiletTac_GNgair","TFD_GiletTac_PN","TFD_GiletTac_PNma","TFD_GiletTac_ERIS","TFD_GiletTac_Nego",,"TFD_GiletTac_Inf","TFD_GiletTac_InfHV","TFD_GiletTac_Med","TFD_GiletTac_MedHV","TFD_GiletTac_SC","TFD_GiletTac_SP","TFD_GiletTac_CE",
 			"TFD_GiletS3_GN","TFD_GiletS3_PN","TFD_GiletS3_CE","TFD_GiletS3_SP",
 			"TFD_GiletAssaut_GIPN","TFD_GiletAssaut_Douane","TFD_GiletAssaut_GN","TFD_GiletAssaut_GIGN","TFD_GiletAssaut_AGIGN","TFD_GiletAssaut_RAID",
 			"TFD_GiletAssautLourd_GIPN","TFD_GiletAssautLourd_Douane","TFD_GiletAssautLourd_GN","TFD_GiletAssautLourd_GIGN","TFD_GiletAssautLourd_AGIGN","TFD_GiletAssautLourd_RAID",

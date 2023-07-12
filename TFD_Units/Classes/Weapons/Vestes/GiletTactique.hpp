@@ -56,6 +56,17 @@ class TFD_GiletTac_GNgta : V_TacVest_gen_F {
 	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_GNgta.paa"};
 };
 
+class TFD_GiletTac_GNgair : V_TacVest_gen_F {
+	_generalMacro = "V_TacVest_gen_F";
+	scope = 2;
+	scopeCurator = 2;
+	scopeArsenal = 2;
+	displayName="Gilet pare-balles (Gendarmerie de l'Air)";
+	author = "Heartbroken";
+	hiddenSelections[]= {"camo"};
+	hiddenSelectionsTextures[]= {"\TFD_Units\Data\Vest\GiletTac_GNgair.paa"};
+};
+
 class V_TacVest_blk_POLICE;
 class TFD_GiletTac_PN : V_TacVest_blk_POLICE {
 	_generalMacro = "V_TacVest_blk_POLICE";
