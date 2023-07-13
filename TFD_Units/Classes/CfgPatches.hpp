@@ -40,7 +40,7 @@ class CfgPatches {
 			"TFD_CasquettePC",
 			"TFD_CasquetteDouanes",
 			"TFD_CasquetteABFormateur",
-			"TFD_CasquetteCerem_GAIRgav","TFD_CasquetteCerem_GAIRgnd","TFD_CasquetteCerem_GAIRmdc",
+			"TFD_CasquetteCerem_GAIRgav","TFD_CasquetteCerem_GAIRgnd","TFD_CasquetteCerem_GAIRmdc","TFD_CasquetteCerem_GAIRadj","TFD_CasquetteCerem_GAIRadc","TFD_CasquetteCerem_GAIRmaj",
 			"TFD_CasqueF2_HDR","TFD_CasqueF2_SO","TFD_CasqueF2_Off","TFD_CasqueF2_PC",
 			"TFD_CasqueHeli_GN",
 			"TFD_CasqueHeli_SC",
