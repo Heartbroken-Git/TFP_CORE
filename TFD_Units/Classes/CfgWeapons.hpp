@@ -6,6 +6,8 @@ class CfgWeapons {
 
 	#include "Weapons\Casques\Casquette.hpp"
 
+	#include "Weapons\Casques\CasquetteCerem.hpp"
+
 	#include "Weapons\Casques\CasquetteCasqueAntiBruit.hpp"
 
 	#include "Weapons\Casques\CasqueF2.hpp"
