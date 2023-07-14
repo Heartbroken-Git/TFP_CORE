@@ -1684,4 +1684,18 @@ class CfgUnitInsignia
 		texture = "TFP_Patches\data\DGSI_GAOhv.paa";
 		textureVehicle = "";
 	};
+	class TFP_FR_DCIIT_hv
+	{
+		displayName = "[FR] Detachement Central Interministeriel d'Intervention Technique (Haute Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\DCI-IT_hv.paa";
+		textureVehicle = "";
+	};
+	class TFP_FR_DCIIT_bv
+	{
+		displayName = "[FR] Detachement Central Interministeriel d'Intervention Technique (Basse Visibilite)";
+		author = "Heartbroken";
+		texture = "TFP_Patches\data\DCI-IT_bv.paa";
+		textureVehicle = "";
+	};
 };
